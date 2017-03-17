@@ -1,0 +1,85 @@
+{
+ "nodes": {
+  "0": {
+   "id": 0,
+   "left": 4762.734375000001,
+   "top": 2815.1562500000005,
+   "outPins": [
+    1
+   ],
+   "type": "start"
+  },
+  "1": {
+   "id": 1,
+   "left": 5027.546875000001,
+   "top": 2833.0625000000005,
+   "outPins": [
+    2
+   ],
+   "type": "action",
+   "title": "Setup Activity",
+   "actionCode": "ChangeScene(\"bookshelfactivity\")"
+  },
+  "2": {
+   "id": 2,
+   "left": 5493.765625000001,
+   "top": 2852.3906250000005,
+   "outPins": [
+    3,
+    6
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Leviathon book",
+    "book"
+   ],
+   "title": "New Game State"
+  },
+  "3": {
+   "id": 3,
+   "left": 5859.296875000001,
+   "top": 2732.4062500000005,
+   "outPins": [
+    5
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "AddInventory(\"LeviathonBook\")\nChangeScene(\"ByronHouseLibrary\")\nPause()"
+  },
+  "5": {
+   "id": 5,
+   "left": 6289.625000000001,
+   "top": 2653.7656250000005,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Mary",
+     "text": "Correct"
+    }
+   ]
+  },
+  "6": {
+   "id": 6,
+   "left": 5843.062500000001,
+   "top": 2994.2500000000005,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Mary",
+     "text": "Incorrect"
+    }
+   ]
+  }
+ },
+ "format": "goose2017-03-07-1818"
+}
