@@ -38,7 +38,7 @@
    "outPins": [
     "5",
     "6",
-    -1
+    0
    ],
    "type": "gameState",
    "eventList": [
