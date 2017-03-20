@@ -1,32 +1,32 @@
 {
  "nodes": {
   "0": {
-   "id": 0,
-   "left": 4762.734375000001,
-   "top": 2815.1562500000005,
+   "id": "0",
+   "left": 4762.734375000003,
+   "top": 2815.1562500000014,
    "outPins": [
-    1
+    "1"
    ],
    "type": "start"
   },
   "1": {
-   "id": 1,
-   "left": 5027.546875000001,
-   "top": 2833.0625000000005,
+   "id": "1",
+   "left": 5027.546735491074,
+   "top": 2833.062569754466,
    "outPins": [
-    2
+    "2"
    ],
    "type": "action",
    "title": "Setup Activity",
-   "actionCode": "ChangeScene(\"bookshelfactivity\")"
+   "actionCode": "ChangeScene(\"BookshelfActivity\");"
   },
   "2": {
-   "id": 2,
-   "left": 5493.765625000001,
-   "top": 2852.3906250000005,
+   "id": "2",
+   "left": 5493.765694754467,
+   "top": 2852.3906598772337,
    "outPins": [
-    3,
-    6
+    "3",
+    "6"
    ],
    "type": "gameState",
    "eventList": [
@@ -36,20 +36,20 @@
    "title": "New Game State"
   },
   "3": {
-   "id": 3,
-   "left": 5859.296875000001,
-   "top": 2732.4062500000005,
+   "id": "3",
+   "left": 5859.296875000003,
+   "top": 2732.406180245537,
    "outPins": [
-    5
+    "5"
    ],
    "type": "action",
    "title": "New Action",
    "actionCode": "AddInventory(\"LeviathonBook\")\nChangeScene(\"ByronHouseLibrary\")\nPause()"
   },
   "5": {
-   "id": 5,
-   "left": 6289.625000000001,
-   "top": 2653.7656250000005,
+   "id": "5",
+   "left": 6289.624720982146,
+   "top": 2653.7656947544656,
    "outPins": [
     -1
    ],
@@ -64,9 +64,9 @@
    ]
   },
   "6": {
-   "id": 6,
-   "left": 5843.062500000001,
-   "top": 2994.2500000000005,
+   "id": "6",
+   "left": 5843.062569754467,
+   "top": 2994.2501395089303,
    "outPins": [
     -1
    ],
@@ -81,5 +81,5 @@
    ]
   }
  },
- "format": "goose2017-03-07-1818"
+ "format": "goose2017-01-31-1227"
 }
