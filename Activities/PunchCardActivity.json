@@ -1,5 +1,16 @@
 {
  "nodes": {
+  "0": {
+   "id": 0,
+   "left": 5384.281180245539,
+   "top": 3028.562360491073,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "ChangeScene(\"blehroom\");"
+  },
   "1": {
    "id": "1",
    "left": 4789.734235491074,
@@ -26,12 +37,14 @@
    "top": 2734.6250697544656,
    "outPins": [
     "5",
-    "6"
+    "6",
+    -1
    ],
    "type": "gameState",
    "eventList": [
     "Success",
-    "Fail"
+    "Fail",
+    "Quit"
    ],
    "title": "Punch Card Activity"
   },
