@@ -363,7 +363,7 @@
    ],
    "type": "action",
    "title": "LAUNCH ACTIVITY: BOOKSHELF",
-   "actionCode": "//BOOKSHELF Activity puts a Book in your Book Inventory\nChangeScene(\"BookshelfActivity\")"
+   "actionCode": "//BOOKSHELF Activity puts a Book in your Book Inventory\nChangeScene(\"BookcaseActivity\")"
   },
   "24": {
    "id": "24",
@@ -525,7 +525,7 @@
    ],
    "type": "action",
    "title": "New Action",
-   "actionCode": "ChangeScene(\"BookshelfActivity\");"
+   "actionCode": "ChangeScene(\"BookcaseActivity\");"
   },
   "33": {
    "id": "33",
