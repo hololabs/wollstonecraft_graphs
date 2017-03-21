@@ -18,7 +18,7 @@
    ],
    "type": "action",
    "title": "Setup Activity",
-   "actionCode": "ChangeScene(\"BookshelfActivity\");"
+   "actionCode": "ChangeScene(\"BookcaseActivity\");"
   },
   "2": {
    "id": "2",
