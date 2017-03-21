@@ -54,7 +54,7 @@
    ],
    "type": "action",
    "title": "New Action",
-   "actionCode": "WalkTo(\"Mary\",\"leaving to foyer marker\")"
+   "actionCode": "WalkTo(\"Mary\",\"leaving to foyer\")"
   }
  },
  "format": "goose2017-01-31-1227"
