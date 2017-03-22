@@ -24,11 +24,11 @@
    ],
    "type": "dialog",
    "dialogType": "Dialog",
-   "title": "Johnsoncakes NEW TITLE",
+   "title": "Johnsoncakes",
    "parts": [
     {
      "character": "Ada",
-     "text": "[Not now. Busy.]"
+     "text": "Hello world"
     }
    ]
   },
