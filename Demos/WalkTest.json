@@ -4,7 +4,7 @@
    "left": 241,
    "top": 229,
    "outPins": [
-    1
+    "1"
    ],
    "type": "start"
   },
@@ -12,17 +12,17 @@
    "left": 507,
    "top": 216,
    "outPins": [
-    2
+    "2"
    ],
    "type": "action",
-   "title": "New Action",
+   "title": "Hello world",
    "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\" , \"Left Bookshelf\")\nChangeScene(\"byronhouselibrary\")"
   },
   "2": {
    "left": 942,
    "top": 286,
    "outPins": [
-    3
+    "3"
    ],
    "type": "gameState",
    "eventList": [
@@ -34,7 +34,7 @@
    "left": 1338,
    "top": 397,
    "outPins": [
-    4
+    "4"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
