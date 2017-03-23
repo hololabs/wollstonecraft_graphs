@@ -15,8 +15,8 @@
     "2"
    ],
    "type": "action",
-   "title": "CHANGE ME",
-   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\" , \"Left Bookshelf\")\nChangeScene(\"byronhouselibrary\")"
+   "title": "Setup",
+   "actionCode": "//Changes were made\nSetLocation(\"Mary\",\"ByronHouseLibrary\" , \"Left Bookshelf\")\nChangeScene(\"byronhouselibrary\")"
   },
   "2": {
    "left": 942,
