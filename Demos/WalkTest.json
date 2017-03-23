@@ -1,22 +1,22 @@
 {
  "nodes": {
   "0": {
-   "left": 241,
-   "top": 229,
+   "left": 35,
+   "top": 218,
    "outPins": [
     "1"
    ],
    "type": "start"
   },
   "1": {
-   "left": 347,
-   "top": 318,
+   "left": 283,
+   "top": 269,
    "outPins": [
     "2"
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "//Changed\nSetLocation(\"Mary\",\"ByronHouseLibrary\" , \"Left Bookshelf\")\nChangeScene(\"byronhouselibrary\")"
+   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\" , \"Left Bookshelf\")\nChangeScene(\"byronhouselibrary\")"
   },
   "2": {
    "left": 942,
