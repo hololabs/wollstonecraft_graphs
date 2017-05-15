@@ -9,14 +9,14 @@
    "type": "start"
   },
   "1": {
-   "left": 295,
-   "top": 428,
+   "left": 262,
+   "top": 468,
    "outPins": [
     "2"
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "//Changes were made\nSetLocation(\"Mary\",\"ByronHouseLibrary\" , \"Left Bookshelf\")\nChangeScene(\"byronhouselibrary\")"
+   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\" , \"Left Bookshelf\")\nChangeScene(\"byronhouselibrary\")"
   },
   "2": {
    "left": 942,
