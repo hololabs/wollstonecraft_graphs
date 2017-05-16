@@ -36,7 +36,7 @@
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "SetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\nChangeScene(\"ByronExterior\")"
+   "actionCode": "RunChapter(\"Act1Intro\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\nChangeScene(\"ByronExterior\")"
   },
   "4": {
    "left": 984.9218750000005,
