@@ -4,7 +4,7 @@
    "left": 256,
    "top": 430,
    "outPins": [
-    21
+    "21"
    ],
    "type": "start"
   },
@@ -227,7 +227,7 @@
    "left": 579,
    "top": 344,
    "outPins": [
-    25
+    "25"
    ],
    "type": "control"
   },
@@ -257,7 +257,7 @@
    "left": 894,
    "top": 366,
    "outPins": [
-    20
+    "20"
    ],
    "type": "action",
    "title": "Setup",
