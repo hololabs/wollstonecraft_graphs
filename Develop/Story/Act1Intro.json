@@ -92,7 +92,7 @@
    ],
    "type": "action",
    "title": "Foyer Intro Sequence",
-   "actionCode": "Trigger(\"Act1Intro\",\"FoyerCameraSequence\")\nWait(10)"
+   "actionCode": "Trigger(\"Act1Intro\",\"FoyerCameraSequence\")\nWait(12)"
   },
   "8": {
    "left": 2912.15625,
