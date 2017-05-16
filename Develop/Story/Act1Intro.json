@@ -1,0 +1,91 @@
+{
+ "nodes": {
+  "0": {
+   "left": 251,
+   "top": 317,
+   "outPins": [
+    3
+   ],
+   "type": "start"
+  },
+  "1": {
+   "left": 1359,
+   "top": 530,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "Trigger(\"Act1Intro\",\"EnterCarriage\")"
+  },
+  "2": {
+   "left": 1363,
+   "top": 683,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
+  },
+  "3": {
+   "left": 536.921875,
+   "top": 336.328125,
+   "outPins": [
+    4
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "SetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\nChangeScene(\"ByronExterior\")"
+  },
+  "4": {
+   "left": 984.921875,
+   "top": 430.328125,
+   "outPins": [
+    5,
+    1,
+    2
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Franklin",
+    "Carriage",
+    "Exit carriage"
+   ],
+   "title": "Events"
+  },
+  "5": {
+   "left": 1367,
+   "top": 331,
+   "outPins": [
+    6
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "ChangeScene(\"ByronHouseFoyer\")"
+  },
+  "6": {
+   "left": 1939,
+   "top": 377,
+   "outPins": [
+    7
+   ],
+   "type": "gameState",
+   "eventList": [
+    "On scene started"
+   ],
+   "title": "Events"
+  },
+  "7": {
+   "left": 2324,
+   "top": 440,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "Trigger(\"Act1Intro\",\"EnterFoyer\")\n"
+  }
+ },
+ "format": "goose2017-01-31-1227"
+}
