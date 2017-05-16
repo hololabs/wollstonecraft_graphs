@@ -1,15 +1,15 @@
 {
  "nodes": {
   "0": {
-   "left": 251.0000045211228,
-   "top": 317.0000090422455,
+   "left": 250.99996632543113,
+   "top": 316.999995790679,
    "outPins": [
     "3"
    ],
    "type": "start"
   },
   "1": {
-   "left": 1359.0000180844913,
+   "left": 1359.0000336745695,
    "top": 530.0000000000002,
    "outPins": [
     -1
@@ -19,8 +19,8 @@
    "actionCode": "Trigger(\"Act1Intro\",\"EnterCarriage\")"
   },
   "2": {
-   "left": 1363.000036168982,
-   "top": 682.9999909577549,
+   "left": 1362.999983162716,
+   "top": 682.9999831627157,
    "outPins": [
     -1
    ],
@@ -29,24 +29,24 @@
    "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
   },
   "3": {
-   "left": 536.9218840422456,
-   "top": 336.32812500000017,
+   "left": 536.9218918372846,
+   "top": 336.3281250000001,
    "outPins": [
     "4"
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "RunChapter(\"Act1Intro\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\nChangeScene(\"ByronExterior\")"
+   "actionCode": "RunChapter(\"Act1Intro\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\nChangeScene(\"ByronExterior\")"
   },
   "4": {
-   "left": 984.9218750000005,
-   "top": 430.32814308449093,
+   "left": 984.9218750000003,
+   "top": 430.3281165813579,
    "outPins": [
-    "5",
+    13,
     "1",
     "2",
-    9,
-    10
+    "9",
+    "10"
    ],
    "type": "gameState",
    "eventList": [
@@ -59,8 +59,8 @@
    "title": "Outside the Byron home"
   },
   "5": {
-   "left": 1366.9999638310192,
-   "top": 331.00000452112283,
+   "left": 1441.4375673491384,
+   "top": 329.8750042093212,
    "outPins": [
     "6"
    ],
@@ -69,30 +69,34 @@
    "actionCode": "ChangeScene(\"ByronHouseFoyer\")"
   },
   "6": {
-   "left": 1938.9999276620379,
-   "top": 377.00000904224555,
+   "left": 1939.0000336745695,
+   "top": 377.0000168372846,
    "outPins": [
-    "7"
+    "7",
+    11,
+    12
    ],
    "type": "gameState",
    "eventList": [
-    "On scene started"
+    "On scene started",
+    "On scene loaded",
+    "Front door"
    ],
    "title": "Inside the foyer"
   },
   "7": {
-   "left": 2323.999927662038,
-   "top": 440.00000000000017,
+   "left": 2354.1719423491386,
+   "top": 268.8125084186423,
    "outPins": [
-    8
+    "8"
    ],
    "type": "action",
    "title": "Foyer Intro Sequence",
-   "actionCode": "Trigger(\"Act1Intro\",\"EnterFoyer\")\n"
+   "actionCode": "Trigger(\"Act1Intro\",\"FoyerCameraSequence\")\n"
   },
   "8": {
-   "left": 2773.0000361689827,
-   "top": 404.00001808449093,
+   "left": 2803.156317349139,
+   "top": 232.81250000000009,
    "outPins": [
     -1
    ],
@@ -107,8 +111,8 @@
    ]
   },
   "9": {
-   "left": 1355.5312319155098,
-   "top": 838.4999819155096,
+   "left": 1355.5312163254314,
+   "top": 838.4999663254313,
    "outPins": [
     -1
    ],
@@ -117,14 +121,99 @@
    "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSetup\")"
   },
   "10": {
-   "left": 1345.1718930844913,
-   "top": 982.2187861689819,
+   "left": 1345.1719086745695,
+   "top": 982.2187331627158,
    "outPins": [
     -1
    ],
    "type": "action",
    "title": "Camera Intro",
    "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSequence\")"
+  },
+  "11": {
+   "left": 2343.1563173491386,
+   "top": 412.8125000000001,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "On foyer loaded",
+   "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nTrigger(\"Act1Intro\",\"FoyerCameraSetup\")\n\n"
+  },
+  "12": {
+   "left": 2334.109307650863,
+   "top": 583.8125084186424,
+   "outPins": [
+    14
+   ],
+   "type": "action",
+   "title": "Leave the house",
+   "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nChangeScene(\"ByronExterior\")\n"
+  },
+  "13": {
+   "left": 1175.5312163254314,
+   "top": 194.42187079067895,
+   "outPins": [
+    "5"
+   ],
+   "type": "endline",
+   "line": "Franklin"
+  },
+  "14": {
+   "left": 2710.312500000001,
+   "top": 653.7500000000002,
+   "outPins": [
+    15,
+    19
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Franklin",
+    "On scene loaded"
+   ],
+   "title": "Events"
+  },
+  "15": {
+   "left": 3068.921740301725,
+   "top": 795.8124831627158,
+   "outPins": [
+    16
+   ],
+   "type": "control"
+  },
+  "16": {
+   "left": 1917.2343076508628,
+   "top": 806.8750000000002,
+   "outPins": [
+    17
+   ],
+   "type": "control"
+  },
+  "17": {
+   "left": 1782.0469086745695,
+   "top": 460.67189183728465,
+   "outPins": [
+    18
+   ],
+   "type": "control"
+  },
+  "18": {
+   "left": 1377.921858162716,
+   "top": 456.53126683728465,
+   "outPins": [
+    "5"
+   ],
+   "type": "control"
+  },
+  "19": {
+   "left": 3292.375067349139,
+   "top": 679.9843834186424,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": ""
   }
  },
  "format": "goose2017-01-31-1227"
