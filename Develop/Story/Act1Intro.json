@@ -78,8 +78,8 @@
    ],
    "type": "gameState",
    "eventList": [
-    "On scene started",
-    "On scene loaded",
+    "Scene started",
+    "Scene loaded",
     "Front door"
    ],
    "title": "Inside the foyer"
