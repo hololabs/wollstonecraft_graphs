@@ -1,50 +1,50 @@
 {
  "nodes": {
   "0": {
-   "left": 251,
-   "top": 317,
+   "left": 250.99998191550938,
+   "top": 317.0000090422455,
    "outPins": [
-    3
+    "3"
    ],
    "type": "start"
   },
   "1": {
-   "left": 1359,
-   "top": 530,
+   "left": 1359.0000180844913,
+   "top": 530.0000000000002,
    "outPins": [
     -1
    ],
    "type": "action",
-   "title": "New Action",
+   "title": "Enter Carriage",
    "actionCode": "Trigger(\"Act1Intro\",\"EnterCarriage\")"
   },
   "2": {
-   "left": 1363,
-   "top": 683,
+   "left": 1363.000036168982,
+   "top": 682.9999909577549,
    "outPins": [
     -1
    ],
    "type": "action",
-   "title": "New Action",
+   "title": "Exit Carriage",
    "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
   },
   "3": {
-   "left": 536.921875,
-   "top": 336.328125,
+   "left": 536.9218388310187,
+   "top": 336.32812500000017,
    "outPins": [
-    4
+    "4"
    ],
    "type": "action",
-   "title": "New Action",
+   "title": "Setup",
    "actionCode": "SetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\nChangeScene(\"ByronExterior\")"
   },
   "4": {
-   "left": 984.921875,
-   "top": 430.328125,
+   "left": 984.9218750000005,
+   "top": 430.32814308449093,
    "outPins": [
-    5,
-    1,
-    2
+    "5",
+    "1",
+    "2"
    ],
    "type": "gameState",
    "eventList": [
@@ -52,39 +52,55 @@
     "Carriage",
     "Exit carriage"
    ],
-   "title": "Events"
+   "title": "Outside the Byron home"
   },
   "5": {
-   "left": 1367,
-   "top": 331,
+   "left": 1366.9999638310192,
+   "top": 331.00000452112283,
    "outPins": [
-    6
+    "6"
    ],
    "type": "action",
-   "title": "New Action",
+   "title": "Enter Foyer",
    "actionCode": "ChangeScene(\"ByronHouseFoyer\")"
   },
   "6": {
-   "left": 1939,
-   "top": 377,
+   "left": 1938.9999276620379,
+   "top": 377.00000904224555,
    "outPins": [
-    7
+    "7"
    ],
    "type": "gameState",
    "eventList": [
     "On scene started"
    ],
-   "title": "Events"
+   "title": "Inside the foyer"
   },
   "7": {
-   "left": 2324,
-   "top": 440,
+   "left": 2323.999927662038,
+   "top": 440.00000000000017,
+   "outPins": [
+    8
+   ],
+   "type": "action",
+   "title": "Foyer Intro Sequence",
+   "actionCode": "Trigger(\"Act1Intro\",\"EnterFoyer\")\n"
+  },
+  "8": {
+   "left": 2773.0000361689827,
+   "top": 404.00001808449093,
    "outPins": [
     -1
    ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Trigger(\"Act1Intro\",\"EnterFoyer\")\n"
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Peebs welcomes you",
+   "parts": [
+    {
+     "character": "Peebs",
+     "text": "{Welcome,  the girls are in the library}"
+    }
+   ]
   }
  },
  "format": "goose2017-01-31-1227"
