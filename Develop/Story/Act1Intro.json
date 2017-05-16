@@ -1,7 +1,7 @@
 {
  "nodes": {
   "0": {
-   "left": 250.99998191550938,
+   "left": 251.0000045211228,
    "top": 317.0000090422455,
    "outPins": [
     "3"
@@ -29,7 +29,7 @@
    "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
   },
   "3": {
-   "left": 536.9218388310187,
+   "left": 536.9218840422456,
    "top": 336.32812500000017,
    "outPins": [
     "4"
@@ -44,13 +44,17 @@
    "outPins": [
     "5",
     "1",
-    "2"
+    "2",
+    9,
+    10
    ],
    "type": "gameState",
    "eventList": [
     "Franklin",
     "Carriage",
-    "Exit carriage"
+    "Exit carriage",
+    "Scene loaded",
+    "Scene started"
    ],
    "title": "Outside the Byron home"
   },
@@ -101,6 +105,26 @@
      "text": "{Welcome,  the girls are in the library}"
     }
    ]
+  },
+  "9": {
+   "left": 1355.5312319155098,
+   "top": 838.4999819155096,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Camera Intro",
+   "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSetup\")"
+  },
+  "10": {
+   "left": 1345.1718930844913,
+   "top": 982.2187861689819,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Camera Intro",
+   "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSequence\")"
   }
  },
  "format": "goose2017-01-31-1227"
