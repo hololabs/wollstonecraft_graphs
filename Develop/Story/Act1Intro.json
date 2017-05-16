@@ -227,7 +227,7 @@
    "left": 579,
    "top": 344,
    "outPins": [
-    20
+    25
    ],
    "type": "control"
   },
@@ -252,6 +252,16 @@
    "outPins": [],
    "type": "comment",
    "comment": "Main"
+  },
+  "25": {
+   "left": 894,
+   "top": 366,
+   "outPins": [
+    20
+   ],
+   "type": "action",
+   "title": "Setup",
+   "actionCode": "RunChapter(\"Act1Intro\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n"
   }
  },
  "format": "goose2017-01-31-1227"
