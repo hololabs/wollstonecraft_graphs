@@ -73,14 +73,12 @@
    "top": 658,
    "outPins": [
     "7",
-    "11",
-    "12"
+    "11"
    ],
    "type": "gameState",
    "eventList": [
     "Scene started",
-    "Scene loaded",
-    "Front door"
+    "Scene loaded"
    ],
    "title": "Inside the foyer"
   },
@@ -98,7 +96,7 @@
    "left": 2912.15625,
    "top": 513.8125,
    "outPins": [
-    -1
+    12
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -141,14 +139,14 @@
    "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nTrigger(\"Act1Intro\",\"FoyerCameraSetup\")\nDebug(\"Hello world\")\n"
   },
   "12": {
-   "left": 2443.109375,
-   "top": 864.8125,
+   "left": 3590,
+   "top": 538,
    "outPins": [
-    "14"
+    -1
    ],
    "type": "action",
-   "title": "Leave the house",
-   "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nChangeScene(\"ByronExterior\")\n"
+   "title": "New Action",
+   "actionCode": "RunChapter(\"Act1Chapter1\")"
   },
   "13": {
    "left": 1284.515625,
@@ -158,62 +156,6 @@
    ],
    "type": "endline",
    "line": "Franklin"
-  },
-  "14": {
-   "left": 2819.296875,
-   "top": 934.75,
-   "outPins": [
-    "15",
-    "19"
-   ],
-   "type": "gameState",
-   "eventList": [
-    "Franklin",
-    "On scene loaded"
-   ],
-   "title": "Events"
-  },
-  "15": {
-   "left": 3177.90625,
-   "top": 1076.796875,
-   "outPins": [
-    "16"
-   ],
-   "type": "control"
-  },
-  "16": {
-   "left": 2026.21875,
-   "top": 1087.875,
-   "outPins": [
-    "17"
-   ],
-   "type": "control"
-  },
-  "17": {
-   "left": 1891.046875,
-   "top": 741.671875,
-   "outPins": [
-    "18"
-   ],
-   "type": "control"
-  },
-  "18": {
-   "left": 1486.90625,
-   "top": 737.515625,
-   "outPins": [
-    "5"
-   ],
-   "type": "control"
-  },
-  "19": {
-   "left": 3257.375,
-   "top": 901.96875,
-   "outPins": [
-    -1
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Trigger(\"Act1Intro\",\"ExitFoyer\")"
   },
   "20": {
    "left": 1524,
