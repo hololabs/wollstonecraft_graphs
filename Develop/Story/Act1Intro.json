@@ -73,12 +73,14 @@
    "top": 658,
    "outPins": [
     "7",
-    "11"
+    "11",
+    "8"
    ],
    "type": "gameState",
    "eventList": [
     "Scene started",
-    "Scene loaded"
+    "Scene loaded",
+    "Peebs"
    ],
    "title": "Inside the foyer"
   },
@@ -86,15 +88,15 @@
    "left": 2463.15625,
    "top": 549.8125,
    "outPins": [
-    "8"
+    -1
    ],
    "type": "action",
    "title": "Foyer Intro Sequence",
-   "actionCode": "Trigger(\"Act1Intro\",\"FoyerCameraSequence\")\nWait(12)"
+   "actionCode": "Trigger(\"Act1Intro\",\"FoyerCameraSequence\")"
   },
   "8": {
-   "left": 2912.15625,
-   "top": 513.8125,
+   "left": 2436.15625,
+   "top": 860.8125,
    "outPins": [
     12
    ],
@@ -139,8 +141,8 @@
    "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nTrigger(\"Act1Intro\",\"FoyerCameraSetup\")\nDebug(\"Hello world\")\n"
   },
   "12": {
-   "left": 3590,
-   "top": 538,
+   "left": 3017,
+   "top": 842,
    "outPins": [
     -1
    ],
