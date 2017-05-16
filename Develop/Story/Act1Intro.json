@@ -138,7 +138,7 @@
    ],
    "type": "action",
    "title": "On foyer loaded",
-   "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nTrigger(\"Act1Intro\",\"FoyerCameraSetup\")\n\n"
+   "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nTrigger(\"Act1Intro\",\"FoyerCameraSetup\")\nDebug(\"Hello world\")\n"
   },
   "12": {
    "left": 2443.109375,
