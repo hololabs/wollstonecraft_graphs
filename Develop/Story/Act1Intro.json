@@ -9,8 +9,8 @@
    "type": "start"
   },
   "1": {
-   "left": 1467.999936995968,
-   "top": 811.0000315020163,
+   "left": 2537.6562500000005,
+   "top": 1399.3750000000005,
    "outPins": [
     -1
    ],
@@ -43,15 +43,13 @@
    "top": 711.3125315020163,
    "outPins": [
     "13",
-    "1",
     "2",
-    "9",
+    "10",
     -1
    ],
    "type": "gameState",
    "eventList": [
     "Franklin",
-    "Carriage",
     "Exit carriage",
     "Scene loaded",
     "Scene started"
@@ -110,25 +108,15 @@
     }
    ]
   },
-  "9": {
-   "left": 1464.5156565020166,
-   "top": 1119.4999842489922,
-   "outPins": [
-    -1
-   ],
-   "type": "action",
-   "title": "Camera Intro",
-   "actionCode": "Trigger(\"Act1Intro\",\"EnterCarriage\")"
-  },
   "10": {
-   "left": 1454.1562184979844,
-   "top": 1263.2187184979841,
+   "left": 1492.843686995968,
+   "top": 1107.0625157510083,
    "outPins": [
     -1
    ],
    "type": "action",
-   "title": "Camera Intro",
-   "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSequence\")"
+   "title": "Set carriage camera",
+   "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSetup\")"
   },
   "11": {
    "left": 2452.156313004033,
@@ -163,13 +151,15 @@
    "left": 2234.7968119959683,
    "top": 1179.3124684979841,
    "outPins": [
-    16
+    16,
+    "1"
    ],
    "type": "gameState",
    "eventList": [
-    "Exit carriage"
+    "Exit carriage",
+    "Carriage"
    ],
-   "title": "Events"
+   "title": "Exited carriage"
   },
   "15": {
    "left": 1957.4062815020166,
@@ -181,13 +171,13 @@
    "line": "Exit carriage"
   },
   "16": {
-   "left": 2558.7030619959683,
-   "top": 1224.5156565020166,
+   "left": 2561.2655934979844,
+   "top": 1225.7968434979841,
    "outPins": [
     -1
    ],
    "type": "action",
-   "title": "Camera Intro",
+   "title": "Exit carriage normally",
    "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
   },
   "20": {
