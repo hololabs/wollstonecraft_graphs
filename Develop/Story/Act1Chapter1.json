@@ -1016,7 +1016,7 @@
    ],
    "type": "action",
    "title": "Action",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"IntroCameraSequence\")\nWait(7)"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"IntroCameraSequence\")\nWait(6)"
   },
   "74": {
    "left": 235.2343750000001,
