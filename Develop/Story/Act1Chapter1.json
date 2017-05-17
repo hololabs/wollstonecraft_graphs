@@ -810,7 +810,7 @@
    ],
    "type": "action",
    "title": "Places",
-   "actionCode": "Continue()\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Couch\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left couch\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"Above blocking roof\")\nSetLocation(\"CamelSaddle\",\"ByronHouseFoyer\",\"Blocking roof\")\n\nTrigger(\"Act1Chapter1\",\"IntroCameraSetup\")\n\n\n"
+   "actionCode": "Continue()\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Couch\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left couch\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"Above blocking roof\")\nSetLocation(\"CamelSaddle\",\"ByronHouseFoyer\",\"Blocking roof\")\n\n//Trigger(\"Act1Chapter1\",\"IntroCameraSetup\")\n\n\n"
   },
   "61": {
    "left": 10185.156250000002,
@@ -1155,7 +1155,7 @@
    "left": 726.3281250000001,
    "top": 868.5156250000001,
    "outPins": [
-    "93"
+    "82"
    ],
    "type": "control"
   },
