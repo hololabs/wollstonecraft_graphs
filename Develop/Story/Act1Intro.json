@@ -1,16 +1,16 @@
 {
  "nodes": {
   "0": {
-   "left": 256,
-   "top": 430,
+   "left": 256.0000315020162,
+   "top": 430.0000000000001,
    "outPins": [
     "23"
    ],
    "type": "start"
   },
   "1": {
-   "left": 1468,
-   "top": 811,
+   "left": 1467.999936995968,
+   "top": 811.0000315020163,
    "outPins": [
     -1
    ],
@@ -19,18 +19,18 @@
    "actionCode": "Trigger(\"Act1Intro\",\"EnterCarriage\")"
   },
   "2": {
-   "left": 1472,
-   "top": 964,
+   "left": 1497.7969065020166,
+   "top": 958.8281250000002,
    "outPins": [
-    -1
+    15
    ],
    "type": "action",
-   "title": "Exit Carriage",
-   "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
+   "title": "Exit Carriage First Time",
+   "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSequence\")"
   },
   "3": {
-   "left": 645.921875,
-   "top": 617.3125,
+   "left": 645.9218671244961,
+   "top": 617.3124842489921,
    "outPins": [
     "4"
    ],
@@ -39,14 +39,14 @@
    "actionCode": "RunChapter(\"Act1Intro\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\nChangeScene(\"ByronExterior\")"
   },
   "4": {
-   "left": 1093.90625,
-   "top": 711.3125,
+   "left": 1093.9062500000002,
+   "top": 711.3125315020163,
    "outPins": [
     "13",
     "1",
     "2",
     "9",
-    "10"
+    -1
    ],
    "type": "gameState",
    "eventList": [
@@ -59,8 +59,8 @@
    "title": "Outside the Byron home"
   },
   "5": {
-   "left": 1550.4375,
-   "top": 610.875,
+   "left": 1550.4375630040327,
+   "top": 610.8750078755041,
    "outPins": [
     "6"
    ],
@@ -69,8 +69,8 @@
    "actionCode": "ChangeScene(\"ByronHouseFoyer\")"
   },
   "6": {
-   "left": 2048,
-   "top": 658,
+   "left": 2047.9999369959683,
+   "top": 658.0000157510083,
    "outPins": [
     "7",
     "11",
@@ -85,8 +85,8 @@
    "title": "Inside the foyer"
   },
   "7": {
-   "left": 2463.15625,
-   "top": 549.8125,
+   "left": 2463.1561869959683,
+   "top": 549.8124842489921,
    "outPins": [
     -1
    ],
@@ -95,10 +95,10 @@
    "actionCode": "Trigger(\"Act1Intro\",\"FoyerCameraSequence\")"
   },
   "8": {
-   "left": 2436.15625,
-   "top": 860.8125,
+   "left": 2436.1562815020166,
+   "top": 860.8125157510083,
    "outPins": [
-    12
+    "12"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -111,18 +111,18 @@
    ]
   },
   "9": {
-   "left": 1464.515625,
-   "top": 1119.5,
+   "left": 1464.5156565020166,
+   "top": 1119.4999842489922,
    "outPins": [
     -1
    ],
    "type": "action",
    "title": "Camera Intro",
-   "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSetup\")"
+   "actionCode": "Trigger(\"Act1Intro\",\"EnterCarriage\")"
   },
   "10": {
-   "left": 1454.15625,
-   "top": 1263.21875,
+   "left": 1454.1562184979844,
+   "top": 1263.2187184979841,
    "outPins": [
     -1
    ],
@@ -131,8 +131,8 @@
    "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSequence\")"
   },
   "11": {
-   "left": 2452.15625,
-   "top": 693.8125,
+   "left": 2452.156313004033,
+   "top": 693.8125315020163,
    "outPins": [
     -1
    ],
@@ -141,8 +141,8 @@
    "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nTrigger(\"Act1Intro\",\"FoyerCameraSetup\")\nDebug(\"Hello world\")\n"
   },
   "12": {
-   "left": 3017,
-   "top": 842,
+   "left": 3017.000063004033,
+   "top": 841.9999842489922,
    "outPins": [
     -1
    ],
@@ -151,55 +151,86 @@
    "actionCode": "RunChapter(\"Act1Chapter1\")"
   },
   "13": {
-   "left": 1284.515625,
-   "top": 475.421875,
+   "left": 1284.5156565020166,
+   "top": 475.42189075100816,
    "outPins": [
     "5"
    ],
    "type": "endline",
    "line": "Franklin"
   },
+  "14": {
+   "left": 2234.7968119959683,
+   "top": 1179.3124684979841,
+   "outPins": [
+    16
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Exit carriage"
+   ],
+   "title": "Events"
+  },
+  "15": {
+   "left": 1957.4062815020166,
+   "top": 1041.2655934979841,
+   "outPins": [
+    14
+   ],
+   "type": "endline",
+   "line": "Exit carriage"
+  },
+  "16": {
+   "left": 2558.7030619959683,
+   "top": 1224.5156565020166,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Camera Intro",
+   "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
+  },
   "20": {
-   "left": 1524,
-   "top": 361,
+   "left": 1523.9999684979844,
+   "top": 360.9999921244961,
    "outPins": [
     "5"
    ],
    "type": "control"
   },
   "21": {
-   "left": 579,
-   "top": 344,
+   "left": 579.0000078755041,
+   "top": 344.00000787550414,
    "outPins": [
     "25"
    ],
    "type": "control"
   },
   "22": {
-   "left": 620,
-   "top": 334,
+   "left": 620.0000000000001,
+   "top": 334.00000787550414,
    "outPins": [],
    "type": "comment",
    "comment": "Skip to interior"
   },
   "23": {
-   "left": 586,
-   "top": 466,
+   "left": 585.9999921244961,
+   "top": 465.9999921244961,
    "outPins": [
     "3"
    ],
    "type": "control"
   },
   "24": {
-   "left": 624,
-   "top": 464,
+   "left": 624.0000078755041,
+   "top": 464.00000787550414,
    "outPins": [],
    "type": "comment",
    "comment": "Main"
   },
   "25": {
-   "left": 894,
-   "top": 366,
+   "left": 893.9999684979841,
+   "top": 365.9999921244961,
    "outPins": [
     "20"
    ],
