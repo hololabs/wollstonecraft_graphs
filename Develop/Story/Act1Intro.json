@@ -118,7 +118,7 @@
    ],
    "type": "action",
    "title": "Grab Thimble",
-   "actionCode": "AddToInventory(\"Thimble\")\nSetLocation(\"Thimble\",\"Nowhere\",\"Nowhere\")"
+   "actionCode": "AddInventory(\"Thimble\")\nSetLocation(\"Thimble\",\"Nowhere\",\"Nowhere\")"
   },
   "10": {
    "left": 1535.5000000000007,
@@ -200,7 +200,7 @@
    ],
    "type": "action",
    "title": "Grab Button",
-   "actionCode": "AddToInventory(\"Button\")\nSetLocation(\"Button\",\"Nowhere\",\"Nowhere\")"
+   "actionCode": "AddInventory(\"Button\")\nSetLocation(\"Button\",\"Nowhere\",\"Nowhere\")"
   },
   "18": {
    "left": 1934.640625000001,
