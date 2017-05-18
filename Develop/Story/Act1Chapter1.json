@@ -65,7 +65,7 @@
   },
   "5": {
    "left": 4574.453125000001,
-   "top": 915.9062364366322,
+   "top": 915.9063042534724,
    "outPins": [
     -1
    ],
@@ -622,7 +622,7 @@
   },
   "44": {
    "left": 8066.796875000002,
-   "top": 383.34374321831604,
+   "top": 383.3437771267362,
    "outPins": [
     "84"
    ],
@@ -988,7 +988,7 @@
   },
   "71": {
    "left": 2727.0312500000005,
-   "top": 999.2656114366322,
+   "top": 999.2656792534724,
    "outPins": [
     "70"
    ],
@@ -1121,7 +1121,7 @@
   },
   "83": {
    "left": 8050.468750000002,
-   "top": 343.96874321831604,
+   "top": 343.96864149305566,
    "outPins": [],
    "type": "comment",
    "comment": "Skip Book Puzzle"
@@ -1191,7 +1191,7 @@
   },
   "92": {
    "left": 926.2500000000002,
-   "top": 939.7343614366322,
+   "top": 939.7344292534724,
    "outPins": [],
    "type": "comment",
    "comment": "From the beginning"
@@ -1247,7 +1247,7 @@
    ],
    "type": "action",
    "title": "Ada is sitting and Mary is at the booksehlf",
-   "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nSetDraggable(\"Newspaperpile\",false)\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Right bookshelf\")"
+   "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nTriggerFSM(\"Act1Chapter1\",\"Mary look for book\")\nSetDraggable(\"Newspaperpile\",false)\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Right bookshelf\")"
   },
   "98": {
    "left": 11411.391059027781,
