@@ -1,7 +1,7 @@
 {
  "nodes": {
   "0": {
-   "left": 256.0000000000001,
+   "left": 256.0000084186423,
    "top": 430.00000000000017,
    "outPins": [
     "23"
@@ -10,7 +10,7 @@
   },
   "1": {
    "left": 2537.656250000001,
-   "top": 1399.3750000000007,
+   "top": 1399.3750000000005,
    "outPins": [
     -1
    ],
@@ -19,34 +19,34 @@
    "actionCode": "Trigger(\"Act1Intro\",\"EnterCarriage\")"
   },
   "2": {
-   "left": 1540.4218750000007,
-   "top": 918.8281250000005,
+   "left": 1540.4219423491384,
+   "top": 918.8281250000003,
    "outPins": [
-    15
+    "15"
    ],
    "type": "action",
    "title": "Exit Carriage First Time",
    "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSequence\")"
   },
   "3": {
-   "left": 645.9218750000003,
-   "top": 617.3125000000002,
+   "left": 645.9218834186424,
+   "top": 617.3125168372846,
    "outPins": [
     "4"
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "RunChapter(\"Act1Intro\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n\nSetLocation(\"Button\",\"ByronExterior\",\"Button marker\")\nSetLocation(\"Thimble\",\"ByronExterior\",\"Thimble marker\")\n\nChangeScene(\"ByronExterior\")"
+   "actionCode": "RunChapter(\"Act1Intro\")\nChangeScene(\"ByronExterior\")"
   },
   "4": {
    "left": 1093.9062500000005,
-   "top": 711.3125000000003,
+   "top": 711.3124663254313,
    "outPins": [
     "13",
     "2",
     "10",
-    9,
-    17
+    "9",
+    "17"
    ],
    "type": "gameState",
    "eventList": [
@@ -59,8 +59,8 @@
    "title": "Outside the Byron home"
   },
   "5": {
-   "left": 1550.4375000000007,
-   "top": 610.8750000000002,
+   "left": 1550.4374326508625,
+   "top": 610.874991581358,
    "outPins": [
     "6"
    ],
@@ -69,8 +69,8 @@
    "actionCode": "ChangeScene(\"ByronHouseFoyer\")"
   },
   "6": {
-   "left": 2048.000000000001,
-   "top": 658.0000000000003,
+   "left": 2048.0000673491386,
+   "top": 657.9999831627157,
    "outPins": [
     "7",
     "11",
@@ -85,8 +85,8 @@
    "title": "Inside the foyer"
   },
   "7": {
-   "left": 2463.156250000001,
-   "top": 549.8125000000002,
+   "left": 2463.1563173491386,
+   "top": 549.8125168372846,
    "outPins": [
     -1
    ],
@@ -95,8 +95,8 @@
    "actionCode": "Trigger(\"Act1Intro\",\"FoyerCameraSequence\")"
   },
   "8": {
-   "left": 2436.156250000001,
-   "top": 860.8125000000003,
+   "left": 2436.156216325432,
+   "top": 860.8124831627158,
    "outPins": [
     "12"
    ],
@@ -111,28 +111,28 @@
    ]
   },
   "9": {
-   "left": 1539.9843750000007,
+   "left": 1539.9843413254316,
    "top": 1263.9843750000005,
    "outPins": [
-    18
+    "18"
    ],
    "type": "action",
    "title": "Grab Thimble",
    "actionCode": "AddInventory(\"Thimble\")\nSetLocation(\"Thimble\",\"Nowhere\",\"Nowhere\")"
   },
   "10": {
-   "left": 1535.5000000000007,
-   "top": 1067.0625000000005,
+   "left": 1535.5000673491384,
+   "top": 1067.0624831627158,
    "outPins": [
     -1
    ],
    "type": "action",
    "title": "Set carriage camera",
-   "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSetup\")"
+   "actionCode": "SetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n\nSetLocation(\"Button\",\"ByronExterior\",\"Button marker\")\nSetLocation(\"Thimble\",\"ByronExterior\",\"Thimble marker\")\n\nTrigger(\"Act1Intro\",\"ExteriorCameraSetup\")"
   },
   "11": {
-   "left": 2452.156250000001,
-   "top": 693.8125000000003,
+   "left": 2452.156182650863,
+   "top": 693.8125084186424,
    "outPins": [
     -1
    ],
@@ -141,8 +141,8 @@
    "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nTrigger(\"Act1Intro\",\"FoyerCameraSetup\")\nDebug(\"Hello world\")\n"
   },
   "12": {
-   "left": 3017.0000000000014,
-   "top": 842.0000000000003,
+   "left": 3016.9999326508632,
+   "top": 842.0000168372848,
    "outPins": [
     -1
    ],
@@ -151,8 +151,8 @@
    "actionCode": "RunChapter(\"Act1Chapter1\")"
   },
   "13": {
-   "left": 1284.5156250000007,
-   "top": 475.4218750000002,
+   "left": 1284.5155913254314,
+   "top": 475.4218581627157,
    "outPins": [
     "5"
    ],
@@ -160,10 +160,10 @@
    "line": "Franklin"
   },
   "14": {
-   "left": 2234.796875000001,
-   "top": 1179.3125000000005,
+   "left": 2234.7969423491386,
+   "top": 1179.3125336745693,
    "outPins": [
-    16,
+    "16",
     "1"
    ],
    "type": "gameState",
@@ -174,17 +174,17 @@
    "title": "Exited carriage"
   },
   "15": {
-   "left": 1946.671875000001,
+   "left": 1946.6719423491386,
    "top": 1046.6406250000005,
    "outPins": [
-    14
+    "14"
    ],
    "type": "endline",
    "line": "Exit carriage"
   },
   "16": {
-   "left": 2561.2656250000014,
-   "top": 1225.7968750000005,
+   "left": 2561.2656586745697,
+   "top": 1225.7969086745693,
    "outPins": [
     -1
    ],
@@ -193,18 +193,18 @@
    "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
   },
   "17": {
-   "left": 1534.6562500000007,
-   "top": 1408.0000000000007,
+   "left": 1534.6561826508625,
+   "top": 1407.999983162716,
    "outPins": [
-    19
+    "19"
    ],
    "type": "action",
    "title": "Grab Button",
    "actionCode": "AddInventory(\"Button\")\nSetLocation(\"Button\",\"Nowhere\",\"Nowhere\")"
   },
   "18": {
-   "left": 1934.640625000001,
-   "top": 1302.6562500000007,
+   "left": 1934.6406923491386,
+   "top": 1302.6562500000005,
    "outPins": [
     -1
    ],
@@ -212,8 +212,8 @@
    "line": "Thimble"
   },
   "19": {
-   "left": 1927.984375000001,
-   "top": 1446.6562500000007,
+   "left": 1927.9844086745695,
+   "top": 1446.6562836745695,
    "outPins": [
     -1
    ],
@@ -221,16 +221,16 @@
    "line": "Button"
   },
   "20": {
-   "left": 1524.0000000000007,
-   "top": 361.00000000000017,
+   "left": 1524.0000336745695,
+   "top": 361.0000084186424,
    "outPins": [
     "5"
    ],
    "type": "control"
   },
   "21": {
-   "left": 579.0000000000002,
-   "top": 344.00000000000017,
+   "left": 578.9999915813579,
+   "top": 343.99999158135785,
    "outPins": [
     "25"
    ],
@@ -238,29 +238,29 @@
   },
   "22": {
    "left": 620.0000000000002,
-   "top": 334.00000000000017,
+   "top": 333.99999158135785,
    "outPins": [],
    "type": "comment",
    "comment": "Skip to interior"
   },
   "23": {
-   "left": 586.0000000000002,
-   "top": 466.0000000000002,
+   "left": 586.0000084186424,
+   "top": 466.0000084186424,
    "outPins": [
     "3"
    ],
    "type": "control"
   },
   "24": {
-   "left": 624.0000000000002,
-   "top": 464.0000000000002,
+   "left": 623.999991581358,
+   "top": 463.9999915813579,
    "outPins": [],
    "type": "comment",
    "comment": "Main"
   },
   "25": {
-   "left": 894.0000000000003,
-   "top": 366.00000000000017,
+   "left": 894.0000336745693,
+   "top": 366.0000084186424,
    "outPins": [
     "20"
    ],
