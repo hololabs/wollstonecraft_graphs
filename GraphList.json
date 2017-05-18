@@ -24,6 +24,8 @@
  "Master/Demos/CMFDemo.json",
  "Master/Story",
  "Master/Story/Act1Chapter1.json",
+ "Master/Story/Act1Intro.json",
+ "Master/Story/LondonFlyover.json",
  "README.md",
  "index.html"
 ]
