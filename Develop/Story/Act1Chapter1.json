@@ -366,7 +366,7 @@
    "title": "Mr.Franklin In The Foyer"
   },
   "26": {
-   "left": 6995.57785560345,
+   "left": 6995.5623653017265,
    "top": 2300.906182650863,
    "outPins": [
     "30",
@@ -584,7 +584,7 @@
   },
   "41": {
    "left": 10105.890355603451,
-   "top": 2993.687365301725,
+   "top": 2993.671875000001,
    "outPins": [
     "25"
    ],
@@ -674,7 +674,7 @@
   },
   "48": {
    "left": 9451.765894396554,
-   "top": 2847.046740301725,
+   "top": 2847.031250000001,
    "outPins": [
     -1
    ],
@@ -693,7 +693,7 @@
   },
   "50": {
    "left": 5693.125000000002,
-   "top": 844.0468413254313,
+   "top": 844.0312668372848,
    "outPins": [
     -1
    ],
@@ -773,7 +773,7 @@
   },
   "56": {
    "left": 6562.875134698278,
-   "top": 3324.546740301725,
+   "top": 3324.531250000001,
    "outPins": [
     -1
    ],
@@ -832,7 +832,7 @@
    ],
    "type": "action",
    "title": "Places",
-   "actionCode": "Continue()\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Couch\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left couch\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"Above blocking roof\")\nSetLocation(\"CamelSaddle\",\"ByronHouseFoyer\",\"Blocking roof\")\nSetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\n//Trigger(\"Act1Chapter1\",\"IntroCameraSetup\")\n\n\n"
+   "actionCode": "Continue()\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Couch\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left couch\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"Above blocking roof\")\nSetLocation(\"CamelSaddle\",\"ByronHouseFoyer\",\"Blocking roof\")\nSetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nSetLocation(\"Rubbish\",\"ByronHouseFoyer\",\"In front of parlour door\")\n//Trigger(\"Act1Chapter1\",\"IntroCameraSetup\")\n\n\n"
   },
   "61": {
    "left": 10705.187230603451,
@@ -1042,7 +1042,7 @@
   },
   "74": {
    "left": 235.23437500000009,
-   "top": 795.2187163254313,
+   "top": 795.2031418372848,
    "outPins": [
     "75",
     "55"
@@ -1056,7 +1056,7 @@
   },
   "75": {
    "left": 278.7500000000001,
-   "top": 914.0468413254314,
+   "top": 914.0312668372848,
    "outPins": [
     "90"
    ],
@@ -1216,7 +1216,7 @@
    "line": "Foyer door"
   },
   "95": {
-   "left": 5834.01535560345,
+   "left": 5833.9998653017265,
    "top": 2047.7187163254316,
    "outPins": [
     "11"
@@ -1252,7 +1252,7 @@
    "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nTriggerFSM(\"Act1Chapter1\",\"Mary look for book\")\nSetDraggable(\"Newspaperpile\",false)\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Right bookshelf\")"
   },
   "98": {
-   "left": 11411.3900862069,
+   "left": 11411.375269396556,
    "top": 2202.0469086745697,
    "outPins": [
     "99"
@@ -1408,7 +1408,7 @@
    "actionCode": "TriggerFSM(\"Act1Chapter1\",\"Stop looking for book\")\nTrigger(\"Act1Chapter1\",\"MaryDrinksTea\")\nWait(5)"
   },
   "110": {
-   "left": 5659.01535560345,
+   "left": 5658.9998653017265,
    "top": 2409.578057650863,
    "outPins": [
     "111"
