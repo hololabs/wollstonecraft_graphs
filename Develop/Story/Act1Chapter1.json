@@ -1512,7 +1512,7 @@
    ],
    "type": "action",
    "title": "New Action",
-   "actionCode": "Skip()"
+   "actionCode": "Skip()\nDebug(\"Skipiddy doo dah\")"
   },
   "121": {
    "left": 4546.140700120195,
@@ -1522,7 +1522,7 @@
    ],
    "type": "action",
    "title": "New Action",
-   "actionCode": "Skip()"
+   "actionCode": "Skip()\nDebug(\"Skipiddy day\")"
   }
  },
  "format": "goose2017-01-31-1227"
