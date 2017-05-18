@@ -744,8 +744,8 @@
    ]
   },
   "54": {
-   "left": 5510.015775240388,
-   "top": 4360.234375000003,
+   "left": 4691.531325120195,
+   "top": 4610.96867487981,
    "outPins": [
     -1
    ],
@@ -1380,8 +1380,8 @@
    "type": "control"
   },
   "108": {
-   "left": 5000.3282752403875,
-   "top": 4617.5157752403875,
+   "left": 4660.218599759618,
+   "top": 4348.265474759618,
    "outPins": [
     -1
    ],
@@ -1485,7 +1485,7 @@
    "left": 4404.687500000003,
    "top": 4345.828200120195,
    "outPins": [
-    120
+    108
    ],
    "type": "control"
   },
@@ -1493,7 +1493,7 @@
    "left": 4408.593750000003,
    "top": 4574.7814002403875,
    "outPins": [
-    121
+    54
    ],
    "type": "control"
   },
@@ -1503,26 +1503,6 @@
    "outPins": [],
    "type": "comment",
    "comment": "Peebs is blocking access to Ada's bedroom and the roof"
-  },
-  "120": {
-   "left": 4524.593599759618,
-   "top": 4366.12492487981,
-   "outPins": [
-    54
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Skip()\nDebug(\"Skipiddy doo dah\")"
-  },
-  "121": {
-   "left": 4546.140700120195,
-   "top": 4595.374849759618,
-   "outPins": [
-    108
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Skip()\nDebug(\"Skipiddy day\")"
   }
  },
  "format": "goose2017-01-31-1227"
