@@ -1,0 +1,273 @@
+{
+ "nodes": {
+  "0": {
+   "left": 341,
+   "top": 432,
+   "outPins": [
+    23
+   ],
+   "type": "start"
+  },
+  "1": {
+   "left": 2622.65625,
+   "top": 1401.375,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Enter Carriage",
+   "actionCode": "Trigger(\"Act1Intro\",\"EnterCarriage\")"
+  },
+  "2": {
+   "left": 1625.421875,
+   "top": 920.828125,
+   "outPins": [
+    15
+   ],
+   "type": "action",
+   "title": "Exit Carriage First Time",
+   "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSequence\")"
+  },
+  "3": {
+   "left": 730.921875,
+   "top": 619.3125,
+   "outPins": [
+    4
+   ],
+   "type": "action",
+   "title": "Setup",
+   "actionCode": "RunChapter(\"Act1Intro\")\nChangeScene(\"ByronExterior\")"
+  },
+  "4": {
+   "left": 1178.90625,
+   "top": 713.296875,
+   "outPins": [
+    13,
+    2,
+    10,
+    9,
+    17
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Franklin",
+    "Exit carriage",
+    "Scene loaded",
+    "Thimble",
+    "Button"
+   ],
+   "title": "Outside the Byron home"
+  },
+  "5": {
+   "left": 1635.421875,
+   "top": 612.875,
+   "outPins": [
+    6
+   ],
+   "type": "action",
+   "title": "Enter Foyer",
+   "actionCode": "ChangeScene(\"ByronHouseFoyer\")"
+  },
+  "6": {
+   "left": 2133,
+   "top": 660,
+   "outPins": [
+    7,
+    11,
+    8
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Scene started",
+    "Scene loaded",
+    "Peebs"
+   ],
+   "title": "Inside the foyer"
+  },
+  "7": {
+   "left": 2548.15625,
+   "top": 551.8125,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Foyer Intro Sequence",
+   "actionCode": "Trigger(\"Act1Intro\",\"FoyerCameraSequence\")"
+  },
+  "8": {
+   "left": 2521.15625,
+   "top": 862.8125,
+   "outPins": [
+    12
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Peebs welcomes you",
+   "parts": [
+    {
+     "character": "Peebs",
+     "text": "{Welcome,  the girls are in the library}"
+    }
+   ]
+  },
+  "9": {
+   "left": 1624.984375,
+   "top": 1265.984375,
+   "outPins": [
+    18
+   ],
+   "type": "action",
+   "title": "Grab Thimble",
+   "actionCode": "AddInventory(\"Thimble\")\nSetLocation(\"Thimble\",\"Nowhere\",\"Nowhere\")"
+  },
+  "10": {
+   "left": 1620.5,
+   "top": 1069.0625,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Set carriage camera",
+   "actionCode": "SetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n\nSetLocation(\"Button\",\"ByronExterior\",\"Button marker\")\nSetLocation(\"Thimble\",\"ByronExterior\",\"Thimble marker\")\n\nTrigger(\"Act1Intro\",\"ExteriorCameraSetup\")"
+  },
+  "11": {
+   "left": 2537.15625,
+   "top": 695.8125,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "On foyer loaded",
+   "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nTrigger(\"Act1Intro\",\"FoyerCameraSetup\")\nDebug(\"Hello world\")\n"
+  },
+  "12": {
+   "left": 3102,
+   "top": 844,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "RunChapter(\"Act1Chapter1\")"
+  },
+  "13": {
+   "left": 1369.515625,
+   "top": 477.40625,
+   "outPins": [
+    5
+   ],
+   "type": "endline",
+   "line": "Franklin"
+  },
+  "14": {
+   "left": 2319.796875,
+   "top": 1181.3125,
+   "outPins": [
+    16,
+    1
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Exit carriage",
+    "Carriage"
+   ],
+   "title": "Exited carriage"
+  },
+  "15": {
+   "left": 2031.671875,
+   "top": 1048.640625,
+   "outPins": [
+    14
+   ],
+   "type": "endline",
+   "line": "Exit carriage"
+  },
+  "16": {
+   "left": 2646.265625,
+   "top": 1227.796875,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Exit carriage normally",
+   "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
+  },
+  "17": {
+   "left": 1619.640625,
+   "top": 1410,
+   "outPins": [
+    19
+   ],
+   "type": "action",
+   "title": "Grab Button",
+   "actionCode": "AddInventory(\"Button\")\nSetLocation(\"Button\",\"Nowhere\",\"Nowhere\")"
+  },
+  "18": {
+   "left": 2019.640625,
+   "top": 1304.65625,
+   "outPins": [
+    -1
+   ],
+   "type": "endline",
+   "line": "Thimble"
+  },
+  "19": {
+   "left": 2012.984375,
+   "top": 1448.65625,
+   "outPins": [
+    -1
+   ],
+   "type": "endline",
+   "line": "Button"
+  },
+  "20": {
+   "left": 1609,
+   "top": 363,
+   "outPins": [
+    5
+   ],
+   "type": "control"
+  },
+  "21": {
+   "left": 664,
+   "top": 346,
+   "outPins": [
+    25
+   ],
+   "type": "control"
+  },
+  "22": {
+   "left": 705,
+   "top": 336,
+   "outPins": [],
+   "type": "comment",
+   "comment": "Skip to interior"
+  },
+  "23": {
+   "left": 671,
+   "top": 468,
+   "outPins": [
+    3
+   ],
+   "type": "control"
+  },
+  "24": {
+   "left": 709,
+   "top": 466,
+   "outPins": [],
+   "type": "comment",
+   "comment": "Main"
+  },
+  "25": {
+   "left": 979,
+   "top": 368,
+   "outPins": [
+    20
+   ],
+   "type": "action",
+   "title": "Setup",
+   "actionCode": "RunChapter(\"Act1Intro\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n"
+  }
+ },
+ "format": "goose2017-01-31-1227"
+}

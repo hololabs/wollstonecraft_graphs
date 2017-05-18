@@ -1,0 +1,45 @@
+{
+ "nodes": {
+  "0": {
+   "left": 104,
+   "top": 182,
+   "outPins": [
+    "1"
+   ],
+   "type": "start"
+  },
+  "1": {
+   "left": 347,
+   "top": 357,
+   "outPins": [
+    "2"
+   ],
+   "type": "action",
+   "title": "Setup",
+   "actionCode": "ChangeScene(\"LondonFlyover\")"
+  },
+  "2": {
+   "left": 772,
+   "top": 408,
+   "outPins": [
+    "6"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Done flyover"
+   ],
+   "title": "Events"
+  },
+  "6": {
+   "left": 1111,
+   "top": 495,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "Finish",
+   "actionCode": "RunChapter(\"Act1Intro\")"
+  }
+ },
+ "format": "goose2017-01-31-1227"
+}
