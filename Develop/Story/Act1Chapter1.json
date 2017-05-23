@@ -4,7 +4,7 @@
    "left": 165,
    "top": 321.4375,
    "outPins": [
-    72
+    "72"
    ],
    "type": "start"
   },
@@ -12,7 +12,7 @@
    "left": 4674.96875,
    "top": 2109.125,
    "outPins": [
-    2
+    "2"
    ],
    "type": "action",
    "title": "New Action",
@@ -48,10 +48,10 @@
    "left": 5362.515625,
    "top": 749.8125,
    "outPins": [
-    49,
-    49,
-    49,
-    50
+    "49",
+    "49",
+    "49",
+    "50"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -91,24 +91,24 @@
    "left": 3747.71875,
    "top": 1298.109375,
    "outPins": [
-    5,
-    10,
-    10,
-    8,
+    "5",
+    "10",
+    "10",
+    "8",
     -1,
-    1,
-    12,
-    97,
-    104,
-    105,
-    106,
-    107,
-    117,
-    118,
-    121,
-    122,
-    122,
-    125
+    "1",
+    "12",
+    "97",
+    "104",
+    "105",
+    "106",
+    "107",
+    "117",
+    "118",
+    "121",
+    "122",
+    "122",
+    "125"
    ],
    "type": "gameState",
    "eventList": [
@@ -144,7 +144,7 @@
    "left": 4734.1875,
    "top": 1953.1875,
    "outPins": [
-    9
+    "9"
    ],
    "type": "animation",
    "title": "The Door to the BLEH opens and lets out steaam",
@@ -155,7 +155,7 @@
    "left": 5014.21875,
    "top": 1932.015625,
    "outPins": [
-    3
+    "3"
    ],
    "type": "animation",
    "title": "Ada jumps up to deal with the steam then sits back down",
@@ -186,12 +186,12 @@
    "left": 6080.15625,
    "top": 1894.765625,
    "outPins": [
-    15,
-    23,
-    20,
-    79,
-    24,
-    16
+    "15",
+    "23",
+    "20",
+    "79",
+    "24",
+    "16"
    ],
    "type": "gameState",
    "eventList": [
@@ -208,7 +208,7 @@
    "left": 4660.15625,
    "top": 2428.296875,
    "outPins": [
-    28
+    "28"
    ],
    "type": "control"
   },
@@ -216,7 +216,7 @@
    "left": 4663.125,
    "top": 2508.375,
    "outPins": [
-    46
+    "46"
    ],
    "type": "control"
   },
@@ -224,7 +224,7 @@
    "left": 4674.96875,
    "top": 2660.9375,
    "outPins": [
-    45
+    "45"
    ],
    "type": "control"
   },
@@ -283,7 +283,7 @@
    "left": 5109.65625,
    "top": 2417.578125,
    "outPins": [
-    36
+    "36"
    ],
    "type": "endline",
    "line": "Drop drink on Ada"
@@ -319,7 +319,7 @@
    "left": 11137.5,
    "top": 2736.90625,
    "outPins": [
-    91
+    "91"
    ],
    "type": "action",
    "title": "Show Overlay",
@@ -339,7 +339,7 @@
    "left": 6491.046875,
    "top": 2202.4375,
    "outPins": [
-    113
+    "113"
    ],
    "type": "action",
    "title": "LAUNCH ACTIVITY: BOOKSHELF",
@@ -359,8 +359,8 @@
    "left": 10706.09375,
    "top": 2891.875,
    "outPins": [
-    61,
-    96,
+    "61",
+    "96",
     -1
    ],
    "type": "gameState",
@@ -375,10 +375,10 @@
    "left": 7097.75,
    "top": 2360.078125,
    "outPins": [
-    30,
-    30,
-    64,
-    27
+    "30",
+    "30",
+    "64",
+    "27"
    ],
    "type": "gameState",
    "eventList": [
@@ -417,7 +417,7 @@
    "left": 4749.515625,
    "top": 2423.546875,
    "outPins": [
-    18
+    "18"
    ],
    "type": "action",
    "title": "Destroy drink",
@@ -427,7 +427,7 @@
    "left": 8122.71875,
    "top": 2053.71875,
    "outPins": [
-    68
+    "68"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -447,7 +447,7 @@
    "left": 7602.1875,
    "top": 2338.1875,
    "outPins": [
-    67
+    "67"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -469,9 +469,9 @@
    "outPins": [
     -1,
     -1,
-    94,
+    "94",
     -1,
-    48
+    "48"
    ],
    "type": "gameState",
    "eventList": [
@@ -487,7 +487,7 @@
    "left": 9133.265625,
    "top": 1893.578125,
    "outPins": [
-    35
+    "35"
    ],
    "type": "action",
    "title": "Continue",
@@ -503,7 +503,7 @@
    "left": 9200.1875,
    "top": 2145.9375,
    "outPins": [
-    115
+    "115"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -519,7 +519,7 @@
    "left": 9441.546875,
    "top": 2442.1875,
    "outPins": [
-    37
+    "37"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -535,7 +535,7 @@
    "left": 5118.96875,
    "top": 2477.90625,
    "outPins": [
-    109
+    "109"
    ],
    "type": "endline",
    "line": "Drop drink on Mary"
@@ -544,7 +544,7 @@
    "left": 9825.90625,
    "top": 2687.6875,
    "outPins": [
-    41
+    "41"
    ],
    "type": "action",
    "title": "ENTER Foyer",
@@ -554,7 +554,7 @@
    "left": 8601.9375,
    "top": 1812.71875,
    "outPins": [
-    40
+    "40"
    ],
    "type": "return",
    "line": "Drop Leviathan on Ada"
@@ -563,7 +563,7 @@
    "left": 1632.96875,
    "top": 1074.328125,
    "outPins": [
-    76
+    "76"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -583,7 +583,7 @@
    "left": 8602.9375,
    "top": 1890.96875,
    "outPins": [
-    42
+    "42"
    ],
    "type": "return",
    "line": "Drop Leviathan on Mary"
@@ -592,7 +592,7 @@
    "left": 10208.09375,
    "top": 3052.859375,
    "outPins": [
-    25
+    "25"
    ],
    "type": "dialog",
    "dialogType": "Cycle",
@@ -612,7 +612,7 @@
    "left": 8691.625,
    "top": 2119.65625,
    "outPins": [
-    34
+    "34"
    ],
    "type": "action",
    "title": "New Action",
@@ -622,7 +622,7 @@
    "left": 2844.296875,
    "top": 771.84375,
    "outPins": [
-    71
+    "71"
    ],
    "type": "action",
    "title": "Ada says nothing, flips page",
@@ -632,7 +632,7 @@
    "left": 8168.96875,
    "top": 442.515625,
    "outPins": [
-    84
+    "84"
    ],
    "type": "control"
   },
@@ -672,7 +672,7 @@
    "left": 4741.15625,
    "top": 1788.96875,
    "outPins": [
-    59
+    "59"
    ],
    "type": "action",
    "title": "BOOK MODE: Tutorial",
@@ -813,7 +813,7 @@
    "left": 5331.375,
    "top": 1991.875,
    "outPins": [
-    52
+    "52"
    ],
    "type": "gameState",
    "eventList": [
@@ -825,7 +825,7 @@
    "left": 5075.9375,
    "top": 2061.375,
    "outPins": [
-    58
+    "58"
    ],
    "type": "endline",
    "line": "Pile of newspapers"
@@ -834,7 +834,7 @@
    "left": 308.1875,
    "top": 562.46875,
    "outPins": [
-    74
+    "74"
    ],
    "type": "action",
    "title": "Places",
@@ -844,7 +844,7 @@
    "left": 10807.390625,
    "top": 2286.1875,
    "outPins": [
-    98
+    "98"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -864,7 +864,7 @@
    "left": 3260.375,
    "top": 569.8125,
    "outPins": [
-    70
+    "70"
    ],
    "type": "control"
   },
@@ -889,7 +889,7 @@
    "left": 1425.21875,
    "top": 548.9375,
    "outPins": [
-    62
+    "62"
    ],
    "type": "control"
   },
@@ -897,7 +897,7 @@
    "left": 358.265625,
    "top": 397.765625,
    "outPins": [
-    77
+    "77"
    ],
    "type": "gameState",
    "eventList": [
@@ -909,7 +909,7 @@
    "left": 7727.796875,
    "top": 2156.796875,
    "outPins": [
-    29
+    "29"
    ],
    "type": "action",
    "title": "Remove LeviathonBook",
@@ -919,7 +919,7 @@
    "left": 8603.328125,
    "top": 1731.296875,
    "outPins": [
-    38
+    "38"
    ],
    "type": "return",
    "line": "Ada"
@@ -928,7 +928,7 @@
    "left": 2278.1875,
    "top": 863.796875,
    "outPins": [
-    43
+    "43"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -988,7 +988,7 @@
    "left": 3361.328125,
    "top": 1056.296875,
    "outPins": [
-    6
+    "6"
    ],
    "type": "action",
    "title": "Animations",
@@ -998,7 +998,7 @@
    "left": 2829.21875,
    "top": 1058.4375,
    "outPins": [
-    70
+    "70"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -1030,7 +1030,7 @@
    "left": 349.296875,
    "top": 235,
    "outPins": [
-    66
+    "66"
    ],
    "type": "action",
    "title": "Change Scene",
@@ -1040,7 +1040,7 @@
    "left": 1259.828125,
    "top": 1177.46875,
    "outPins": [
-    39
+    "39"
    ],
    "type": "action",
    "title": "Action",
@@ -1050,8 +1050,8 @@
    "left": 337.421875,
    "top": 854.375,
    "outPins": [
-    75,
-    55
+    "75",
+    "55"
    ],
    "type": "gameState",
    "eventList": [
@@ -1064,7 +1064,7 @@
    "left": 380.9375,
    "top": 973.1875,
    "outPins": [
-    90
+    "90"
    ],
    "type": "return",
    "line": "Scene started"
@@ -1073,7 +1073,7 @@
    "left": 1891.625,
    "top": 808.875,
    "outPins": [
-    69
+    "69"
    ],
    "type": "action",
    "title": "Ada says nothing, flips page",
@@ -1083,7 +1083,7 @@
    "left": 375.140625,
    "top": 487.140625,
    "outPins": [
-    60
+    "60"
    ],
    "type": "return",
    "line": "Scene loaded"
@@ -1123,7 +1123,7 @@
    "left": 986.640625,
    "top": 928.5625,
    "outPins": [
-    65
+    "65"
    ],
    "type": "control"
   },
@@ -1138,7 +1138,7 @@
    "left": 9162.46875,
    "top": 1759.265625,
    "outPins": [
-    32
+    "32"
    ],
    "type": "control"
   },
@@ -1146,7 +1146,7 @@
    "left": 1424.6875,
    "top": 376.921875,
    "outPins": [
-    44
+    "44"
    ],
    "type": "control"
   },
@@ -1168,7 +1168,7 @@
    "left": 984.515625,
    "top": 860.671875,
    "outPins": [
-    85
+    "85"
    ],
    "type": "control"
   },
@@ -1180,10 +1180,10 @@
    "comment": "Skip Book Puzzle"
   },
   "90": {
-   "left": 828.515625,
-   "top": 927.6875,
+   "left": 775.515625,
+   "top": 926.6875,
    "outPins": [
-    93
+    "82"
    ],
    "type": "control"
   },
@@ -1208,7 +1208,7 @@
    "left": 985.625,
    "top": 990.1875,
    "outPins": [
-    73
+    "73"
    ],
    "type": "control"
   },
@@ -1216,7 +1216,7 @@
    "left": 9462.1875,
    "top": 2679.6875,
    "outPins": [
-    37
+    "37"
    ],
    "type": "endline",
    "line": "Foyer door"
@@ -1225,7 +1225,7 @@
    "left": 5936.1875,
    "top": 2106.875,
    "outPins": [
-    11
+    "11"
    ],
    "type": "action",
    "title": "Show Scrap paper + Add to log book",
@@ -1261,7 +1261,7 @@
    "left": 11513.59375,
    "top": 2261.21875,
    "outPins": [
-    99
+    "99"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -1359,7 +1359,7 @@
    "left": 4533.9375,
    "top": 3456.046875,
    "outPins": [
-    100
+    "100"
    ],
    "type": "control"
   },
@@ -1367,7 +1367,7 @@
    "left": 4532.90625,
    "top": 3633.875,
    "outPins": [
-    101
+    "101"
    ],
    "type": "control"
   },
@@ -1375,7 +1375,7 @@
    "left": 4533.265625,
    "top": 3845.5,
    "outPins": [
-    102
+    "102"
    ],
    "type": "control"
   },
@@ -1383,7 +1383,7 @@
    "left": 4527.25,
    "top": 4028.5,
    "outPins": [
-    103
+    "103"
    ],
    "type": "control"
   },
@@ -1407,7 +1407,7 @@
    "left": 5376.6875,
    "top": 2432.015625,
    "outPins": [
-    110
+    "110"
    ],
    "type": "action",
    "title": "New Action",
@@ -1417,7 +1417,7 @@
    "left": 5761.1875,
    "top": 2468.765625,
    "outPins": [
-    111
+    "111"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -1441,7 +1441,7 @@
    "left": 6284.765625,
    "top": 2338.1875,
    "outPins": [
-    114
+    "114"
    ],
    "type": "control"
   },
@@ -1449,7 +1449,7 @@
    "left": 5774.046875,
    "top": 2224.078125,
    "outPins": [
-    95
+    "95"
    ],
    "type": "control"
   },
@@ -1457,7 +1457,7 @@
    "left": 6862.375,
    "top": 2414.65625,
    "outPins": [
-    26
+    "26"
    ],
    "type": "endline",
    "line": "Bookshelf"
@@ -1466,7 +1466,7 @@
    "left": 5806.15625,
    "top": 2323.4375,
    "outPins": [
-    112
+    "112"
    ],
    "type": "action",
    "title": "New Action",
@@ -1476,7 +1476,7 @@
    "left": 9801.4375,
    "top": 2263.96875,
    "outPins": [
-    35
+    "35"
    ],
    "type": "action",
    "title": "New Action",
@@ -1493,7 +1493,7 @@
    "left": 4506.875,
    "top": 4405.015625,
    "outPins": [
-    108
+    "108"
    ],
    "type": "control"
   },
@@ -1501,7 +1501,7 @@
    "left": 4510.765625,
    "top": 4633.96875,
    "outPins": [
-    54
+    "54"
    ],
    "type": "control"
   },
@@ -1532,7 +1532,7 @@
    "left": 4424.046875,
    "top": 5032.15625,
    "outPins": [
-    120
+    "120"
    ],
    "type": "control"
   },
@@ -1540,7 +1540,7 @@
    "left": 4360.828125,
    "top": 5403.46875,
    "outPins": [
-    123
+    "123"
    ],
    "type": "control"
   },
@@ -1580,7 +1580,7 @@
    "left": 4467.265625,
    "top": 4861.296875,
    "outPins": [
-    124
+    "124"
    ],
    "type": "control"
   }
