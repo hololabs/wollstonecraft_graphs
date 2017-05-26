@@ -775,7 +775,7 @@
    ],
    "type": "action",
    "title": "Ada Sits and reads newspaper",
-   "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nSetDraggable(\"Newspaperpile\",false)\nSetInteractable(\"Newspaper\",false)\nSetSpeed(\"Mary\",1.25)\nSetSpeed(\"Ada\",1.0)\nSetSpeed(\"Anna\",1.55)\nSetSpeed(\"Franklin\",1.2)\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nTrigger(\"Act1Chapter1\",\"IntroCameraSequence\")\nSetDraggable(\"Newspaperpile\",false)\nSetInteractable(\"Newspaper\",false)\nSetSpeed(\"Mary\",1.25)\nSetSpeed(\"Ada\",1.0)\nSetSpeed(\"Anna\",1.55)\nSetSpeed(\"Franklin\",1.2)\n"
   },
   "56": {
    "left": 6665.046735491074,
@@ -831,14 +831,14 @@
    "line": "Pile of newspapers"
   },
   "60": {
-   "left": 308.18743024553584,
+   "left": 308.18749564034607,
    "top": 562.4687412806921,
    "outPins": [
     "74"
    ],
    "type": "action",
    "title": "Places",
-   "actionCode": "Continue()\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Couch\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left couch\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"Above blocking roof\")\nSetLocation(\"CamelSaddle\",\"ByronHouseFoyer\",\"Blocking roof\")\nSetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nSetLocation(\"Rubbish\",\"ByronHouseFoyer\",\"In front of parlour door\")\nTrigger(\"Act1Chapter1\",\"IntroCameraSetup\")\n\n\n"
+   "actionCode": "SetLocation(\"Mary\",\"ByronHouseLibrary\",\"Couch\")\nSetLocation(\"Ada\",\"ByronHouseLibrary\",\"Left couch\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"Above blocking roof\")\nSetLocation(\"CamelSaddle\",\"ByronHouseFoyer\",\"Blocking roof\")\nSetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nSetLocation(\"Rubbish\",\"ByronHouseFoyer\",\"In front of parlour door\")\nTrigger(\"Act1Chapter1\",\"IntroCameraSetup\")\n\n\n"
   },
   "61": {
    "left": 10807.390485491076,
@@ -894,7 +894,7 @@
    "type": "control"
   },
   "66": {
-   "left": 358.26555524553584,
+   "left": 358.2656206403461,
    "top": 397.7656337193082,
    "outPins": [
     "77"
@@ -1044,7 +1044,7 @@
    ],
    "type": "action",
    "title": "Action",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"IntroCameraSequence\")\nWait(6)"
+   "actionCode": "\nWait(6)"
   },
   "74": {
    "left": 337.4218750000001,
@@ -1080,7 +1080,7 @@
    "actionCode": "//Trigger(\"Chapter1Act1\",\"AdaTurnsNewspaperPage\")\n"
   },
   "77": {
-   "left": 375.14055524553584,
+   "left": 375.1406424386162,
    "top": 487.1406337193082,
    "outPins": [
     "60"
