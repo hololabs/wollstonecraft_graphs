@@ -342,16 +342,14 @@
    "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nSetDraggable(\"Newspaperpile\",false)\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Behind left couch\")\nTrigger(\"Act1Chapter1\",\"MaryAlreadyDrinkingTea\")\n"
   },
   "25": {
-   "left": 10706.09375000001,
-   "top": 2891.8750000000023,
+   "left": 10734.6558779762,
+   "top": 2916.6250465029784,
    "outPins": [
-    -1,
     "96",
     "33"
    ],
    "type": "gameState",
    "eventList": [
-    "Franklin",
     "Mary",
     "Bleh room door"
    ],
@@ -832,7 +830,7 @@
    "actionCode": "ChangeScene(\"ByronHouseLibrary\")"
   },
   "65": {
-   "left": 1425.2027529761917,
+   "left": 1425.2032180059534,
    "top": 548.9375232514885,
    "outPins": [
     "62"
@@ -1016,7 +1014,7 @@
    "line": "Scene started"
   },
   "76": {
-   "left": 1891.609002976192,
+   "left": 1891.6094680059539,
    "top": 808.8749767485126,
    "outPins": [
     "69"
@@ -1059,7 +1057,7 @@
    "comment": "Skip Intro"
   },
   "81": {
-   "left": 1341.1402529761915,
+   "left": 1341.1407180059534,
    "top": 492.29689825148847,
    "outPins": [],
    "type": "comment",
