@@ -1,18 +1,18 @@
 {
  "nodes": {
   "0": {
-   "left": 358,
-   "top": 60,
+   "left": 358.0000673491381,
+   "top": 60.00000000000002,
    "outPins": [
-    38
+    "38"
    ],
    "type": "start"
   },
   "1": {
-   "left": 925.65625,
-   "top": 818.65625,
+   "left": 925.6562331627158,
+   "top": 818.6562163254313,
    "outPins": [
-    52
+    "52"
    ],
    "type": "animation",
    "title": "Ada scribbles another note and hands it to Mary. Mary examines it.",
@@ -20,18 +20,18 @@
    "action": "AdaScribblesNote"
   },
   "2": {
-   "left": 1824.40625,
-   "top": 1142.578125,
+   "left": 1824.4063173491386,
+   "top": 1142.5781250000005,
    "outPins": [
-    7,
-    8,
-    12,
-    4,
-    5,
-    32,
-    31,
-    43,
-    11
+    "7",
+    "8",
+    "12",
+    "4",
+    "5",
+    "32",
+    "31",
+    "43",
+    "11"
    ],
    "type": "gameState",
    "eventList": [
@@ -48,28 +48,28 @@
    "title": "Setup - Library"
   },
   "3": {
-   "left": 3933.0625,
-   "top": 914.015625,
+   "left": 3933.0623653017255,
+   "top": 914.0156081627158,
    "outPins": [
-    35
+    "35"
    ],
    "type": "action",
    "title": "Launch Activity : Upper Bookcase",
    "actionCode": "LaunchActivity(\"Bookshelf\", {UpperUnlocked: true});"
   },
   "4": {
-   "left": 3987.640625,
-   "top": 1186.625,
+   "left": 3987.640759698277,
+   "top": 1186.6249663254314,
    "outPins": [
-    35
+    "35"
    ],
    "type": "action",
    "title": "Launch Activity",
    "actionCode": "LaunchActivity(\"Bookshelf\", {UpperUnlocked: false});"
   },
   "5": {
-   "left": 3378.875,
-   "top": 1233.6875,
+   "left": 3378.8749326508632,
+   "top": 1233.6875336745693,
    "outPins": [
     -1
    ],
@@ -92,8 +92,8 @@
    ]
   },
   "6": {
-   "left": 2850.3125,
-   "top": 1742.03125,
+   "left": 2850.312500000001,
+   "top": 1742.0312500000007,
    "outPins": [
     -1
    ],
@@ -116,8 +116,8 @@
    ]
   },
   "7": {
-   "left": 2179.5625,
-   "top": 215.3125,
+   "left": 2179.5625673491386,
+   "top": 215.31250000000009,
    "outPins": [
     -1
    ],
@@ -140,8 +140,8 @@
    ]
   },
   "8": {
-   "left": 2219.703125,
-   "top": 659.203125,
+   "left": 2219.7031586745697,
+   "top": 659.2031334186424,
    "outPins": [
     -1
    ],
@@ -160,8 +160,8 @@
    ]
   },
   "9": {
-   "left": 2848.953125,
-   "top": 1559.4375,
+   "left": 2848.9530576508632,
+   "top": 1559.4374663254316,
    "outPins": [
     -1
    ],
@@ -170,14 +170,14 @@
    "title": "None Shall Pass",
    "parts": [
     {
-     "character": "Mr Franklin",
+     "character": "Franklin",
      "text": "{...}"
     }
    ]
   },
   "10": {
-   "left": 2843.625,
-   "top": 1279.5625,
+   "left": 2843.625067349139,
+   "top": 1279.562483162716,
    "outPins": [
     -1
    ],
@@ -196,11 +196,11 @@
    ]
   },
   "11": {
-   "left": 2196.234375,
-   "top": 1826.8125,
+   "left": 2196.2343413254316,
+   "top": 1826.8125336745695,
    "outPins": [
-    44,
-    45
+    "44",
+    "45"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -211,22 +211,22 @@
    "title": "Properties"
   },
   "12": {
-   "left": 2218.34375,
-   "top": 1036.75,
+   "left": 2218.3437163254316,
+   "top": 1036.7499831627158,
    "outPins": [
-    34
+    "34"
    ],
    "type": "action",
    "title": "PUZZLE: STEPLADDER",
    "actionCode": "Load(\"PuzzleStepladder\");"
   },
   "13": {
-   "left": 3501.8125,
-   "top": 672,
+   "left": 3501.812365301725,
+   "top": 672.0000168372848,
    "outPins": [
-    3,
-    3,
-    3
+    "3",
+    "3",
+    "3"
    ],
    "type": "gameState",
    "eventList": [
@@ -237,10 +237,10 @@
    "title": "Upper Bookshelf Reachable"
   },
   "14": {
-   "left": 5579.65625,
-   "top": 1237.296875,
+   "left": 5579.656182650864,
+   "top": 1237.296858162716,
    "outPins": [
-    15
+    "15"
    ],
    "type": "gameState",
    "eventList": [
@@ -249,8 +249,8 @@
    "title": "No Book"
   },
   "15": {
-   "left": 6090.6875,
-   "top": 1152.9375,
+   "left": 6090.687634698278,
+   "top": 1152.9375168372849,
    "outPins": [
     -1
    ],
@@ -269,8 +269,8 @@
    ]
   },
   "16": {
-   "left": 6088.703125,
-   "top": 699.59375,
+   "left": 6088.70285560345,
+   "top": 699.5937584186424,
    "outPins": [
     -1
    ],
@@ -289,10 +289,10 @@
    ]
   },
   "17": {
-   "left": 2992.0625,
-   "top": 799.171875,
+   "left": 2992.062567349139,
+   "top": 799.1718581627158,
    "outPins": [
-    13
+    "13"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -305,8 +305,8 @@
    ]
   },
   "18": {
-   "left": 3055.890625,
-   "top": 991.15625,
+   "left": 3055.890692349139,
+   "top": 991.1562163254314,
    "outPins": [
     -1
    ],
@@ -314,8 +314,8 @@
    "line": "Puzzle Unsolved"
   },
   "19": {
-   "left": 6091.421875,
-   "top": 972.578125,
+   "left": 6091.4217403017265,
+   "top": 972.5781250000003,
    "outPins": [
     -1
    ],
@@ -330,11 +330,11 @@
    ]
   },
   "20": {
-   "left": 5673.515625,
-   "top": 523.75,
+   "left": 5673.515625000002,
+   "top": 523.7500000000002,
    "outPins": [
-    23,
-    24
+    "23",
+    "24"
    ],
    "type": "gameState",
    "eventList": [
@@ -344,11 +344,11 @@
    "title": "Know About Herschel"
   },
   "21": {
-   "left": 5683.515625,
-   "top": 802.25,
+   "left": 5683.515625000002,
+   "top": 802.2499663254313,
    "outPins": [
-    16,
-    19
+    "16",
+    "19"
    ],
    "type": "gameState",
    "eventList": [
@@ -358,8 +358,8 @@
    "title": "Haven't Read Herschel"
   },
   "22": {
-   "left": 7283.40625,
-   "top": 1188.046875,
+   "left": 7283.406519396554,
+   "top": 1188.0468750000005,
    "outPins": [
     -1
    ],
@@ -374,10 +374,10 @@
    ]
   },
   "23": {
-   "left": 6101.859375,
-   "top": 356.703125,
+   "left": 6101.859509698278,
+   "top": 356.70309132543116,
    "outPins": [
-    25
+    "25"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -390,8 +390,8 @@
    ]
   },
   "24": {
-   "left": 6097.8125,
-   "top": 529.078125,
+   "left": 6097.812500000002,
+   "top": 529.0781165813579,
    "outPins": [
     -1
    ],
@@ -406,22 +406,22 @@
    ]
   },
   "25": {
-   "left": 6675.203125,
-   "top": 503.4375,
+   "left": 6675.203394396554,
+   "top": 503.43750000000017,
    "outPins": [
-    26
+    "26"
    ],
    "type": "action",
    "title": "Add to GLOSSARY",
    "actionCode": "AddToGlossary(\"Petite\");"
   },
   "26": {
-   "left": 6905.046875,
-   "top": 833.5,
+   "left": 6905.047144396554,
+   "top": 833.4999663254313,
    "outPins": [
-    27,
-    28,
-    22
+    "27",
+    "28",
+    "22"
    ],
    "type": "gameState",
    "eventList": [
@@ -432,8 +432,8 @@
    "title": "Herschel is Petite"
   },
   "27": {
-   "left": 7289.421875,
-   "top": 730.171875,
+   "left": 7289.422144396554,
+   "top": 730.1719086745692,
    "outPins": [
     -1
    ],
@@ -452,10 +452,10 @@
    ]
   },
   "28": {
-   "left": 7283.234375,
-   "top": 1005.5,
+   "left": 7283.234105603451,
+   "top": 1005.4999831627158,
    "outPins": [
-    29
+    "29"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -468,10 +468,10 @@
    ]
   },
   "29": {
-   "left": 7841.8125,
-   "top": 1079.046875,
+   "left": 7841.8123653017265,
+   "top": 1079.0468413254314,
    "outPins": [
-    48
+    "48"
    ],
    "type": "animation",
    "title": "Peebs takes small chair into Library",
@@ -479,14 +479,14 @@
    "action": "PeebsAndChairToLibrary"
   },
   "30": {
-   "left": 8717.203125,
-   "top": 907.59375,
+   "left": 8717.202990301726,
+   "top": 907.5937836745693,
    "outPins": [
-    39,
-    40,
-    41,
+    "39",
+    "40",
+    "41",
     -1,
-    33
+    "33"
    ],
    "type": "gameState",
    "eventList": [
@@ -499,10 +499,10 @@
    "title": "Small Chair Moved"
   },
   "31": {
-   "left": 2338.484375,
-   "top": 1555.953125,
+   "left": 2338.484307650863,
+   "top": 1555.9531586745695,
    "outPins": [
-    6,
+    "6",
     -1
    ],
    "type": "gameState",
@@ -513,14 +513,14 @@
    "title": "Setup - BLEH Room"
   },
   "32": {
-   "left": 2339.953125,
-   "top": 1327.078125,
+   "left": 2339.9531923491386,
+   "top": 1327.0781418372849,
    "outPins": [
-    10,
-    9,
+    "10",
+    "9",
     -1,
     -1,
-    9,
+    "9",
     -1,
     -1
    ],
@@ -537,10 +537,10 @@
    "title": "Setup - Foyer"
   },
   "33": {
-   "left": 9139.203125,
-   "top": 1420.796875,
+   "left": 9139.203259698279,
+   "top": 1420.7969086745695,
    "outPins": [
-    36
+    "36"
    ],
    "type": "animation",
    "title": "Smoke Comes out of the BLEH Room",
@@ -548,11 +548,11 @@
    "action": "SmokeBillowsOut"
   },
   "34": {
-   "left": 2649.203125,
-   "top": 964.671875,
+   "left": 2649.203091325432,
+   "top": 964.6718413254314,
    "outPins": [
-    17,
-    18
+    "17",
+    "18"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -563,10 +563,10 @@
    "title": "Figured out Puzzle?"
   },
   "35": {
-   "left": 4416.21875,
-   "top": 1049.96875,
+   "left": 4416.218682650863,
+   "top": 1049.9687668372849,
    "outPins": [
-    46
+    "46"
    ],
    "type": "gameState",
    "eventList": [
@@ -575,34 +575,34 @@
    "title": "New Book"
   },
   "36": {
-   "left": 9454.265625,
-   "top": 2236.265625,
+   "left": 9454.265894396554,
+   "top": 2236.2656586745697,
    "outPins": [],
    "type": "end"
   },
   "37": {
-   "left": 8314.265625,
-   "top": 1119.296875,
+   "left": 8314.265894396554,
+   "top": 1119.2968750000005,
    "outPins": [
-    30
+    "30"
    ],
    "type": "action",
    "title": "ENTER Library",
    "actionCode": "ChangeScene(\"ByronHouse.Library\");\nSetLocation(\"Peebs\", \"ByronHouse.Library\", \"ByFireplace\");\nSetLocation(\"SmallChair\", \"ByronHouse.Library\", \"ReadyForHerschel\");"
   },
   "38": {
-   "left": 426.484375,
-   "top": 217.375,
+   "left": 426.48437500000017,
+   "top": 217.37498316271558,
    "outPins": [
-    51
+    "51"
    ],
    "type": "action",
    "title": "LibrarySetup",
    "actionCode": "SetScene(\"ByronHouse.Library\");"
   },
   "39": {
-   "left": 9087.484375,
-   "top": 590.296875,
+   "left": 9087.484509698279,
+   "top": 590.2968834186424,
    "outPins": [
     -1
    ],
@@ -621,8 +621,8 @@
    ]
   },
   "40": {
-   "left": 9085.25,
-   "top": 880.453125,
+   "left": 9085.249865301726,
+   "top": 880.4530913254314,
    "outPins": [
     -1
    ],
@@ -641,8 +641,8 @@
    ]
   },
   "41": {
-   "left": 9142.34375,
-   "top": 1178.609375,
+   "left": 9142.343750000004,
+   "top": 1178.6094086745693,
    "outPins": [
     -1
    ],
@@ -657,10 +657,10 @@
    ]
   },
   "42": {
-   "left": 8093.34375,
-   "top": 1013.296875,
+   "left": 8093.343884698279,
+   "top": 1013.2969086745693,
    "outPins": [
-    37
+    "37"
    ],
    "type": "gameState",
    "eventList": [
@@ -669,11 +669,11 @@
    "title": "Peebs Goes To Library"
   },
   "43": {
-   "left": 2199.515625,
-   "top": 1671.21875,
+   "left": 2199.5155913254316,
+   "top": 1671.2186826508625,
    "outPins": [
-    44,
-    45
+    "44",
+    "45"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -684,8 +684,8 @@
    "title": "Properties"
   },
   "44": {
-   "left": 2565.734375,
-   "top": 1736.328125,
+   "left": 2565.7344423491386,
+   "top": 1736.3281250000007,
    "outPins": [
     -1
    ],
@@ -693,8 +693,8 @@
    "line": "Selected"
   },
   "45": {
-   "left": 2568.421875,
-   "top": 1815.546875,
+   "left": 2568.421841325432,
+   "top": 1815.5468750000007,
    "outPins": [
     -1
    ],
@@ -702,22 +702,22 @@
    "line": "New Location"
   },
   "46": {
-   "left": 4792.28125,
-   "top": 932.703125,
+   "left": 4792.281115301726,
+   "top": 932.7031418372848,
    "outPins": [
-    47
+    "47"
    ],
    "type": "action",
    "title": "BOOK MODE: Whos Who",
    "actionCode": "LaunchBookMode(\"WhosWho\");"
   },
   "47": {
-   "left": 5188.125,
-   "top": 726.78125,
+   "left": 5188.125000000002,
+   "top": 726.7812163254313,
    "outPins": [
-    20,
-    21,
-    14
+    "20",
+    "21",
+    "14"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -729,28 +729,28 @@
    "title": "Did you see Herschel Page?"
   },
   "48": {
-   "left": 7870.21875,
-   "top": 867.515625,
+   "left": 7870.218884698278,
+   "top": 867.5156586745693,
    "outPins": [
-    49
+    "49"
    ],
    "type": "endline",
    "line": "Peebs:Foyer"
   },
   "49": {
-   "left": 8025.484375,
-   "top": 933.28125,
+   "left": 8025.4842403017265,
+   "top": 933.2812500000003,
    "outPins": [
-    42
+    "42"
    ],
    "type": "endline",
    "line": "SmallChair:Foyer"
   },
   "50": {
-   "left": 383,
-   "top": 585.84375,
+   "left": 383.0000673491381,
+   "top": 585.8437584186424,
    "outPins": [
-    1
+    "1"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -807,10 +807,10 @@
    ]
   },
   "51": {
-   "left": 440.15625,
-   "top": 353.78125,
+   "left": 440.15625000000017,
+   "top": 353.78123316271564,
    "outPins": [
-    50
+    "50"
    ],
    "type": "animation",
    "title": "Ada gets up the vent the room. Ada notices the tray, and opens the letter.",
@@ -818,10 +818,10 @@
    "action": "AdaGetsHerschelLetter"
   },
   "52": {
-   "left": 1186.203125,
-   "top": 719.1875,
+   "left": 1186.2031081627158,
+   "top": 719.1875168372848,
    "outPins": [
-    2
+    "2"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -854,12 +854,12 @@
    ]
   },
   "53": {
-   "left": 927,
-   "top": 993.5,
+   "left": 927.0000168372848,
+   "top": 993.4999663254314,
    "outPins": [],
    "type": "comment",
    "comment": "Jordan: I have Anna worried about the Parlour not being ready so having to make due in the Library and worrying about what would be appropriate for Herschel, hence the hunt for the book about her.  Is this in line with her character?"
   }
  },
- "format": "goose2017-01-31-1227"
+ "format": "goose2017-05-29-0836"
 }
