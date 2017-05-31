@@ -42,7 +42,7 @@
    ],
    "type": "action",
    "title": "Ada deals with Bleh Room door smoke",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\nTrigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nWait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
   },
   "4": {
    "left": 5362.515869140627,
@@ -1034,7 +1034,7 @@
    "line": "Scene started"
   },
   "76": {
-   "left": 1891.5936279296882,
+   "left": 1891.5937805175788,
    "top": 808.8594055175785,
    "outPins": [
     "69"
@@ -1144,14 +1144,14 @@
    "comment": "Skip Book Puzzle"
   },
   "90": {
-   "left": 5674.547119140627,
-   "top": 1828.2968139648444,
+   "left": 5692.047119140627,
+   "top": 1889.5468139648444,
    "outPins": [
-    98
+    -1
    ],
    "type": "action",
    "title": "Ada returns from bleh room normally",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\n\n"
+   "actionCode": ""
   },
   "91": {
    "left": 5113.578186035158,
@@ -1252,16 +1252,6 @@
    "type": "action",
    "title": "Ada is sitting and Mary is at the booksehlf",
    "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nTriggerFSM(\"Act1Chapter1\",\"Mary look for book\")\nSetDraggable(\"Newspaperpile\",false)\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Right bookshelf\")"
-  },
-  "98": {
-   "left": 5510.000000000002,
-   "top": 1371.2500000000005,
-   "outPins": [
-    128
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Wait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\n"
   },
   "99": {
    "left": 3431.7813110351576,
@@ -1594,26 +1584,6 @@
    "type": "action",
    "title": "Skip Intro Camera",
    "actionCode": "Trigger(\"Act1Chapter1\",\"SkipCameraSetup\")"
-  },
-  "128": {
-   "left": 5601.250000000002,
-   "top": 1482.5000000000005,
-   "outPins": [
-    129
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\n"
-  },
-  "129": {
-   "left": 5832.500000000002,
-   "top": 1600.0000000000007,
-   "outPins": [
-    -1
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
   }
  },
  "format": "goose2017-05-30-1719"
