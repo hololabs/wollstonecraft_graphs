@@ -42,7 +42,7 @@
    ],
    "type": "action",
    "title": "Ada deals with Bleh Room door smoke",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\nTrigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
+   "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\nTrigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
   },
   "4": {
    "left": 5362.515709918483,
@@ -807,7 +807,7 @@
    "line": "Pile of newspapers"
   },
   "60": {
-   "left": 308.1564198369568,
+   "left": 308.15620754076116,
    "top": 562.4531356148102,
    "outPins": [
     "74"
