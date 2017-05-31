@@ -710,8 +710,8 @@
    ]
   },
   "52": {
-   "left": 5687.171630859377,
-   "top": 1643.578186035157,
+   "left": 5717.171630859377,
+   "top": 1717.328186035157,
    "outPins": [
     -1
    ],
@@ -1147,11 +1147,11 @@
    "left": 5674.547119140627,
    "top": 1828.2968139648444,
    "outPins": [
-    -1
+    98
    ],
    "type": "action",
    "title": "Ada returns from bleh room normally",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nWait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\n\n"
   },
   "91": {
    "left": 5113.578186035158,
@@ -1252,6 +1252,16 @@
    "type": "action",
    "title": "Ada is sitting and Mary is at the booksehlf",
    "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nTriggerFSM(\"Act1Chapter1\",\"Mary look for book\")\nSetDraggable(\"Newspaperpile\",false)\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Right bookshelf\")"
+  },
+  "98": {
+   "left": 5510.000000000002,
+   "top": 1371.2500000000005,
+   "outPins": [
+    128
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "Wait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\n"
   },
   "99": {
    "left": 3431.7813110351576,
@@ -1584,6 +1594,26 @@
    "type": "action",
    "title": "Skip Intro Camera",
    "actionCode": "Trigger(\"Act1Chapter1\",\"SkipCameraSetup\")"
+  },
+  "128": {
+   "left": 5601.250000000002,
+   "top": 1482.5000000000005,
+   "outPins": [
+    129
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\n"
+  },
+  "129": {
+   "left": 5832.500000000002,
+   "top": 1600.0000000000007,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
   }
  },
  "format": "goose2017-05-30-1719"
