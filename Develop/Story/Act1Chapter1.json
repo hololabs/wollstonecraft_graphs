@@ -42,7 +42,7 @@
    ],
    "type": "action",
    "title": "Ada deals with Bleh Room door smoke",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaGetsUp\")\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\n"
   },
   "4": {
    "left": 5362.515419407896,
@@ -1165,11 +1165,11 @@
    "parts": [
     {
      "character": "Ada",
-     "text": "Ahk!"
+     "text": ".."
     },
     {
      "character": "Ada",
-     "text": "..."
+     "text": "Ahk!"
     }
    ]
   },
