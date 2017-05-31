@@ -38,11 +38,11 @@
    "left": 4668.921813964846,
    "top": 1940.7812500000007,
    "outPins": [
-    "90"
+    "91"
    ],
    "type": "action",
    "title": "Ada deals with Bleh Room door smoke",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nWait(1)\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\nWait(1)\nTrigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nWait(1)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nWait(1)\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nWait(1)\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nWait(1)\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\nTrigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
   },
   "4": {
    "left": 5362.515869140627,
