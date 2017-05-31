@@ -1151,7 +1151,7 @@
    ],
    "type": "action",
    "title": "Ada returns from bleh room normally",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nWait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nWait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
   },
   "91": {
    "left": 5098.843544407896,
