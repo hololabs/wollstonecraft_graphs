@@ -1151,7 +1151,7 @@
    ],
    "type": "action",
    "title": "Ada returns from bleh room normally",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nWait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nWait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\n\n"
   },
   "91": {
    "left": 5113.578330592106,
@@ -1185,7 +1185,7 @@
    "comment": "From the beginning"
   },
   "93": {
-   "left": 6057.859272203948,
+   "left": 6056.796875000001,
    "top": 1635.765573601974,
    "outPins": [
     98
@@ -1194,6 +1194,10 @@
    "dialogType": "Dialog",
    "title": "Dialog",
    "parts": [
+    {
+     "character": "Ada",
+     "text": "{Bark?}"
+    },
     {
      "character": "Ada",
      "text": "{Bark?}"
@@ -1257,7 +1261,7 @@
    ],
    "type": "action",
    "title": "New Action",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")"
   },
   "100": {
    "left": 5233.015522203948,
