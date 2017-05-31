@@ -38,7 +38,7 @@
    "left": 4668.921813964846,
    "top": 1940.7812500000007,
    "outPins": [
-    "91"
+    "90"
    ],
    "type": "action",
    "title": "Ada deals with Bleh Room door smoke",
@@ -1147,7 +1147,7 @@
    "left": 5674.547119140627,
    "top": 1828.2968139648444,
    "outPins": [
-    98
+    -1
    ],
    "type": "action",
    "title": "Ada returns from bleh room normally",
@@ -1157,7 +1157,7 @@
    "left": 5113.578186035158,
    "top": 1883.1405639648444,
    "outPins": [
-    "90"
+    -1
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -1185,8 +1185,8 @@
    "comment": "From the beginning"
   },
   "93": {
-   "left": 6056.796875000002,
-   "top": 1635.765686035157,
+   "left": 5996.796875000002,
+   "top": 1323.2656860351567,
    "outPins": [
     -1
    ],
