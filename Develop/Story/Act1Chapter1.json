@@ -808,7 +808,7 @@
   },
   "60": {
    "left": 308.1561279296876,
-   "top": 562.4531555175784,
+   "top": 562.4531173706057,
    "outPins": [
     "74"
    ],
@@ -826,7 +826,7 @@
   },
   "62": {
    "left": 3260.359497070314,
-   "top": 569.7969055175784,
+   "top": 569.7968673706057,
    "outPins": [
     116
    ],
@@ -1034,7 +1034,7 @@
    "line": "Scene started"
   },
   "76": {
-   "left": 1891.5937805175788,
+   "left": 1891.5936279296882,
    "top": 808.8594055175785,
    "outPins": [
     "69"
@@ -1151,7 +1151,7 @@
    ],
    "type": "action",
    "title": "Ada returns from bleh room normally",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nWait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\n\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nWait(5)\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n\n"
   },
   "91": {
    "left": 5113.578186035158,
@@ -1252,16 +1252,6 @@
    "type": "action",
    "title": "Ada is sitting and Mary is at the booksehlf",
    "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nTriggerFSM(\"Act1Chapter1\",\"Mary look for book\")\nSetDraggable(\"Newspaperpile\",false)\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Right bookshelf\")"
-  },
-  "98": {
-   "left": 6073.656005859377,
-   "top": 1472.5936889648442,
-   "outPins": [
-    -1
-   ],
-   "type": "action",
-   "title": "Ada returns to couch and reads newspaper",
-   "actionCode": ""
   },
   "99": {
    "left": 3431.7813110351576,
