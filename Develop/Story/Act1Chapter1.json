@@ -1260,7 +1260,7 @@
     -1
    ],
    "type": "action",
-   "title": "New Action",
+   "title": "Ada returns to couch and reads newspaper",
    "actionCode": "Trigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")"
   },
   "100": {
