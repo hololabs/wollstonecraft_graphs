@@ -2,7 +2,7 @@
  "nodes": {
   "0": {
    "left": 165.00000000000014,
-   "top": 321.42188030740516,
+   "top": 321.4218537703807,
    "outPins": [
     "72"
    ],
@@ -35,14 +35,14 @@
    ]
   },
   "3": {
-   "left": 4668.921959918483,
-   "top": 1940.7812500000016,
+   "left": 5150.656419836961,
+   "top": 1930.3437075407626,
    "outPins": [
     "91"
    ],
    "type": "action",
    "title": "Ada deals with Bleh Room door smoke",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\nTrigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
   },
   "4": {
    "left": 5362.515709918483,
@@ -859,7 +859,7 @@
   },
   "66": {
    "left": 358.23433254076116,
-   "top": 397.7500053074052,
+   "top": 397.7499787703808,
    "outPins": [
     "77"
    ],
@@ -1108,7 +1108,7 @@
   },
   "85": {
    "left": 1424.6875000000011,
-   "top": 376.8906303074052,
+   "top": 376.8906037703808,
    "outPins": [
     "44"
    ],
@@ -1123,7 +1123,7 @@
   },
   "87": {
    "left": 1357.9687500000011,
-   "top": 313.14063030740516,
+   "top": 313.1406037703807,
    "outPins": [],
    "type": "comment",
    "comment": "Skip Book Puzzle"
@@ -1143,66 +1143,12 @@
    "type": "comment",
    "comment": "Skip Book Puzzle"
   },
-  "90": {
-   "left": 5240.796959918483,
-   "top": 1467.0468537703816,
-   "outPins": [
-    98
-   ],
-   "type": "action",
-   "title": "Ada returns from bleh room normally",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\n"
-  },
-  "91": {
-   "left": 5113.5780400815265,
-   "top": 1883.1407099184798,
-   "outPins": [
-    "90"
-   ],
-   "type": "dialog",
-   "dialogType": "Dialog",
-   "title": "Ada noticed bleh room steam",
-   "parts": [
-    {
-     "character": "Ada",
-     "text": ".."
-    },
-    {
-     "character": "Ada",
-     "text": "..."
-    },
-    {
-     "character": "Ada",
-     "text": "Ahk!"
-    }
-   ]
-  },
   "92": {
    "left": 1028.437500000001,
    "top": 998.9062500000008,
    "outPins": [],
    "type": "comment",
    "comment": "From the beginning"
-  },
-  "93": {
-   "left": 5996.7968750000055,
-   "top": 1323.2656462296206,
-   "outPins": [
-    129
-   ],
-   "type": "dialog",
-   "dialogType": "Dialog",
-   "title": "Dialog",
-   "parts": [
-    {
-     "character": "Ada",
-     "text": "{Bark?}"
-    },
-    {
-     "character": "Ada",
-     "text": "{Bark?}"
-    }
-   ]
   },
   "94": {
    "left": 9462.187500000007,
@@ -1252,30 +1198,6 @@
    "type": "action",
    "title": "Ada is sitting and Mary is at the booksehlf",
    "actionCode": "Continue()\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\nTriggerFSM(\"Act1Chapter1\",\"Mary look for book\")\nSetDraggable(\"Newspaperpile\",false)\nSetLocation(\"Mary\",\"ByronHouseLibrary\",\"Right bookshelf\")"
-  },
-  "98": {
-   "left": 5381.6720448369615,
-   "top": 1062.8750212296204,
-   "outPins": [
-    128
-   ],
-   "type": "dialog",
-   "dialogType": "Dialog",
-   "title": "Ada noticed bleh room steam",
-   "parts": [
-    {
-     "character": "Ada",
-     "text": ".."
-    },
-    {
-     "character": "Ada",
-     "text": "..."
-    },
-    {
-     "character": "Ada",
-     "text": "Ahk!"
-    }
-   ]
   },
   "99": {
    "left": 3431.7811650815247,
@@ -1608,56 +1530,6 @@
    "type": "action",
    "title": "Skip Intro Camera",
    "actionCode": "Trigger(\"Act1Chapter1\",\"SkipCameraSetup\")"
-  },
-  "128": {
-   "left": 5919.0625000000055,
-   "top": 1092.109375000001,
-   "outPins": [
-    93
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\n"
-  },
-  "129": {
-   "left": 6276.5000849184835,
-   "top": 1099.1250212296204,
-   "outPins": [
-    131
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\n"
-  },
-  "130": {
-   "left": 6198.2498301630485,
-   "top": 1506.0468325407621,
-   "outPins": [
-    -1
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
-  },
-  "131": {
-   "left": 5754.765625000005,
-   "top": 1518.2343325407621,
-   "outPins": [
-    130
-   ],
-   "type": "dialog",
-   "dialogType": "Dialog",
-   "title": "Dialog",
-   "parts": [
-    {
-     "character": "Ada",
-     "text": "{Bark?}"
-    },
-    {
-     "character": "Ada",
-     "text": "{Bark?}"
-    }
-   ]
   }
  },
  "format": "goose2017-05-30-1719"
