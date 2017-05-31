@@ -38,11 +38,11 @@
    "left": 4668.921813964846,
    "top": 1940.7812500000007,
    "outPins": [
-    "91"
+    "90"
    ],
    "type": "action",
    "title": "Ada deals with Bleh Room door smoke",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\nTrigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"OpenBlehRoomDoor\")\nTrigger(\"Act1Chapter1\",\"AdaGetsUp\")\n"
   },
   "4": {
    "left": 5362.515869140627,
@@ -1144,14 +1144,14 @@
    "comment": "Skip Book Puzzle"
   },
   "90": {
-   "left": 5692.047119140627,
-   "top": 1889.5468139648444,
+   "left": 5378.297119140627,
+   "top": 1493.2968139648442,
    "outPins": [
     -1
    ],
    "type": "action",
    "title": "Ada returns from bleh room normally",
-   "actionCode": ""
+   "actionCode": "Trigger(\"Act1Chapter1\",\"AdaRunsIntoBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsFromBlehRoom\")\nTrigger(\"Act1Chapter1\",\"AdaReturnsToCouch\")\nTrigger(\"Act1Chapter1\",\"AdaSitsAndReadsNewspaper\")\n"
   },
   "91": {
    "left": 5113.578186035158,
