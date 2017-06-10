@@ -1,10 +1,10 @@
 {
  "nodes": {
   "0": {
-   "left": 341,
-   "top": 432,
+   "left": 164,
+   "top": 150,
    "outPins": [
-    23
+    26
    ],
    "type": "start"
   },
@@ -22,7 +22,7 @@
    "left": 1625.421875,
    "top": 920.828125,
    "outPins": [
-    15
+    "15"
    ],
    "type": "action",
    "title": "Exit Carriage First Time",
@@ -32,7 +32,7 @@
    "left": 730.921875,
    "top": 619.3125,
    "outPins": [
-    4
+    "4"
    ],
    "type": "action",
    "title": "Setup",
@@ -42,11 +42,11 @@
    "left": 1178.90625,
    "top": 713.296875,
    "outPins": [
-    13,
-    2,
-    10,
-    9,
-    17
+    "13",
+    "2",
+    "10",
+    "9",
+    "17"
    ],
    "type": "gameState",
    "eventList": [
@@ -62,7 +62,7 @@
    "left": 1635.421875,
    "top": 612.875,
    "outPins": [
-    6
+    "6"
    ],
    "type": "action",
    "title": "Enter Foyer",
@@ -72,9 +72,9 @@
    "left": 2133,
    "top": 660,
    "outPins": [
-    7,
-    11,
-    8
+    "7",
+    "11",
+    "8"
    ],
    "type": "gameState",
    "eventList": [
@@ -98,7 +98,7 @@
    "left": 2521.15625,
    "top": 862.8125,
    "outPins": [
-    12
+    "12"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -114,7 +114,7 @@
    "left": 1624.984375,
    "top": 1265.984375,
    "outPins": [
-    18
+    "18"
    ],
    "type": "action",
    "title": "Grab Thimble",
@@ -154,7 +154,7 @@
    "left": 1369.515625,
    "top": 477.40625,
    "outPins": [
-    5
+    "5"
    ],
    "type": "endline",
    "line": "Franklin"
@@ -163,8 +163,8 @@
    "left": 2319.796875,
    "top": 1181.3125,
    "outPins": [
-    16,
-    1
+    "16",
+    "1"
    ],
    "type": "gameState",
    "eventList": [
@@ -177,7 +177,7 @@
    "left": 2031.671875,
    "top": 1048.640625,
    "outPins": [
-    14
+    "14"
    ],
    "type": "endline",
    "line": "Exit carriage"
@@ -196,7 +196,7 @@
    "left": 1619.640625,
    "top": 1410,
    "outPins": [
-    19
+    "19"
    ],
    "type": "action",
    "title": "Grab Button",
@@ -224,7 +224,7 @@
    "left": 1609,
    "top": 363,
    "outPins": [
-    5
+    "5"
    ],
    "type": "control"
   },
@@ -232,7 +232,7 @@
    "left": 664,
    "top": 346,
    "outPins": [
-    25
+    "25"
    ],
    "type": "control"
   },
@@ -247,7 +247,7 @@
    "left": 671,
    "top": 468,
    "outPins": [
-    3
+    "3"
    ],
    "type": "control"
   },
@@ -262,12 +262,24 @@
    "left": 979,
    "top": 368,
    "outPins": [
-    20
+    "20"
    ],
    "type": "action",
    "title": "Setup",
    "actionCode": "RunChapter(\"Act1Intro\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n"
+  },
+  "26": {
+   "left": 314,
+   "top": 363,
+   "outPins": [
+    "23",
+    "21"
+   ],
+   "type": "skip",
+   "skipList": [
+    "Inside"
+   ]
   }
  },
- "format": "goose2017-01-31-1227"
+ "format": "goose2017-05-30-1719"
 }
