@@ -1008,7 +1008,7 @@
    ],
    "type": "action",
    "title": "Action",
-   "actionCode": "Trigger(\"Act1Chapter1\",\"IntroCameraSequence\")\nWait(6)\nPrint(\"Welcome to Act1Chapter1\")\n"
+   "actionCode": "Trigger(\"Act1Chapter1\",\"IntroCameraSequence\")\nWait(6)\n"
   },
   "74": {
    "left": 343.4375,
