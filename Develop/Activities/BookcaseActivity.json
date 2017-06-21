@@ -1,16 +1,16 @@
 {
  "nodes": {
   "0": {
-   "left": 4762.734375000003,
-   "top": 2815.1562500000014,
+   "left": 4762.734375,
+   "top": 2815.15625,
    "outPins": [
     "1"
    ],
    "type": "start"
   },
   "1": {
-   "left": 5027.546807650864,
-   "top": 2833.0623653017255,
+   "left": 5027.546875,
+   "top": 2833.046875,
    "outPins": [
     "2"
    ],
@@ -19,9 +19,10 @@
    "actionCode": "ChangeScene(\"BookcaseActivity\");"
   },
   "2": {
-   "left": 5493.7654903017265,
-   "top": 2852.3905576508637,
+   "left": 5493.765625,
+   "top": 2852.390625,
    "outPins": [
+    -1,
     "3"
    ],
    "type": "gameState",
@@ -31,15 +32,15 @@
    "title": "New Game State"
   },
   "3": {
-   "left": 5892.390894396554,
-   "top": 2748.9530576508632,
+   "left": 5892.390625,
+   "top": 2748.953125,
    "outPins": [
-    "5"
+    -1
    ],
    "type": "action",
    "title": "New Action",
    "actionCode": "//ChangeScene(\"ByronHouseLibrary\")"
   }
  },
- "format": "goose2017-01-31-1227"
+ "format": "goose2017-06-21-1239"
 }
