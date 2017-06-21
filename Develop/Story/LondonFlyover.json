@@ -22,6 +22,7 @@
    "left": 772,
    "top": 408,
    "outPins": [
+    -1,
     "6"
    ],
    "type": "gameState",
@@ -41,5 +42,5 @@
    "actionCode": "RunChapter(\"Act1Intro\")"
   }
  },
- "format": "goose2017-01-31-1227"
+ "format": "goose2017-06-21-1239"
 }
