@@ -1,32 +1,30 @@
 {
  "nodes": {
   "1": {
-   "id": 1,
-   "left": 4789.7342722039475,
-   "top": 2697.375102796053,
+   "left": 4789.734375,
+   "top": 2697.375,
    "outPins": [
-    2
+    "2"
    ],
    "type": "start"
   },
   "2": {
-   "id": 2,
-   "left": 5054.546669407895,
-   "top": 2715.2968236019738,
+   "left": 5054.546875,
+   "top": 2715.296875,
    "outPins": [
-    3
+    "3"
    ],
    "type": "action",
    "title": "Setup Activity",
    "actionCode": "ChangeScene(\"TelescopeFinderActivity\")"
   },
   "3": {
-   "id": 3,
-   "left": 5520.765830592106,
-   "top": 2734.6250513980262,
+   "left": 5520.765625,
+   "top": 2734.625,
    "outPins": [
-    5,
-    6
+    -1,
+    "5",
+    "6"
    ],
    "type": "gameState",
    "eventList": [
@@ -36,9 +34,8 @@
    "title": "Punch Card Activity"
   },
   "4": {
-   "id": 4,
-   "left": 6553.1563527960525,
-   "top": 2524.5469263980262,
+   "left": 6553.15625,
+   "top": 2524.546875,
    "outPins": [
     -1
    ],
@@ -47,11 +44,10 @@
    "actionCode": "ChangeScene(\"ByronHouseLibrary\")"
   },
   "5": {
-   "id": 5,
-   "left": 5969.1719777960525,
-   "top": 2554.2655222039475,
+   "left": 5969.171875,
+   "top": 2554.265625,
    "outPins": [
-    4
+    "4"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -64,8 +60,7 @@
    ]
   },
   "6": {
-   "id": 6,
-   "left": 5870.015419407895,
+   "left": 5870.015625,
    "top": 2876.484375,
    "outPins": [
     -1
@@ -81,5 +76,5 @@
    ]
   }
  },
- "format": "goose2017-03-07-1818"
+ "format": "goose2017-06-21-1239"
 }
