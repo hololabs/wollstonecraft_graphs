@@ -2,7 +2,7 @@
  "nodes": {
   "0": {
    "left": 291.4062500000001,
-   "top": 372.84373316271564,
+   "top": 372.8281165813579,
    "outPins": [
     "2"
    ],
@@ -22,7 +22,7 @@
    "left": 693.374991581358,
    "top": 469.18751683728465,
    "outPins": [
-    4
+    "4"
    ],
    "type": "action",
    "title": "New Action",
@@ -50,14 +50,14 @@
   },
   "4": {
    "left": 980.6718918372848,
-   "top": 711.7030913254313,
+   "top": 711.6875168372848,
    "outPins": [
     -1,
     "1"
    ],
    "type": "gameState",
    "eventList": [
-    "Enter ByronHouseLibrary"
+    "Scene started"
    ],
    "title": "Events"
   }
