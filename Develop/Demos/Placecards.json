@@ -2,35 +2,35 @@
  "nodes": {
   "0": {
    "left": 291.4062500000001,
-   "top": 372.8437587193082,
+   "top": 372.84373316271564,
    "outPins": [
-    2
+    "2"
    ],
    "type": "start"
   },
   "1": {
    "left": 1375.7031250000005,
-   "top": 538.5468837193082,
+   "top": 538.5468581627157,
    "outPins": [
-    3
+    "3"
    ],
    "type": "placecard",
    "title": "Placecard",
    "text": "This is a placecard"
   },
   "2": {
-   "left": 908.5625348772325,
-   "top": 567.1249825613842,
+   "left": 908.5625168372848,
+   "top": 567.1249915813579,
    "outPins": [
-    1
+    "1"
    ],
    "type": "action",
    "title": "New Action",
-   "actionCode": "Wait(2)"
+   "actionCode": "ChangeScene(\"ByronHouseLibrary\")"
   },
   "3": {
-   "left": 1817.125069754465,
-   "top": 544.2656162806921,
+   "left": 1817.1250336745695,
+   "top": 544.2656418372846,
    "outPins": [
     -1
    ],
