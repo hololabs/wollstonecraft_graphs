@@ -1,16 +1,16 @@
 {
  "nodes": {
   "0": {
-   "left": 49.00000000000024,
-   "top": 415.00000000000205,
+   "left": 48.984375000000036,
+   "top": 415.0000000000003,
    "outPins": [
     "58"
    ],
    "type": "start"
   },
   "1": {
-   "left": 2124.5000000000105,
-   "top": 1292.6875000000064,
+   "left": 2982.0781674592413,
+   "top": 1204.03129245924,
    "outPins": [
     -1
    ],
@@ -33,27 +33,25 @@
    ]
   },
   "2": {
-   "left": 1791.9843750000086,
-   "top": 936.2187500000045,
+   "left": 2256.843792459241,
+   "top": 933.5156250000006,
    "outPins": [
-    -1,
+    23,
     "20",
     "3",
-    "1",
-    "10"
+    "1"
    ],
    "type": "gameState",
    "eventList": [
     "Peebs",
     "Ada",
-    "Mary",
-    "DoorToLibrary"
+    "Mary"
    ],
    "title": "Setup - BLEH Room"
   },
   "3": {
-   "left": 2128.0781250000105,
-   "top": 931.6093750000045,
+   "left": 2985.937500000002,
+   "top": 843.0000106148103,
    "outPins": [
     -1
    ],
@@ -76,28 +74,18 @@
    ]
   },
   "4": {
-   "left": 4799.765625000024,
-   "top": 884.3750000000043,
+   "left": 2992.343750000002,
+   "top": 1598.078082540762,
    "outPins": [
     -1
    ],
-   "type": "dialog",
-   "dialogType": "Dialog",
-   "title": "I need something to unlock that door",
-   "parts": [
-    {
-     "character": "Peebs",
-     "text": "{ I need something to reach that lock!}"
-    },
-    {
-     "character": "Peebs",
-     "text": "{The small chair wasn't tall enough}"
-    }
-   ]
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "A chess piece is added to the players inventory"
   },
   "5": {
-   "left": 4008.1093750000196,
-   "top": 2342.5468750000114,
+   "left": 2573.828125000002,
+   "top": 3338.7187924592413,
    "outPins": [
     "8",
     "7"
@@ -111,8 +99,8 @@
    "title": "Properties"
   },
   "6": {
-   "left": 4008.3281250000196,
-   "top": 2493.3281250000123,
+   "left": 2574.1249150815233,
+   "top": 3489.4062075407633,
    "outPins": [
     -1,
     "30"
@@ -126,8 +114,8 @@
    "title": "Properties"
   },
   "7": {
-   "left": 4456.796875000022,
-   "top": 2597.9687500000127,
+   "left": 3208.7969174592413,
+   "top": 3348.5156250000023,
    "outPins": [
     "9",
     "31"
@@ -141,8 +129,8 @@
    "title": "Move to"
   },
   "8": {
-   "left": 4484.796875000022,
-   "top": 2518.1093750000123,
+   "left": 2918.468707540763,
+   "top": 3317.0000424592413,
    "outPins": [
     -1
    ],
@@ -150,8 +138,8 @@
    "line": "Selected"
   },
   "9": {
-   "left": 5126.7968750000255,
-   "top": 2553.4687500000123,
+   "left": 4411.234290081525,
+   "top": 3439.1094174592413,
    "outPins": [
     -1
    ],
@@ -170,18 +158,18 @@
    ]
   },
   "10": {
-   "left": 1798.4375000000089,
-   "top": 1649.328125000008,
+   "left": 3479.9687924592413,
+   "top": 2759.9842900815233,
    "outPins": [
-    "25"
+    -1
    ],
-   "type": "action",
-   "title": "Setup Library",
-   "actionCode": "SetLocation(\"StepChair\", \"ByronHouse.Library\");\nSetAnimation(\"StepChair\", \"ToggleChair\");"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "The hidden object activity is activated and the player finds a chess piece"
   },
   "11": {
-   "left": 5930.796875000029,
-   "top": 2323.7500000000114,
+   "left": 5354.79704483696,
+   "top": 3363.7500000000023,
    "outPins": [
     -1,
     "12",
@@ -197,8 +185,8 @@
    "title": "Peebs Has Stepladder"
   },
   "12": {
-   "left": 6268.296875000031,
-   "top": 2251.265625000011,
+   "left": 5692.297044836961,
+   "top": 3291.2657099184803,
    "outPins": [
     -1
    ],
@@ -206,8 +194,8 @@
    "line": "PEEBS IS IN FOYER"
   },
   "13": {
-   "left": 6297.046875000031,
-   "top": 2318.4062500000114,
+   "left": 5721.047044836961,
+   "top": 3358.4062924592413,
    "outPins": [
     -1
    ],
@@ -215,8 +203,8 @@
    "line": "WITH PEEBS IN FOYER"
   },
   "14": {
-   "left": 5661.000000000027,
-   "top": 2424.687500000012,
+   "left": 5085.000000000004,
+   "top": 3464.6875000000023,
    "outPins": [
     "11"
    ],
@@ -226,8 +214,8 @@
    "action": "LeaveLibraryWithStepladder"
   },
   "15": {
-   "left": 6269.968750000031,
-   "top": 2433.328125000012,
+   "left": 5693.968665081526,
+   "top": 3473.3281674592413,
    "outPins": [
     "16"
    ],
@@ -236,8 +224,8 @@
    "actionCode": ""
   },
   "16": {
-   "left": 6622.625000000033,
-   "top": 2247.828125000011,
+   "left": 6046.624915081526,
+   "top": 3287.8282099184803,
    "outPins": [
     -1,
     "36",
@@ -251,8 +239,8 @@
    "title": "RoofDoorUnlcoked"
   },
   "17": {
-   "left": 7004.546875000035,
-   "top": 2428.437500000012,
+   "left": 6428.547044836961,
+   "top": 3468.4375000000023,
    "outPins": [
     "38"
    ],
@@ -261,8 +249,8 @@
    "actionCode": "SetScene(\"ByronHouse.Roof\");"
   },
   "18": {
-   "left": 7642.937500000037,
-   "top": 2682.828125000013,
+   "left": 7066.9374150815265,
+   "top": 3722.8282099184808,
    "outPins": [
     -1,
     "19",
@@ -286,8 +274,8 @@
    "title": "Setup - Roof"
   },
   "19": {
-   "left": 7419.218750000036,
-   "top": 2313.6875000000114,
+   "left": 6843.218834918483,
+   "top": 3353.6875849184803,
    "outPins": [
     -1
    ],
@@ -310,10 +298,10 @@
    ]
   },
   "20": {
-   "left": 2128.5781250000105,
-   "top": 761.5156250000038,
+   "left": 2986.437457540763,
+   "top": 672.9062287703808,
    "outPins": [
-    "21"
+    25
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -326,63 +314,57 @@
    ]
   },
   "21": {
-   "left": 4111.10937500002,
-   "top": 754.8125000000036,
+   "left": 1916.5155825407621,
+   "top": 673.03127122962,
    "outPins": [
-    "23"
+    "2"
    ],
-   "type": "animation",
-   "title": "Peebs leaves to go look on the roof",
-   "actor": "Peebs",
-   "action": "ExitBlehRoom"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Peebs leaves to the library"
   },
   "22": {
-   "left": 4450.187500000022,
-   "top": 1102.4687500000055,
-   "outPins": [
-    -1,
-    "4",
-    "27"
-   ],
-   "type": "gameState",
-   "eventList": [
-    "Peebs:Library",
-    "ChessPiece2:Library"
-   ],
-   "title": "PeebsLeft"
-  },
-  "23": {
-   "left": 4388.765625000022,
-   "top": 771.2187500000038,
-   "outPins": [
-    "59"
-   ],
-   "type": "endline",
-   "line": "Peebs:BlehRoom"
-  },
-  "24": {
-   "left": 5730.546875000028,
-   "top": 1084.9687500000052,
+   "left": 3866.6406250000027,
+   "top": 780.9375000000006,
    "outPins": [
     -1
    ],
-   "type": "action",
-   "title": "INVENTORY",
-   "actionCode": "Add"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "The door to the roof is now unlocked"
+  },
+  "23": {
+   "left": 2577.031250000002,
+   "top": 1649.5937712296206,
+   "outPins": [
+    "28",
+    4,
+    4,
+    4,
+    4
+   ],
+   "type": "gameState",
+   "eventList": [
+    "ChessPiece2",
+    "ChessPiece3",
+    "ChessPiece4",
+    "Solved steamaphone chess piece puzzle"
+   ],
+   "title": "Setup - Chess pieces"
   },
   "25": {
-   "left": 2043.71875000001,
-   "top": 1854.156250000009,
+   "left": 3536.6718325407633,
+   "top": 600.2031143851906,
    "outPins": [
-    "28"
+    22
    ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "SetScene(\"Library\");"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Peebs leaves to the foyer to find the chess pieces"
   },
   "26": {
-   "left": 4821.578125000024,
-   "top": 2194.000000000011,
+   "left": 3636.1094599184808,
+   "top": 2404.9061650815233,
    "outPins": [
     -1
    ],
@@ -391,73 +373,42 @@
    "title": "None Shall Pass",
    "parts": [
     {
-     "character": "Action",
+     "character": "Franklin",
      "text": "{...}"
     }
    ]
   },
-  "27": {
-   "left": 5294.4687500000255,
-   "top": 1164.9375000000057,
-   "outPins": [
-    "24",
-    -1
-   ],
-   "type": "condition",
-   "conditionCode": "",
-   "eventList": [
-    "Select",
-    "False"
-   ],
-   "title": "Properties"
-  },
   "28": {
-   "left": 2169.2656250000105,
-   "top": 2024.4375000000098,
+   "left": 2655.71883491848,
+   "top": 2171.7499575407624,
    "outPins": [
-    -1,
-    "37",
     "29",
-    "5",
-    "5",
-    "5",
-    "6"
+    "37"
    ],
    "type": "gameState",
    "eventList": [
-    "DoorToBleh:Library",
-    "DoorToFoyer:Library",
-    "SmallChair:Library",
-    "MediumChair:Library",
-    "LargeChair:Library",
-    "StepChair:Library"
+    "Exit to BlehRoom from ByronHouseLibrary"
    ],
    "title": "Setup - Library"
   },
   "29": {
-   "left": 3978.1875000000196,
-   "top": 2145.5781250000105,
+   "left": 3002.421875000002,
+   "top": 2532.703167459241,
    "outPins": [
     -1,
-    "34",
-    "35",
-    -1,
     "26",
-    "48"
+    "10"
    ],
    "type": "gameState",
    "eventList": [
-    "DoorToAdasRoom:Foyer",
-    "DoorToPlayersRoom:Foyer",
-    "DoorToRoof:Foyer",
-    "MrFranklin:Foyer",
-    "ChessPiece1:Foyer"
+    "Mr Franklin",
+    "Pile of parlour"
    ],
    "title": "Setup - Foyer"
   },
   "30": {
-   "left": 4461.546875000022,
-   "top": 2748.9687500000136,
+   "left": 3213.5625424592413,
+   "top": 3499.5000424592413,
    "outPins": [
     "32",
     "31"
@@ -471,8 +422,8 @@
    "title": "Move to"
   },
   "31": {
-   "left": 4794.546875000024,
-   "top": 2721.968750000013,
+   "left": 4079.031080163046,
+   "top": 3607.5781250000023,
    "outPins": [
     -1
    ],
@@ -480,8 +431,8 @@
    "line": "New Location"
   },
   "32": {
-   "left": 4800.546875000024,
-   "top": 2851.968750000014,
+   "left": 4085.0314198369592,
+   "top": 3737.5781250000023,
    "outPins": [
     "9",
     "33"
@@ -495,8 +446,8 @@
    "title": "Chair state?"
   },
   "33": {
-   "left": 5183.5468750000255,
-   "top": 2836.9687500000136,
+   "left": 4468.031165081525,
+   "top": 3722.5781250000023,
    "outPins": [
     "14"
    ],
@@ -510,28 +461,9 @@
     }
    ]
   },
-  "34": {
-   "left": 4331.578125000021,
-   "top": 2066.60937500001,
-   "outPins": [
-    -1
-   ],
-   "type": "return",
-   "line": "LOCKED"
-  },
-  "35": {
-   "left": 4366.765625000021,
-   "top": 2131.1562500000105,
-   "outPins": [
-    -1
-   ],
-   "type": "action",
-   "title": "ENTER Players Room",
-   "actionCode": ""
-  },
   "36": {
-   "left": 6968.859375000034,
-   "top": 2115.9375000000105,
+   "left": 6392.843919836961,
+   "top": 3155.9375000000023,
    "outPins": [
     -1
    ],
@@ -550,12 +482,12 @@
    ]
   },
   "37": {
-   "left": 4021.6250000000196,
-   "top": 1868.359375000009,
+   "left": 3179.0625000000023,
+   "top": 1946.6563349184796,
    "outPins": [
     "41",
     "40",
-    "39"
+    -1
    ],
    "type": "condition",
    "conditionCode": "",
@@ -567,8 +499,8 @@
    "title": "Do you have Chess Pieces?"
   },
   "38": {
-   "left": 7429.859375000036,
-   "top": 2391.437500000012,
+   "left": 6853.859544836961,
+   "top": 3431.4374575407633,
    "outPins": [
     "18"
    ],
@@ -577,18 +509,9 @@
    "actor": "Peebs",
    "action": "PeebsEntersRoof"
   },
-  "39": {
-   "left": 4425.000000000022,
-   "top": 1965.1250000000095,
-   "outPins": [
-    -1
-   ],
-   "type": "return",
-   "line": "No Change"
-  },
   "40": {
-   "left": 5185.0781250000255,
-   "top": 1899.7968750000093,
+   "left": 5230.171959918482,
+   "top": 2167.9687500000014,
    "outPins": [
     -1,
     "44",
@@ -596,14 +519,14 @@
    ],
    "type": "gameState",
    "eventList": [
-    "Ada:Bleh",
-    "Mary:Bleh"
+    "Ada",
+    "Mary"
    ],
    "title": "All Chess Pieces"
   },
   "41": {
-   "left": 4610.265625000023,
-   "top": 1577.2500000000077,
+   "left": 3923.2345448369592,
+   "top": 1787.9687500000011,
    "outPins": [
     -1,
     "42",
@@ -611,14 +534,14 @@
    ],
    "type": "gameState",
    "eventList": [
-    "Ada:Bleh",
-    "Mary:Bleh"
+    "Ada",
+    "Mary"
    ],
    "title": "Some Chess Pieces"
   },
   "42": {
-   "left": 5021.687500000025,
-   "top": 1317.7968750000064,
+   "left": 4434.421705163047,
+   "top": 1472.343750000001,
    "outPins": [
     -1
    ],
@@ -637,8 +560,8 @@
    ]
   },
   "43": {
-   "left": 4989.656250000025,
-   "top": 1600.0781250000077,
+   "left": 4445.984205163047,
+   "top": 1780.0156037703816,
    "outPins": [
     -1
    ],
@@ -657,8 +580,8 @@
    ]
   },
   "44": {
-   "left": 6247.375000000031,
-   "top": 1457.437500000007,
+   "left": 5745.546875000004,
+   "top": 1893.7969174592404,
    "outPins": [
     "46"
    ],
@@ -668,17 +591,17 @@
    "parts": [
     {
      "character": "Ada",
-     "text": ""
+     "text": "{thank you}"
     },
     {
      "character": "Mary",
-     "text": ""
+     "text": "{thank you}"
     }
    ]
   },
   "45": {
-   "left": 6231.65625000003,
-   "top": 1784.1093750000086,
+   "left": 5729.765625000004,
+   "top": 2220.56258491848,
    "outPins": [
     "46"
    ],
@@ -688,48 +611,23 @@
    "parts": [
     {
      "character": "Mary",
-     "text": ""
+     "text": "{thank you}"
     },
     {
      "character": "Ada",
-     "text": ""
+     "text": "{thank you}"
     }
    ]
   },
   "46": {
-   "left": 7059.187500000035,
-   "top": 1633.765625000008,
+   "left": 6557.297044836961,
+   "top": 2070.218665081523,
    "outPins": [],
    "type": "end"
   },
-  "47": {
-   "left": 4738.546875000023,
-   "top": 2436.968750000012,
-   "outPins": [
-    -1
-   ],
-   "type": "action",
-   "title": "IINVENTORY",
-   "actionCode": ""
-  },
-  "48": {
-   "left": 4402.406250000022,
-   "top": 2389.625000000012,
-   "outPins": [
-    "47",
-    -1
-   ],
-   "type": "condition",
-   "conditionCode": "",
-   "eventList": [
-    "Select",
-    "False"
-   ],
-   "title": "Condition"
-  },
   "49": {
-   "left": 7398.015625000036,
-   "top": 2984.3281250000146,
+   "left": 6822.0155400815265,
+   "top": 4024.3282948369592,
    "outPins": [
     "52",
     "52",
@@ -745,8 +643,8 @@
    "title": "Properties"
   },
   "50": {
-   "left": 8459.468750000042,
-   "top": 2692.765625000013,
+   "left": 7883.4689198369615,
+   "top": 3732.765794836959,
    "outPins": [
     "55",
     "55",
@@ -762,8 +660,8 @@
    "title": "Properties"
   },
   "51": {
-   "left": 8790.000000000044,
-   "top": 2820.3281250000136,
+   "left": 8213.999660326092,
+   "top": 3860.3282099184808,
    "outPins": [
     -1
    ],
@@ -772,8 +670,8 @@
    "actionCode": ""
   },
   "52": {
-   "left": 7602.015625000037,
-   "top": 2738.328125000013,
+   "left": 7026.015625000005,
+   "top": 3778.3279551630458,
    "outPins": [
     "54",
     "56",
@@ -789,8 +687,8 @@
    "title": "Gauge Positions?"
   },
   "53": {
-   "left": 8249.01562500004,
-   "top": 2894.328125000014,
+   "left": 7673.0001698369615,
+   "top": 3934.3282948369592,
    "outPins": [
     -1,
     "50",
@@ -810,8 +708,8 @@
    "title": "Chess Piece Dislodged"
   },
   "54": {
-   "left": 7984.015625000039,
-   "top": 2761.3281250000136,
+   "left": 7408.0001698369615,
+   "top": 3801.3281250000023,
    "outPins": [
     "53"
    ],
@@ -821,8 +719,8 @@
    "action": "Guage4Unstuck"
   },
   "55": {
-   "left": 8808.625000000044,
-   "top": 2663.625000000013,
+   "left": 8232.62483016305,
+   "top": 3703.625169836959,
    "outPins": [
     -1
    ],
@@ -830,8 +728,8 @@
    "line": ""
   },
   "56": {
-   "left": 7981.015625000039,
-   "top": 2967.3281250000146,
+   "left": 7405.0152853260915,
+   "top": 4007.312330163046,
    "outPins": [
     -1
    ],
@@ -841,8 +739,8 @@
    "action": "GuageRumble"
   },
   "57": {
-   "left": 7961.015625000039,
-   "top": 3134.3281250000155,
+   "left": 7385.0152853260915,
+   "top": 4174.32829483696,
    "outPins": [
     -1
    ],
@@ -850,8 +748,8 @@
    "line": "UNSOVLED"
   },
   "58": {
-   "left": 293.5781250000014,
-   "top": 325.3593750000016,
+   "left": 293.54683254076105,
+   "top": 325.3593643851904,
    "outPins": [
     "66"
    ],
@@ -859,21 +757,11 @@
    "title": "Cutscene Bleh Room",
    "actionCode": "ChangeScene(\"BlehRoom\");"
   },
-  "59": {
-   "left": 4186.71875000002,
-   "top": 962.5468750000047,
-   "outPins": [
-    "22"
-   ],
-   "type": "action",
-   "title": "New Action",
-   "actionCode": "SetLocation(\"Peebs\", \"ByronHouse.Library\", \"Fireplace\");"
-  },
   "60": {
-   "left": 490.5156250000024,
-   "top": 846.4531250000041,
+   "left": 490.5000106148101,
+   "top": 846.4531143851908,
    "outPins": [
-    67
+    "67"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -926,27 +814,27 @@
    ]
   },
   "61": {
-   "left": 69.98437500000034,
-   "top": 923.0781250000045,
+   "left": 69.95308254076092,
+   "top": 923.0780825407614,
    "outPins": [],
    "type": "comment",
    "comment": "Hoot's original description:{Mary, Peebs, and Anna enter the BLEH room to find  Ada on the floor. Ada is melting down. She needs more  stuff to fix the BLEH and is overwhelmed. Mary helps her  deal with her meltdown and manages to find out what is  missing. It is revealed she is missing chess pieces for the  BLEH display. Peebs thinks he saw some of the items on  the roof and leaves to look.  Anna leaves to the kitchen to make Ada some tea.}\""
   },
   "62": {
-   "left": 1813.3281250000089,
-   "top": 525.8906250000026,
+   "left": 1813.3281674592404,
+   "top": 525.8906356148101,
    "outPins": [
-    69
+    21
    ],
    "type": "placecard",
    "title": "Placecard",
    "text": "Anna leaves to the kitchen to make tea."
   },
   "63": {
-   "left": 1266.9062500000061,
-   "top": 578.9218750000028,
+   "left": 1266.9062075407617,
+   "top": 578.9218537703808,
    "outPins": [
-    62
+    "62"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -1015,11 +903,11 @@
    ]
   },
   "66": {
-   "left": 350.0000000000017,
-   "top": 487.5781250000024,
+   "left": 350.0000000000002,
+   "top": 487.57812500000034,
    "outPins": [
     -1,
-    68
+    "68"
    ],
    "type": "gameState",
    "eventList": [
@@ -1028,8 +916,8 @@
    "title": "Events"
   },
   "67": {
-   "left": 816.203125000004,
-   "top": 528.6406250000026,
+   "left": 816.2031356148103,
+   "top": 528.6406143851906,
    "outPins": [
     "63"
    ],
@@ -1038,24 +926,14 @@
    "text": "Peebs enters bleh room"
   },
   "68": {
-   "left": 243.5000000000012,
-   "top": 663.5000000000033,
+   "left": 243.46870754076102,
+   "top": 663.50002122962,
    "outPins": [
     "60"
    ],
    "type": "placecard",
    "title": "Placecard",
    "text": "Mary, and Anna enter the BLEH room to find Ada on the floor. Ada is melting down. She needs more stuff to fix the BLEH and is overwhelmed. "
-  },
-  "69": {
-   "left": 1814.7968750000089,
-   "top": 654.7968750000032,
-   "outPins": [
-    "2"
-   ],
-   "type": "placecard",
-   "title": "Placecard",
-   "text": "Peebs leaves to the foyer to find the chess pieces"
   }
  },
  "format": "goose2017-06-21-1720"
