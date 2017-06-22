@@ -19,10 +19,10 @@
    "text": "This is a placecard"
   },
   "2": {
-   "left": 908.5625168372848,
-   "top": 567.1249915813579,
+   "left": 693.374991581358,
+   "top": 469.18751683728465,
    "outPins": [
-    "1"
+    4
    ],
    "type": "action",
    "title": "New Action",
@@ -47,6 +47,19 @@
      "text": "Hello!"
     }
    ]
+  },
+  "4": {
+   "left": 980.6718918372848,
+   "top": 711.7030913254313,
+   "outPins": [
+    -1,
+    "1"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Enter ByronHouseLibrary"
+   ],
+   "title": "Events"
   }
  },
  "format": "goose2017-06-21-1720"
