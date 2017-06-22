@@ -1,0 +1,1062 @@
+{
+ "nodes": {
+  "0": {
+   "left": 49.00000000000024,
+   "top": 415.00000000000205,
+   "outPins": [
+    "58"
+   ],
+   "type": "start"
+  },
+  "1": {
+   "left": 2124.5000000000105,
+   "top": 1292.6875000000064,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Random",
+   "title": "Consoling Ada",
+   "parts": [
+    {
+     "character": "Mary",
+     "text": "{It will be ok Ada}"
+    },
+    {
+     "character": "Mary",
+     "text": "{One piece at a time...}"
+    },
+    {
+     "character": "Mary",
+     "text": "{We're here to help}"
+    }
+   ]
+  },
+  "2": {
+   "left": 1791.9843750000086,
+   "top": 936.2187500000045,
+   "outPins": [
+    -1,
+    "20",
+    "3",
+    "1",
+    "10"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Peebs",
+    "Ada",
+    "Mary",
+    "DoorToLibrary"
+   ],
+   "title": "Setup - BLEH Room"
+  },
+  "3": {
+   "left": 2128.0781250000105,
+   "top": 931.6093750000045,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Random",
+   "title": "It Will Never Be Fixed!",
+   "parts": [
+    {
+     "character": "Ada",
+     "text": "{This is hopeless!}"
+    },
+    {
+     "character": "Ada",
+     "text": "{It will never be fixed!}"
+    },
+    {
+     "character": "Ada",
+     "text": "{We're out of time!}"
+    }
+   ]
+  },
+  "4": {
+   "left": 4799.765625000024,
+   "top": 884.3750000000043,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "I need something to unlock that door",
+   "parts": [
+    {
+     "character": "Peebs",
+     "text": "{ I need something to reach that lock!}"
+    },
+    {
+     "character": "Peebs",
+     "text": "{The small chair wasn't tall enough}"
+    }
+   ]
+  },
+  "5": {
+   "left": 4008.1093750000196,
+   "top": 2342.5468750000114,
+   "outPins": [
+    "8",
+    "7"
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "Select",
+    "Move"
+   ],
+   "title": "Properties"
+  },
+  "6": {
+   "left": 4008.3281250000196,
+   "top": 2493.3281250000123,
+   "outPins": [
+    -1,
+    "30"
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "Select",
+    "Move"
+   ],
+   "title": "Properties"
+  },
+  "7": {
+   "left": 4456.796875000022,
+   "top": 2597.9687500000127,
+   "outPins": [
+    "9",
+    "31"
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "Peebs:Library",
+    "Somewhere else, Peebs isn't here"
+   ],
+   "title": "Move to"
+  },
+  "8": {
+   "left": 4484.796875000022,
+   "top": 2518.1093750000123,
+   "outPins": [
+    -1
+   ],
+   "type": "return",
+   "line": "Selected"
+  },
+  "9": {
+   "left": 5126.7968750000255,
+   "top": 2553.4687500000123,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Random",
+   "title": "Not Tall Enough",
+   "parts": [
+    {
+     "character": "Peebs",
+     "text": "{No, that's not even tall enough}"
+    },
+    {
+     "character": "Peebs",
+     "text": "{We'll need something taller than that}"
+    }
+   ]
+  },
+  "10": {
+   "left": 1798.4375000000089,
+   "top": 1649.328125000008,
+   "outPins": [
+    "25"
+   ],
+   "type": "action",
+   "title": "Setup Library",
+   "actionCode": "SetLocation(\"StepChair\", \"ByronHouse.Library\");\nSetAnimation(\"StepChair\", \"ToggleChair\");"
+  },
+  "11": {
+   "left": 5930.796875000029,
+   "top": 2323.7500000000114,
+   "outPins": [
+    -1,
+    "12",
+    "13",
+    "15"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Peebs:Library",
+    "Stepladder:Library",
+    "DoorToFoyer:Library"
+   ],
+   "title": "Peebs Has Stepladder"
+  },
+  "12": {
+   "left": 6268.296875000031,
+   "top": 2251.265625000011,
+   "outPins": [
+    -1
+   ],
+   "type": "endline",
+   "line": "PEEBS IS IN FOYER"
+  },
+  "13": {
+   "left": 6297.046875000031,
+   "top": 2318.4062500000114,
+   "outPins": [
+    -1
+   ],
+   "type": "endline",
+   "line": "WITH PEEBS IN FOYER"
+  },
+  "14": {
+   "left": 5661.000000000027,
+   "top": 2424.687500000012,
+   "outPins": [
+    "11"
+   ],
+   "type": "animation",
+   "title": "Peebs leaves room with Stepladder",
+   "actor": "Peebs",
+   "action": "LeaveLibraryWithStepladder"
+  },
+  "15": {
+   "left": 6269.968750000031,
+   "top": 2433.328125000012,
+   "outPins": [
+    "16"
+   ],
+   "type": "action",
+   "title": "ENTER Foyer",
+   "actionCode": ""
+  },
+  "16": {
+   "left": 6622.625000000033,
+   "top": 2247.828125000011,
+   "outPins": [
+    -1,
+    "36",
+    "17"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Peebs:Foyer",
+    "DoorToRoof:Foyer"
+   ],
+   "title": "RoofDoorUnlcoked"
+  },
+  "17": {
+   "left": 7004.546875000035,
+   "top": 2428.437500000012,
+   "outPins": [
+    "38"
+   ],
+   "type": "action",
+   "title": "ENTER Roof",
+   "actionCode": "SetScene(\"ByronHouse.Roof\");"
+  },
+  "18": {
+   "left": 7642.937500000037,
+   "top": 2682.828125000013,
+   "outPins": [
+    -1,
+    "19",
+    "50",
+    "50",
+    "49",
+    "49",
+    "49",
+    "49"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Peebs:Roof",
+    "ChessPiece3:Roof",
+    "ChessPiece4:Roof",
+    "Gauge1:Roof",
+    "Gauge2:Roof",
+    "Gauge3:Roof",
+    "Gauge4:Roof"
+   ],
+   "title": "Setup - Roof"
+  },
+  "19": {
+   "left": 7419.218750000036,
+   "top": 2313.6875000000114,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "The Pieces Could Be Anywhere",
+   "parts": [
+    {
+     "character": "Peebs",
+     "text": "{Let's look around for the chess pieces}"
+    },
+    {
+     "character": "Peebs",
+     "text": "{I know I saw some up here somewhere}"
+    },
+    {
+     "character": "Peebs",
+     "text": "{Ada was definitely using them up here.. I can't remember why}"
+    }
+   ]
+  },
+  "20": {
+   "left": 2128.5781250000105,
+   "top": 761.5156250000038,
+   "outPins": [
+    "21"
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Going To Look On Roof",
+   "parts": [
+    {
+     "character": "Peebs",
+     "text": "{I'm going to go look for pieces on the roof}"
+    }
+   ]
+  },
+  "21": {
+   "left": 4111.10937500002,
+   "top": 754.8125000000036,
+   "outPins": [
+    "23"
+   ],
+   "type": "animation",
+   "title": "Peebs leaves to go look on the roof",
+   "actor": "Peebs",
+   "action": "ExitBlehRoom"
+  },
+  "22": {
+   "left": 4450.187500000022,
+   "top": 1102.4687500000055,
+   "outPins": [
+    -1,
+    "4",
+    "27"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Peebs:Library",
+    "ChessPiece2:Library"
+   ],
+   "title": "PeebsLeft"
+  },
+  "23": {
+   "left": 4388.765625000022,
+   "top": 771.2187500000038,
+   "outPins": [
+    "59"
+   ],
+   "type": "endline",
+   "line": "Peebs:BlehRoom"
+  },
+  "24": {
+   "left": 5730.546875000028,
+   "top": 1084.9687500000052,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "INVENTORY",
+   "actionCode": "Add"
+  },
+  "25": {
+   "left": 2043.71875000001,
+   "top": 1854.156250000009,
+   "outPins": [
+    "28"
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "SetScene(\"Library\");"
+  },
+  "26": {
+   "left": 4357.578125000021,
+   "top": 2242.000000000011,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "None Shall Pass",
+   "parts": [
+    {
+     "character": "Action",
+     "text": "{...}"
+    }
+   ]
+  },
+  "27": {
+   "left": 5294.4687500000255,
+   "top": 1164.9375000000057,
+   "outPins": [
+    "24",
+    -1
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "Select",
+    "False"
+   ],
+   "title": "Properties"
+  },
+  "28": {
+   "left": 2169.2656250000105,
+   "top": 2024.4375000000098,
+   "outPins": [
+    -1,
+    "37",
+    "29",
+    "5",
+    "5",
+    "5",
+    "6"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "DoorToBleh:Library",
+    "DoorToFoyer:Library",
+    "SmallChair:Library",
+    "MediumChair:Library",
+    "LargeChair:Library",
+    "StepChair:Library"
+   ],
+   "title": "Setup - Library"
+  },
+  "29": {
+   "left": 3978.1875000000196,
+   "top": 2145.5781250000105,
+   "outPins": [
+    -1,
+    "34",
+    "35",
+    -1,
+    "26",
+    "48"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "DoorToAdasRoom:Foyer",
+    "DoorToPlayersRoom:Foyer",
+    "DoorToRoof:Foyer",
+    "MrFranklin:Foyer",
+    "ChessPiece1:Foyer"
+   ],
+   "title": "Setup - Foyer"
+  },
+  "30": {
+   "left": 4461.546875000022,
+   "top": 2748.9687500000136,
+   "outPins": [
+    "32",
+    "31"
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "Peebs::Library",
+    "Somewhere else, Peebs isn't here"
+   ],
+   "title": "Move to"
+  },
+  "31": {
+   "left": 4794.546875000024,
+   "top": 2721.968750000013,
+   "outPins": [
+    -1
+   ],
+   "type": "return",
+   "line": "New Location"
+  },
+  "32": {
+   "left": 4800.546875000024,
+   "top": 2851.968750000014,
+   "outPins": [
+    "9",
+    "33"
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "It's a chair",
+    "It's a stepladder"
+   ],
+   "title": "Chair state?"
+  },
+  "33": {
+   "left": 5183.5468750000255,
+   "top": 2836.9687500000136,
+   "outPins": [
+    "14"
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "This is Tall Enough",
+   "parts": [
+    {
+     "character": "Peebs",
+     "text": "{Yes, this will do! Very clever!}"
+    }
+   ]
+  },
+  "34": {
+   "left": 4331.578125000021,
+   "top": 2066.60937500001,
+   "outPins": [
+    -1
+   ],
+   "type": "return",
+   "line": "LOCKED"
+  },
+  "35": {
+   "left": 4366.765625000021,
+   "top": 2131.1562500000105,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "ENTER Players Room",
+   "actionCode": ""
+  },
+  "36": {
+   "left": 6968.859375000034,
+   "top": 2115.9375000000105,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Cycle once",
+   "title": "That Did the Trick",
+   "parts": [
+    {
+     "character": "Peebs",
+     "text": "{Aha! I've opened Ada's lock!}"
+    },
+    {
+     "character": "Peebs",
+     "text": "{Let's head up to the roof!}"
+    }
+   ]
+  },
+  "37": {
+   "left": 4021.6250000000196,
+   "top": 1868.359375000009,
+   "outPins": [
+    "41",
+    "40",
+    "39"
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "Yes, some",
+    "I have all five!",
+    "What? No. Huh?"
+   ],
+   "title": "Do you have Chess Pieces?"
+  },
+  "38": {
+   "left": 7429.859375000036,
+   "top": 2391.437500000012,
+   "outPins": [
+    "18"
+   ],
+   "type": "animation",
+   "title": "Peebs follows you onto the Roof",
+   "actor": "Peebs",
+   "action": "PeebsEntersRoof"
+  },
+  "39": {
+   "left": 4425.000000000022,
+   "top": 1965.1250000000095,
+   "outPins": [
+    -1
+   ],
+   "type": "return",
+   "line": "No Change"
+  },
+  "40": {
+   "left": 5185.0781250000255,
+   "top": 1899.7968750000093,
+   "outPins": [
+    -1,
+    "44",
+    "45"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Ada:Bleh",
+    "Mary:Bleh"
+   ],
+   "title": "All Chess Pieces"
+  },
+  "41": {
+   "left": 4610.265625000023,
+   "top": 1577.2500000000077,
+   "outPins": [
+    -1,
+    "42",
+    "43"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Ada:Bleh",
+    "Mary:Bleh"
+   ],
+   "title": "Some Chess Pieces"
+  },
+  "42": {
+   "left": 5021.687500000025,
+   "top": 1317.7968750000064,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Conversation",
+   "title": "Not Enough Time",
+   "parts": [
+    {
+     "character": "Ada",
+     "text": "{We don't have time to find them all!}"
+    },
+    {
+     "character": "Mary",
+     "text": "{Baby steps. We'll get there}"
+    }
+   ]
+  },
+  "43": {
+   "left": 4989.656250000025,
+   "top": 1600.0781250000077,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Cycle",
+   "title": "We Can Do It",
+   "parts": [
+    {
+     "character": "Mary",
+     "text": "{We're making good progress}"
+    },
+    {
+     "character": "Ada",
+     "text": "{It's hopeless! There's too many left!}"
+    }
+   ]
+  },
+  "44": {
+   "left": 6247.375000000031,
+   "top": 1457.437500000007,
+   "outPins": [
+    "46"
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Ada",
+     "text": ""
+    },
+    {
+     "character": "Mary",
+     "text": ""
+    }
+   ]
+  },
+  "45": {
+   "left": 6231.65625000003,
+   "top": 1784.1093750000086,
+   "outPins": [
+    "46"
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Mary",
+     "text": ""
+    },
+    {
+     "character": "Ada",
+     "text": ""
+    }
+   ]
+  },
+  "46": {
+   "left": 7059.187500000035,
+   "top": 1633.765625000008,
+   "outPins": [],
+   "type": "end"
+  },
+  "47": {
+   "left": 4738.546875000023,
+   "top": 2436.968750000012,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "IINVENTORY",
+   "actionCode": ""
+  },
+  "48": {
+   "left": 4402.406250000022,
+   "top": 2389.625000000012,
+   "outPins": [
+    "47",
+    -1
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "Select",
+    "False"
+   ],
+   "title": "Condition"
+  },
+  "49": {
+   "left": 7398.015625000036,
+   "top": 2984.3281250000146,
+   "outPins": [
+    "52",
+    "52",
+    "52"
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "Cycle:0%",
+    "Cycle:50%",
+    "Cycle:100%"
+   ],
+   "title": "Properties"
+  },
+  "50": {
+   "left": 8459.468750000042,
+   "top": 2692.765625000013,
+   "outPins": [
+    "55",
+    "55",
+    "51"
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "Select",
+    "Move",
+    "Inventory"
+   ],
+   "title": "Properties"
+  },
+  "51": {
+   "left": 8790.000000000044,
+   "top": 2820.3281250000136,
+   "outPins": [
+    -1
+   ],
+   "type": "action",
+   "title": "INVENTORY",
+   "actionCode": ""
+  },
+  "52": {
+   "left": 7602.015625000037,
+   "top": 2738.328125000013,
+   "outPins": [
+    "54",
+    "56",
+    "57"
+   ],
+   "type": "condition",
+   "conditionCode": "",
+   "eventList": [
+    "1,2,3 are at 0%, 4 is at 100%",
+    "1,2,3 are not at 100%",
+    "None of the above"
+   ],
+   "title": "Gauge Positions?"
+  },
+  "53": {
+   "left": 8249.01562500004,
+   "top": 2894.328125000014,
+   "outPins": [
+    -1,
+    "50",
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "type": "gameState",
+   "eventList": [
+    "ChessPiece5:Roof",
+    "Gauge1",
+    "Gauge2",
+    "Gauge3",
+    "Gauge4"
+   ],
+   "title": "Chess Piece Dislodged"
+  },
+  "54": {
+   "left": 7984.015625000039,
+   "top": 2761.3281250000136,
+   "outPins": [
+    "53"
+   ],
+   "type": "animation",
+   "title": "Guage4 bursts open steam and ChessPiece5 rides on top of the steam",
+   "actor": "Guage4",
+   "action": "Guage4Unstuck"
+  },
+  "55": {
+   "left": 8808.625000000044,
+   "top": 2663.625000000013,
+   "outPins": [
+    -1
+   ],
+   "type": "return",
+   "line": ""
+  },
+  "56": {
+   "left": 7981.015625000039,
+   "top": 2967.3281250000146,
+   "outPins": [
+    -1
+   ],
+   "type": "animation",
+   "title": "Guage4 start to rumble like it's almost unstuck!",
+   "actor": "Gauge4",
+   "action": "GuageRumble"
+  },
+  "57": {
+   "left": 7961.015625000039,
+   "top": 3134.3281250000155,
+   "outPins": [
+    -1
+   ],
+   "type": "return",
+   "line": "UNSOVLED"
+  },
+  "58": {
+   "left": 293.5781250000014,
+   "top": 325.3593750000016,
+   "outPins": [
+    "66"
+   ],
+   "type": "action",
+   "title": "Cutscene Bleh Room",
+   "actionCode": "ChangeScene(\"BlehRoom\");"
+  },
+  "59": {
+   "left": 4186.71875000002,
+   "top": 962.5468750000047,
+   "outPins": [
+    "22"
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "SetLocation(\"Peebs\", \"ByronHouse.Library\", \"Fireplace\");"
+  },
+  "60": {
+   "left": 490.5156250000024,
+   "top": 846.4531250000041,
+   "outPins": [
+    67
+   ],
+   "type": "dialog",
+   "dialogType": "Conversation",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Ada",
+     "text": "Ack!"
+    },
+    {
+     "character": "Mary",
+     "text": "Ack again?"
+    },
+    {
+     "character": "Ada",
+     "text": "Yes it's a sort of â€œOf course! And\nâ€œI'm not ready! at the same time sort of Ack."
+    },
+    {
+     "character": "Mary",
+     "text": "Dear Ada, whatever."
+    },
+    {
+     "character": "Ada",
+     "text": "She's an astronomer AND a\nmathematician! She must want the BLEH for her calculations. Of course that's what she wants! And I was just working on it and it's not ready to show or do anything!"
+    },
+    {
+     "character": "Mary",
+     "text": "I'm certain that."
+    },
+    {
+     "character": "Ada",
+     "text": "I'm not! Bits!"
+    },
+    {
+     "character": "Mary",
+     "text": "Bits?"
+    },
+    {
+     "character": "Ada",
+     "text": "Missing!"
+    },
+    {
+     "character": "Mary",
+     "text": "Bits missing?"
+    },
+    {
+     "character": "Ada",
+     "text": "All over."
+    }
+   ]
+  },
+  "61": {
+   "left": 69.98437500000034,
+   "top": 923.0781250000045,
+   "outPins": [],
+   "type": "comment",
+   "comment": "Hoot's original description:{Mary, Peebs, and Anna enter the BLEH room to find  Ada on the floor. Ada is melting down. She needs more  stuff to fix the BLEH and is overwhelmed. Mary helps her  deal with her meltdown and manages to find out what is  missing. It is revealed she is missing chess pieces for the  BLEH display. Peebs thinks he saw some of the items on  the roof and leaves to look.  Anna leaves to the kitchen to make Ada some tea.}\""
+  },
+  "62": {
+   "left": 1813.3281250000089,
+   "top": 525.8906250000026,
+   "outPins": [
+    69
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Anna leaves to the kitchen to make tea."
+  },
+  "63": {
+   "left": 1266.9062500000061,
+   "top": 578.9218750000028,
+   "outPins": [
+    62
+   ],
+   "type": "dialog",
+   "dialogType": "Conversation",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Peebs",
+     "text": "Might I be of some assistance?"
+    },
+    {
+     "character": "Mary",
+     "text": "Ada seems to have bits missing."
+    },
+    {
+     "character": "Peebs",
+     "text": "Personally?"
+    },
+    {
+     "character": "Ada",
+     "text": "The bleh! Bits! Missing!"
+    },
+    {
+     "character": "Peebs",
+     "text": "Ah, well then. Perhaps if you could\ntell me what bits you need and where I might find them, our guest and I could undertake their restoration to your contraption."
+    },
+    {
+     "character": "Mary",
+     "text": "The BLEH is Ada's machine for\nmathematics. And patterns. And everything, really. It really is quite remarkable."
+    },
+    {
+     "character": "Ada",
+     "text": "Remarkable bits missing. This won't\ndo at all. And Caroline Herschel is coming!"
+    },
+    {
+     "character": "Peebs",
+     "text": "What bits, precisely, and where?\n"
+    },
+    {
+     "character": "Ada",
+     "text": "Registers. Some spindly bits. And\nchess pieces.\n"
+    },
+    {
+     "character": "Peebs",
+     "text": "Chess pieces."
+    },
+    {
+     "character": "Ada",
+     "text": "Pieces. For chess."
+    },
+    {
+     "character": "Peebs",
+     "text": "Well I do seem to recall seeing\nsome items of interest on the roof.\n"
+    },
+    {
+     "character": "Ada",
+     "text": "Oh."
+    },
+    {
+     "character": "Peebs",
+     "text": "Indeed. Well, not to fret. Let's\nfetch them, shall we? In the meantime I'll see if Anna can accommodate us with a cup of tea."
+    },
+    {
+     "character": "Mary",
+     "text": "There, you see, Ada? All shall be\nright as rain."
+    }
+   ]
+  },
+  "66": {
+   "left": 350.0000000000017,
+   "top": 487.5781250000024,
+   "outPins": [
+    -1,
+    68
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Scene started"
+   ],
+   "title": "Events"
+  },
+  "67": {
+   "left": 816.203125000004,
+   "top": 528.6406250000026,
+   "outPins": [
+    "63"
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Peebs enters bleh room"
+  },
+  "68": {
+   "left": 243.5000000000012,
+   "top": 663.5000000000033,
+   "outPins": [
+    "60"
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Mary, and Anna enter the BLEH room to find Ada on the floor. Ada is melting down. She needs more stuff to fix the BLEH and is overwhelmed. "
+  },
+  "69": {
+   "left": 1814.7968750000089,
+   "top": 654.7968750000032,
+   "outPins": [
+    "2"
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Peebs leaves to the foyer to find the chess pieces"
+  }
+ },
+ "format": "goose2017-06-21-1720"
+}
