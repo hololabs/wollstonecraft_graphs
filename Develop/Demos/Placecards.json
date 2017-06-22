@@ -1,0 +1,66 @@
+{
+ "nodes": {
+  "0": {
+   "left": 291.4062500000001,
+   "top": 372.8281165813579,
+   "outPins": [
+    "2"
+   ],
+   "type": "start"
+  },
+  "1": {
+   "left": 1375.7031250000005,
+   "top": 538.5468581627157,
+   "outPins": [
+    "3"
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "This is a placecard"
+  },
+  "2": {
+   "left": 693.374991581358,
+   "top": 469.18751683728465,
+   "outPins": [
+    "4"
+   ],
+   "type": "action",
+   "title": "New Action",
+   "actionCode": "ChangeScene(\"ByronHouseLibrary\")"
+  },
+  "3": {
+   "left": 1817.1250336745695,
+   "top": 544.2656418372846,
+   "outPins": [
+    -1
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Ada",
+     "text": "Hello!"
+    },
+    {
+     "character": "Mary",
+     "text": "Hello!"
+    }
+   ]
+  },
+  "4": {
+   "left": 980.6718918372848,
+   "top": 711.6875168372848,
+   "outPins": [
+    -1,
+    "1"
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Scene started"
+   ],
+   "title": "Events"
+  }
+ },
+ "format": "goose2017-06-21-1720"
+}

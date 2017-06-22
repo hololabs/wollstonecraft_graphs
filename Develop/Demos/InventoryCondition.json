@@ -1,20 +1,21 @@
 {
  "nodes": {
   "0": {
-   "left": 135.76562829919766,
+   "left": 135.765625,
    "top": 315.703125,
    "outPins": [
-    15
+    "15"
    ],
    "type": "start"
   },
   "1": {
-   "left": 793.3750131967906,
-   "top": 517.0468881967906,
+   "left": 793.375,
+   "top": 517.046875,
    "outPins": [
-    5,
-    6,
-    4
+    -1,
+    "5",
+    "6",
+    "4"
    ],
    "type": "gameState",
    "eventList": [
@@ -25,15 +26,15 @@
    "title": "New Game State"
   },
   "2": {
-   "left": 807.1093750000001,
-   "top": 198.20312500000003,
+   "left": 807.109375,
+   "top": 198.203125,
    "outPins": [],
    "type": "comment",
    "comment": "Demonstration of adding items to inventory and changing what Mary says depending on what items are in your inventory"
   },
   "3": {
-   "left": 1516.843723606419,
-   "top": 746.765598606419,
+   "left": 1516.84375,
+   "top": 746.765625,
    "outPins": [
     -1
    ],
@@ -48,13 +49,13 @@
    ]
   },
   "4": {
-   "left": 1092.859348606419,
-   "top": 730.7656118032095,
+   "left": 1092.859375,
+   "top": 730.765625,
    "outPins": [
-    3,
-    9,
-    10,
-    11
+    "3",
+    "9",
+    "10",
+    "11"
    ],
    "type": "condition",
    "conditionCode": "return HasInventory(\"InstructionBook\") << 1 | HasInventory(\"LeviathonBook\")\n",
@@ -67,28 +68,28 @@
    "title": "Condition"
   },
   "5": {
-   "left": 1285.2188027871623,
-   "top": 341.0781118032095,
+   "left": 1285.21875,
+   "top": 341.078125,
    "outPins": [
-    7
+    "7"
    ],
    "type": "action",
    "title": "New Action",
    "actionCode": "SetLocation(\"LeviathonBook\",\"Nowhere\",\"Nowhere\")\nAddInventory(\"LeviathonBook\")"
   },
   "6": {
-   "left": 1309.234322212838,
-   "top": 521.6562631967906,
+   "left": 1309.234375,
+   "top": 521.65625,
    "outPins": [
-    8
+    "8"
    ],
    "type": "action",
    "title": "New Action",
    "actionCode": "SetLocation(\"InstructionBook\",\"Nowhere\",\"Nowhere\")\nAddInventory(\"InstructionBook\")"
   },
   "7": {
-   "left": 1678.4687763935813,
-   "top": 360.5312368032095,
+   "left": 1678.46875,
+   "top": 360.53125,
    "outPins": [
     -1
    ],
@@ -96,8 +97,8 @@
    "line": "LeviathonBook"
   },
   "8": {
-   "left": 1690.9375000000002,
-   "top": 560.5312368032095,
+   "left": 1690.9375,
+   "top": 560.53125,
    "outPins": [
     -1
    ],
@@ -105,8 +106,8 @@
    "line": "InstructionBook"
   },
   "9": {
-   "left": 1522.5625527871623,
-   "top": 906.765598606419,
+   "left": 1522.5625,
+   "top": 906.765625,
    "outPins": [
     -1
    ],
@@ -121,8 +122,8 @@
    ]
   },
   "10": {
-   "left": 1507.703098606419,
-   "top": 1086.1875131967906,
+   "left": 1507.703125,
+   "top": 1086.1875,
    "outPins": [
     -1
    ],
@@ -137,10 +138,10 @@
    ]
   },
   "11": {
-   "left": 1505.406197212838,
-   "top": 1258.765572212838,
+   "left": 1505.40625,
+   "top": 1258.765625,
    "outPins": [
-    12
+    "12"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -153,10 +154,11 @@
    ]
   },
   "12": {
-   "left": 2234.468697212838,
-   "top": 1059.109348606419,
+   "left": 2234.46875,
+   "top": 1059.109375,
    "outPins": [
-    13
+    -1,
+    "13"
    ],
    "type": "gameState",
    "eventList": [
@@ -165,10 +167,10 @@
    "title": "New Game State"
   },
   "13": {
-   "left": 2585.406197212838,
+   "left": 2585.40625,
    "top": 1162.34375,
    "outPins": [
-    14
+    "14"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -181,21 +183,21 @@
    ]
   },
   "14": {
-   "left": 3181.5313555743246,
-   "top": 1211.374973606419,
+   "left": 3181.53125,
+   "top": 1211.375,
    "outPins": [],
    "type": "end"
   },
   "15": {
-   "left": 382.0937368032095,
-   "top": 443.12500000000006,
+   "left": 382.09375,
+   "top": 443.125,
    "outPins": [
-    1
+    "1"
    ],
    "type": "action",
    "title": "Setup",
    "actionCode": "ChangeScene(\"InventoryCondition\")"
   }
  },
- "format": "goose2017-01-31-1227"
+ "format": "goose2017-06-21-1239"
 }
