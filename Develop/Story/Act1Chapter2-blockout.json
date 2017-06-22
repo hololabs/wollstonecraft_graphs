@@ -1,8 +1,8 @@
 {
  "nodes": {
   "0": {
-   "left": 851.7343374399043,
-   "top": 941.3906625600966,
+   "left": 851.7187500000009,
+   "top": 941.3906521267371,
    "outPins": [
     "49"
    ],
@@ -11,8 +11,8 @@
    "text": "{Ada gets up the vent the room. Ada notices the tray, and opens the letter.}"
   },
   "1": {
-   "left": 3265.7031250000014,
-   "top": 2032.8280874399047,
+   "left": 3265.7031250000036,
+   "top": 2032.8280978732662,
    "outPins": [
     "3"
    ],
@@ -21,48 +21,44 @@
    "text": "Launch 2nd bookshelf activity.  The player finds a book called \"Who's who\""
   },
   "2": {
-   "left": 2577.374924879809,
-   "top": 2072.4374624399047,
+   "left": 2583.5156250000027,
+   "top": 2080.1250542534744,
    "outPins": [
-    -1,
+    10,
     "7",
     "8",
-    -1,
     "1",
     "32",
-    "31",
-    "42",
-    "11"
+    "31"
    ],
    "type": "gameState",
    "eventList": [
     "Mary",
     "Anna",
-    "StepChair",
     "Ada's bookshelf",
     "Exit to ByronHouseFoyer",
-    "Exit to BlehRoom",
-    "MediumChair",
-    "LargeChair"
+    "Exit to BlehRoom"
    ],
    "title": "Setup - Library"
   },
   "3": {
-   "left": 3778.437500000002,
-   "top": 1979.984412560097,
+   "left": 3778.437500000004,
+   "top": 1979.9844021267384,
    "outPins": [
     "21",
-    "4"
+    "4",
+    -1
    ],
    "type": "gameState",
    "eventList": [
-    "Found herschel in WhosWhoBook"
+    "Who's who",
+    ""
    ],
    "title": "Events"
   },
   "4": {
-   "left": 4123.062650240387,
-   "top": 1955.375037560097,
+   "left": 4123.062608506949,
+   "top": 1955.3750271267381,
    "outPins": [
     "20"
    ],
@@ -70,9 +66,19 @@
    "title": "Placecard",
    "text": "The player has found Herschel in the WhosWhoBook"
   },
+  "5": {
+   "left": 2061.499972873266,
+   "top": 2043.0312771267384,
+   "outPins": [
+    "18"
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Ada returns to book"
+  },
   "6": {
-   "left": 3576.140700120194,
-   "top": 2683.3437875600976,
+   "left": 3576.1406792534763,
+   "top": 2683.3436414930584,
    "outPins": [
     -1
    ],
@@ -95,8 +101,8 @@
    ]
   },
   "7": {
-   "left": 2905.406212439905,
-   "top": 1156.6250375600966,
+   "left": 2905.4063585069475,
+   "top": 1156.6250271267375,
    "outPins": [
     -1
    ],
@@ -111,16 +117,12 @@
     {
      "character": "Mary",
      "text": "{Is it possible this book somewhere else?}"
-    },
-    {
-     "character": "Mary",
-     "text": "{I wonder if the book is up high...}"
     }
    ]
   },
   "8": {
-   "left": 2945.5468750000014,
-   "top": 1600.515700120193,
+   "left": 2945.546875000003,
+   "top": 1600.515679253474,
    "outPins": [
     -1
    ],
@@ -139,8 +141,8 @@
    ]
   },
   "9": {
-   "left": 3574.781400240386,
-   "top": 2500.7500751201933,
+   "left": 3574.7813585069484,
+   "top": 2500.750054253475,
    "outPins": [
     -1
    ],
@@ -155,96 +157,71 @@
    ]
   },
   "10": {
-   "left": 3569.468900240386,
-   "top": 2220.8749624399047,
+   "left": 3001.9688585069475,
+   "top": 3190.2655707465315,
+   "outPins": [
+    11,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Drop small chair on large chair",
+    "Drop small chair on medium chair",
+    "Drop medium chair on small chair",
+    "Drop medium chair on large chair",
+    "Drop large chair on small chair",
+    "Drop large chair on medium chair"
+   ],
+   "title": "Chair Puzzle"
+  },
+  "11": {
+   "left": 3431.4686414930593,
+   "top": 3280.9998914930593,
    "outPins": [
     -1
    ],
-   "type": "dialog",
-   "dialogType": "Random",
-   "title": "Trying to Solve Key Riddle",
-   "parts": [
-    {
-     "character": "Peebs",
-     "text": "{Ada has given my an impossible riddle!}"
-    },
-    {
-     "character": "Peebs",
-     "text": "{I can't figure out Ada's lock riddle!}"
-    }
-   ]
-  },
-  "11": {
-   "left": 2922.0782001201937,
-   "top": 2768.1250000000014,
-   "outPins": [
-    "43",
-    "44"
-   ],
-   "type": "condition",
-   "conditionCode": "",
-   "eventList": [
-    "Select",
-    "Move"
-   ],
-   "title": "Properties"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "The location of the two chairs are swapped"
   },
   "12": {
-   "left": 6330.734675480772,
-   "top": 1372.2812124399045,
+   "left": 5768.718532986118,
+   "top": 1504.2656792534738,
    "outPins": [
-    "26"
+    15
    ],
    "type": "placecard",
    "title": "Placecard",
    "text": "The term \"petite\" is added to the glossary"
   },
-  "13": {
-   "left": 8195.359074519234,
-   "top": 1646.1093374399047,
+  "14": {
+   "left": 7065.0938585069525,
+   "top": 2098.218722873266,
    "outPins": [
-    -1
+    "36"
    ],
    "type": "placecard",
    "title": "Placecard",
-   "text": "Mary exits to the Ble room"
-  },
-  "14": {
-   "left": 6305.500300480772,
-   "top": 2178.6093374399047,
-   "outPins": [
-    -1,
-    "15"
-   ],
-   "type": "gameState",
-   "eventList": [
-    "Mary:Library"
-   ],
-   "title": "No Book"
+   "text": "Smoke billows out of the bleh room and the chapter ends"
   },
   "15": {
-   "left": 6816.515925480772,
-   "top": 2094.2499248798085,
+   "left": 6263.625217013896,
+   "top": 1488.5781521267377,
    "outPins": [
-    -1
+    "30"
    ],
-   "type": "dialog",
-   "dialogType": "Random",
-   "title": "You Don't Have The Book",
-   "parts": [
-    {
-     "character": "Mary",
-     "text": "{I think we still need to look for the book Ada is after...}"
-    },
-    {
-     "character": "Mary",
-     "text": "{Hmmmm.... we don't have the right book yet...}"
-    }
-   ]
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Without being prompted,  Franklin picks up the chair and puts it into place for the arriving guest"
   },
   "16": {
-   "left": 5042.21867487981,
-   "top": 1990.1250751201933,
+   "left": 5042.218967013894,
+   "top": 1990.1250542534744,
    "outPins": [
     -1
    ],
@@ -262,9 +239,35 @@
     }
    ]
   },
+  "17": {
+   "left": 2075.3594292534744,
+   "top": 2350.750054253475,
+   "outPins": [
+    "2"
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Ada hands you a scrap of paper and it is added to your log book"
+  },
+  "18": {
+   "left": 1979.9688042534744,
+   "top": 2172.2812228732664,
+   "outPins": [
+    "17"
+   ],
+   "type": "dialog",
+   "dialogType": "Dialog",
+   "title": "Dialog",
+   "parts": [
+    {
+     "character": "Ada",
+     "text": "Well, here we go again. Although\nI’m sure you have the hang of things at this point."
+    }
+   ]
+  },
   "19": {
-   "left": 5031.109525240387,
-   "top": 2276.937537560097,
+   "left": 5031.10948350695,
+   "top": 2276.937391493058,
    "outPins": [
     -1
    ],
@@ -279,8 +282,8 @@
    ]
   },
   "20": {
-   "left": 4522.406099759618,
-   "top": 1917.328162560097,
+   "left": 4522.40614149306,
+   "top": 1917.3281521267381,
    "outPins": [
     -1,
     "23",
@@ -294,8 +297,8 @@
    "title": "Know About Herschel"
   },
   "21": {
-   "left": 4133.968599759617,
-   "top": 2069.671912560097,
+   "left": 4133.96864149306,
+   "top": 2069.671902126738,
    "outPins": [
     -1,
     "16",
@@ -308,25 +311,9 @@
    ],
    "title": "Haven't Read Herschel"
   },
-  "22": {
-   "left": 7583.078425480773,
-   "top": 1632.4218750000007,
-   "outPins": [
-    "13"
-   ],
-   "type": "dialog",
-   "dialogType": "Dialog",
-   "title": "Dialog",
-   "parts": [
-    {
-     "character": "Mary",
-     "text": "{I'm going to go see if Ada has any ideas}"
-    }
-   ]
-  },
   "23": {
-   "left": 5006.12492487981,
-   "top": 1630.3280874399047,
+   "left": 5006.125217013894,
+   "top": 1630.3280978732657,
    "outPins": [
     "12"
    ],
@@ -341,8 +328,8 @@
    ]
   },
   "24": {
-   "left": 5002.093599759618,
-   "top": 1802.6718374399047,
+   "left": 5002.093641493061,
+   "top": 1802.6718478732657,
    "outPins": [
     -1
    ],
@@ -356,124 +343,62 @@
     }
    ]
   },
-  "26": {
-   "left": 7187.796724759619,
-   "top": 1347.0781062199526,
-   "outPins": [
-    -1,
-    "27",
-    -1,
-    "22"
-   ],
-   "type": "gameState",
-   "eventList": [
-    "Anna",
-    "Peebs",
-    "Mary"
-   ],
-   "title": "Herschel is Petite"
-  },
-  "27": {
-   "left": 7579.875300480773,
-   "top": 1328.4062312199526,
-   "outPins": [
-    -1
-   ],
-   "type": "dialog",
-   "dialogType": "Cycle",
-   "title": "I Need a Short Chair",
-   "parts": [
-    {
-     "character": "Anna",
-     "text": "{ I'm going to have to find a short chair for the petite Caroline Herschel}"
-    },
-    {
-     "character": "Anna",
-     "text": "{ Where did the small chair that used to be in here go?}"
-    }
-   ]
-  },
   "30": {
-   "left": 9443.046875000004,
-   "top": 1848.906250000001,
+   "left": 6724.499782986119,
+   "top": 1485.2499728732655,
    "outPins": [
     -1,
     "38",
     "39",
     "40",
-    -1,
-    "33"
+    14
    ],
    "type": "gameState",
    "eventList": [
-    "Anna:Library",
-    "Peebs:Library",
-    "Mary:Library",
-    "SmallChair:Library",
-    "DoorToBLEH:Library"
+    "Anna",
+    "Peebs",
+    "Mary",
+    "Exit to BlehRoom"
    ],
-   "title": "Small Chair Moved"
+   "title": " Enter Bleh Room to continue"
   },
   "31": {
-   "left": 3064.328049879809,
-   "top": 2497.2656250000014,
+   "left": 3064.328070746531,
+   "top": 2497.2656250000027,
    "outPins": [
     -1,
-    "6",
-    -1
+    "6"
    ],
    "type": "gameState",
    "eventList": [
-    "Ada:BLEH",
-    "DoorToLibrary:BLEH"
+    "Ada"
    ],
    "title": "Setup - BLEH Room"
   },
   "32": {
-   "left": 3065.796837439905,
-   "top": 2268.390549879809,
+   "left": 3068.859320746531,
+   "top": 2282.21869574653,
    "outPins": [
     -1,
-    "10",
     "9",
-    -1,
-    -1,
-    "9",
-    -1,
-    -1
+    "9"
    ],
    "type": "gameState",
    "eventList": [
-    "SmallChair:Foyer",
-    "MrFranklin:Foyer",
-    "DoorToLibrary:Foyer",
-    "DoorToRoof:Foyer",
-    "DoorToStreet:Foyer",
-    "DoorToPlayerRoom:Foyer",
-    "DoorToAdaRoom:Foyer"
+    "Mr Franklin",
+    "Exit to ByronHouseExterior"
    ],
    "title": "Setup - Foyer"
   },
-  "33": {
-   "left": 9865.046574519236,
-   "top": 2362.109375000001,
-   "outPins": [
-    "36"
-   ],
-   "type": "animation",
-   "title": "Smoke Comes out of the BLEH Room",
-   "actor": "DoorToBLEH:Library",
-   "action": "SmokeBillowsOut"
-  },
   "36": {
-   "left": 10180.109675480775,
-   "top": 3177.5781250000014,
+   "left": 7590.609266493064,
+   "top": 2330.359429253475,
    "outPins": [],
    "type": "end"
   },
   "38": {
-   "left": 9813.327824519236,
-   "top": 1531.6093562199526,
+   "left": 7120.234375000007,
+   "top": 1220.5468750000014,
    "outPins": [
     -1
    ],
@@ -492,8 +417,8 @@
    ]
   },
   "39": {
-   "left": 9811.093750000005,
-   "top": 1821.7343374399047,
+   "left": 7117.968750000007,
+   "top": 1510.8749728732655,
    "outPins": [
     -1
    ],
@@ -512,8 +437,8 @@
    ]
   },
   "40": {
-   "left": 9868.18734975962,
-   "top": 2119.921875000001,
+   "left": 7175.0938585069525,
+   "top": 1809.062500000002,
    "outPins": [
     -1
    ],
@@ -527,42 +452,9 @@
     }
    ]
   },
-  "42": {
-   "left": 2925.3594501201937,
-   "top": 2612.515587439905,
-   "outPins": [
-    "43",
-    "44"
-   ],
-   "type": "condition",
-   "conditionCode": "",
-   "eventList": [
-    "Select",
-    "Move"
-   ],
-   "title": "Properties"
-  },
-  "43": {
-   "left": 3291.578275240386,
-   "top": 2677.6406625600976,
-   "outPins": [
-    -1
-   ],
-   "type": "return",
-   "line": "Selected"
-  },
-  "44": {
-   "left": 3294.2499248798094,
-   "top": 2756.8594125600976,
-   "outPins": [
-    -1
-   ],
-   "type": "return",
-   "line": "New Location"
-  },
   "49": {
-   "left": 1108.8437124399043,
-   "top": 1527.1562312199526,
+   "left": 1108.8438585069457,
+   "top": 1527.156304253474,
    "outPins": [
     "56"
    ],
@@ -572,59 +464,59 @@
    "parts": [
     {
      "character": "Ada",
-     "text": "\"Ack!\""
+     "text": "Ack!"
     },
     {
      "character": "Mary",
-     "text": "\"Ack?\""
+     "text": "Ack?"
     },
     {
      "character": "Ada",
-     "text": "\"Yes. That’s what I said.\""
+     "text": "Yes. That’s what I said."
     },
     {
      "character": "Mary",
-     "text": "\"I know that’s what you said, but\nwhatever did you mean by it?\""
+     "text": "I know that’s what you said, but\nwhatever did you mean by it?"
     },
     {
      "character": "Ada",
-     "text": "\"It’s an exclamation.\""
+     "text": "It’s an exclamation."
     },
     {
      "character": "Mary",
-     "text": "\"Yes, I understand that. But what\nprecisely are you exclaiming?\""
+     "text": "Yes, I understand that. But what\nprecisely are you exclaiming?"
     },
     {
      "character": "Ada",
-     "text": "\"Caroline Herschel is what.\""
+     "text": "Caroline Herschel is what."
     },
     {
      "character": "Mary",
-     "text": "\"Whom.\""
+     "text": "Whom."
     },
     {
      "character": "Ada",
-     "text": "\"That. Anyway the world famous\nastronomer Caroline Herschel is coming! Here! To my house!\""
+     "text": "That. Anyway the world famous\nastronomer Caroline Herschel is coming! Here! To my house!"
     },
     {
      "character": "Mary",
-     "text": "\"Well that is exciting.\""
+     "text": "Well that is exciting."
     },
     {
      "character": "Ada",
-     "text": "\"Ack-worthy.\""
+     "text": "Ack-worthy."
     },
     {
      "character": "Mary",
-     "text": "\"Indeed.\""
+     "text": "Indeed."
     }
    ]
   },
   "50": {
-   "left": 2006.328125000001,
-   "top": 1641.8905874399047,
+   "left": 2006.3281250000023,
+   "top": 1641.8905978732657,
    "outPins": [
-    "2"
+    "5"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -632,48 +524,29 @@
    "parts": [
     {
      "character": "Ada",
-     "text": "\"I’ll need this.\""
+     "text": "I’ll need this."
     },
     {
      "character": "Mary",
-     "text": "\"Honestly Ada, more coordinates?\""
+     "text": "Honestly Ada, more coordinates?"
     },
     {
      "character": "Ada",
-     "text": "\"It’s how I remember where to find\nthings.\""
-    },
-    {
-     "character": "Action",
-     "text": "PlayAnim(\"Ada\", \"ReturnsToBook\");"
-    },
-    {
-     "character": "Ada",
-     "text": "\"Well, here we go again. Although\nI’m sure you have the hang of things at this point.\""
-    },
-    {
-     "character": "Action",
-     "text": "AddToJournal(\"ScrapOfPaper2\");"
+     "text": "It’s how I remember where to find\nthings."
     }
    ]
   },
-  "51": {
-   "left": 1652.859450120193,
-   "top": 1934.7812124399047,
-   "outPins": [],
-   "type": "comment",
-   "comment": "Jordan: I have Anna worried about the Parlour not being ready so having to make due in the Library and worrying about what would be appropriate for Herschel, hence the hunt for the book about her.  Is this in line with her character?"
-  },
   "52": {
-   "left": 462.9687500000002,
-   "top": 293.3593750000001,
+   "left": 462.9687500000005,
+   "top": 293.35937500000034,
    "outPins": [
     "54"
    ],
    "type": "start"
   },
   "53": {
-   "left": 656.1874624399042,
-   "top": 369.7500375600963,
+   "left": 656.1718750000007,
+   "top": 369.7499932183164,
    "outPins": [
     -1,
     "55"
@@ -685,8 +558,8 @@
    "title": "Setup Events"
   },
   "54": {
-   "left": 647.2656250000003,
-   "top": 206.98439378004818,
+   "left": 647.2656250000007,
+   "top": 206.96875678168425,
    "outPins": [
     "53"
    ],
@@ -695,8 +568,8 @@
    "actionCode": "Continue()\nRunChapter(\"Act1Chapter1\")\nChangeScene(\"ByronHouseLibrary\")\n"
   },
   "55": {
-   "left": 664.6249624399042,
-   "top": 502.3281625600964,
+   "left": 664.6093750000007,
+   "top": 502.3281182183165,
    "outPins": [
     "0"
    ],
@@ -704,8 +577,8 @@
    "line": "Scene started"
   },
   "56": {
-   "left": 1654.2343374399047,
-   "top": 1569.9687312199526,
+   "left": 1654.2343478732657,
+   "top": 1569.968804253474,
    "outPins": [
     "50"
    ],
