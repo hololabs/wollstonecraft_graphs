@@ -1,16 +1,16 @@
 {
  "nodes": {
   "0": {
-   "left": 1381.468811035158,
-   "top": 827.5000000000011,
+   "left": 563.828125,
+   "top": 510.65622965494794,
    "outPins": [
-    88
+    "95"
    ],
    "type": "start"
   },
   "1": {
-   "left": 2545.1875305175813,
-   "top": 1128.0468750000016,
+   "left": 3418.7032063802085,
+   "top": 1469.640604654948,
    "outPins": [
     -1
    ],
@@ -29,41 +29,27 @@
    ]
   },
   "2": {
-   "left": 2178.546905517581,
-   "top": 1900.9062194824244,
+   "left": 2959.8594156901045,
+   "top": 1703.343709309896,
    "outPins": [
-    -1,
-    1,
-    57,
-    51,
-    22,
-    22,
-    -1,
-    -1,
-    -1,
-    -1,
-    52
+    "51",
+    "1",
+    "57",
+    "31"
    ],
    "type": "gameState",
    "eventList": [
-    "Mary:Library",
-    "Peebs:Library",
-    "DoorToBlehRoom:Library",
-    "LowerBookshelf:Library",
-    "UpperBookshelf:Library",
-    "StepChair:Library",
-    "LargeChair:Library",
-    "SmallChair:Library",
-    "MediumChair:Library",
-    "DoorToFoyer:Library"
+    "Mary",
+    "Peebs",
+    "Bookshelf 5"
    ],
    "title": "Setup - Library"
   },
   "3": {
-   "left": 3095.1092529296916,
-   "top": 1683.1562805175804,
+   "left": 4154.125162760417,
+   "top": 2070.671793619792,
    "outPins": [
-    6
+    "22"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -76,8 +62,8 @@
    ]
   },
   "4": {
-   "left": 3098.125000000004,
-   "top": 1851.4375305175806,
+   "left": 4123.843587239584,
+   "top": 2426.6562906901045,
    "outPins": [
     -1
    ],
@@ -96,8 +82,8 @@
    ]
   },
   "5": {
-   "left": 3450.656127929692,
-   "top": 2502.2187805175813,
+   "left": 4333.796793619792,
+   "top": 3232.234293619792,
    "outPins": [
     -1
    ],
@@ -106,27 +92,27 @@
    "title": "None Shall Pass",
    "parts": [
     {
-     "character": "",
+     "character": "Franklin",
      "text": "{...}"
     }
    ]
   },
   "6": {
-   "left": 3664.5782470703175,
-   "top": 1541.5780639648458,
+   "left": 6127.250162760417,
+   "top": 2089.0781656901045,
    "outPins": [
-    26
+    "28"
    ],
-   "type": "action",
-   "title": "ACTIVITY: Programming",
-   "actionCode": "LaunchActivity(\"Programming\", \"Level1\");"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Ada runs over and flips on the steam engine for the Card Punching Machine"
   },
   "7": {
-   "left": 6643.328247070322,
-   "top": 1564.0469360351583,
+   "left": 8312.062174479168,
+   "top": 2164.7188313802085,
    "outPins": [
-    10,
-    20
+    "10",
+    "20"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -137,20 +123,20 @@
    "title": "Is Mr.Franklin in the room?"
   },
   "8": {
-   "left": 5852.125244140633,
-   "top": 1468.828125000002,
+   "left": 7347.250162760417,
+   "top": 2069.0781656901045,
    "outPins": [
-    30
+    "21"
    ],
-   "type": "action",
-   "title": "ACTIVITY: Card Puncher",
-   "actionCode": "LaunchActivity(\"CardPuncher\");"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Steam slightly fills the room"
   },
   "9": {
-   "left": 6707.187500000009,
-   "top": 1324.6249389648456,
+   "left": 8230.46875,
+   "top": 1890.765584309896,
    "outPins": [
-    10
+    "10"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -163,10 +149,10 @@
    ]
   },
   "10": {
-   "left": 7286.0467529296975,
-   "top": 1482.2187805175802,
+   "left": 8903.875325520834,
+   "top": 2437.421875,
    "outPins": [
-    61
+    "61"
    ],
    "type": "animation",
    "title": "Ada turns on the steam vent",
@@ -174,8 +160,8 @@
    "action": "AdaVentsSteam"
   },
   "11": {
-   "left": 8483.359375000011,
-   "top": 2251.765594482425,
+   "left": 10315.859375,
+   "top": 3226.9844563802085,
    "outPins": [
     -1
    ],
@@ -190,8 +176,8 @@
    ]
   },
   "12": {
-   "left": 4859.750061035163,
-   "top": 2150.1249694824246,
+   "left": 6692.124837239584,
+   "top": 3125.3438313802085,
    "outPins": [
     -1
    ],
@@ -214,8 +200,8 @@
    ]
   },
   "13": {
-   "left": 6790.187377929697,
-   "top": 1784.468688964846,
+   "left": 8622.578125,
+   "top": 2759.6875,
    "outPins": [
     -1
    ],
@@ -224,17 +210,17 @@
    "title": "Waiting",
    "parts": [
     {
-     "character": "",
+     "character": "Action",
      "text": "{...}"
     }
    ]
   },
   "14": {
-   "left": 5519.937744140632,
-   "top": 2585.828247070316,
+   "left": 7352.328287760417,
+   "top": 3561.0469563802085,
    "outPins": [
     -1,
-    17
+    "17"
    ],
    "type": "gameState",
    "eventList": [
@@ -243,8 +229,8 @@
    "title": "Back To Programming"
   },
   "15": {
-   "left": 6854.187622070322,
-   "top": 2000.1875305175809,
+   "left": 8686.577962239584,
+   "top": 2975.4062906901045,
    "outPins": [
     -1
    ],
@@ -252,8 +238,8 @@
    "line": "NOW IN BLEH ROOM"
   },
   "16": {
-   "left": 5988.125000000008,
-   "top": 1766.8594360351585,
+   "left": 7056.875,
+   "top": 2247.5313313802085,
    "outPins": [
     -1
    ],
@@ -268,24 +254,24 @@
    ]
   },
   "17": {
-   "left": 5810.265502929696,
-   "top": 2356.015625000003,
+   "left": 7642.65625,
+   "top": 3331.234334309896,
    "outPins": [
-    19
+    "19"
    ],
    "type": "action",
    "title": "ACTIVITY: Programming",
    "actionCode": "LaunchActivity(\"Programming\", \"Lesson2\");"
   },
   "18": {
-   "left": 6433.515625000008,
-   "top": 2037.2656250000027,
+   "left": 8265.906575520834,
+   "top": 3012.5,
    "outPins": [
     -1,
-    13,
-    15,
-    49,
-    71
+    "13",
+    "15",
+    "49",
+    "71"
    ],
    "type": "gameState",
    "eventList": [
@@ -297,10 +283,10 @@
    "title": "Letter Waiting"
   },
   "19": {
-   "left": 6197.047119140633,
-   "top": 2189.750061035159,
+   "left": 8029.422200520834,
+   "top": 3164.968668619792,
    "outPins": [
-    18
+    "18"
    ],
    "type": "animation",
    "title": "Mr.Franklin Enters with Letter on Tray",
@@ -308,10 +294,10 @@
    "action": "EntersWithLetter"
   },
   "20": {
-   "left": 7048.968505859384,
-   "top": 1608.359375000002,
+   "left": 8881.359049479168,
+   "top": 2583.578084309896,
    "outPins": [
-    23
+    "23"
    ],
    "type": "animation",
    "title": "Ada Goes to Vent Card Puncher, Sees And Reads Letter",
@@ -319,11 +305,11 @@
    "action": "AdaSeesAdmiralLetter"
   },
   "21": {
-   "left": 6342.187500000008,
-   "top": 1386.1093139648456,
+   "left": 7849.109700520834,
+   "top": 2068.59375,
    "outPins": [
-    9,
-    7
+    "9",
+    "7"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -334,20 +320,20 @@
    "title": "Has Ada Vented Steam Before?"
   },
   "22": {
-   "left": 2584.5468139648474,
-   "top": 1995.687561035159,
+   "left": 4707.749837239584,
+   "top": 2153.874918619792,
    "outPins": [
-    -1
+    "54"
    ],
-   "type": "action",
-   "title": "ACTIVITY Bookshelf",
-   "actionCode": "LaunchActivity(\"Bookshelf\",\"Challenge\");;"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "The 1st programming activity is launched."
   },
   "23": {
-   "left": 7334.8748779296975,
-   "top": 1703.9062500000023,
+   "left": 9167.265625,
+   "top": 2679.124959309896,
    "outPins": [
-    32
+    "32"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -360,10 +346,10 @@
    ]
   },
   "24": {
-   "left": 8465.578002929698,
-   "top": 1982.3750305175809,
+   "left": 10298.062337239584,
+   "top": 2957.5937906901045,
    "outPins": [
-    35
+    "35"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -380,8 +366,8 @@
    ]
   },
   "25": {
-   "left": 3121.9061279296916,
-   "top": 2759.1561889648474,
+   "left": 4318.296712239584,
+   "top": 3471.453043619792,
    "outPins": [
     -1
    ],
@@ -396,13 +382,13 @@
    ]
   },
   "26": {
-   "left": 4221.7187500000055,
-   "top": 1870.2969360351588,
+   "left": 6054.109293619792,
+   "top": 2845.515543619792,
    "outPins": [
-    62,
-    63,
-    63,
-    65
+    -1,
+    "63",
+    "63",
+    "65"
    ],
    "type": "condition",
    "conditionCode": "Curriculum:\nLesson 1A\nLesson 1B\nLesson 1C",
@@ -415,10 +401,10 @@
    "title": "# of times played Card Puncher?"
   },
   "27": {
-   "left": 4916.796875000006,
-   "top": 1593.718719482424,
+   "left": 5430.9375,
+   "top": 2114.3125406901045,
    "outPins": [
-    29
+    6
    ],
    "type": "dialog",
    "dialogType": "Cycle",
@@ -431,56 +417,47 @@
    ]
   },
   "28": {
-   "left": 5611.21887207032,
-   "top": 1656.1250305175804,
+   "left": 6638.125,
+   "top": 2118.6250813802085,
    "outPins": [
     -1,
-    8,
-    16,
-    16
+    29,
+    "16",
+    "16"
    ],
    "type": "gameState",
    "eventList": [
-    "CardPuncher:BlehRoom",
-    "Ada:BlehRoom",
-    "BLEH:BlehRoom"
+    "CardPuncher",
+    "Ada",
+    "BLEH"
    ],
    "title": "Card Puncher On"
   },
   "29": {
-   "left": 5450.609130859382,
-   "top": 1477.8750610351583,
+   "left": 7147.265625,
+   "top": 1941.8125406901042,
    "outPins": [
-    28
+    8
    ],
-   "type": "animation",
-   "title": "Ada runs over and flips on the steam engine for the Card Punching Machine",
-   "actor": "Ada:BlehRoom",
-   "action": "TurnsOnCardPuncher"
-  },
-  "30": {
-   "left": 6139.328002929696,
-   "top": 1632.359313964846,
-   "outPins": [
-    21
-   ],
-   "type": "animation",
-   "title": "Steam slightly fills the room",
-   "actor": "Steam:BlehRoom",
-   "action": "SteamStage1"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Launch card puncher activity"
   },
   "31": {
-   "left": 2154.046936035159,
-   "top": 1266.1250305175797,
-   "outPins": [],
-   "type": "comment",
-   "comment": "Step Chair has been put into the Library again"
+   "left": 3443.828125,
+   "top": 2041.6719563802085,
+   "outPins": [
+    -1
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Bookshelf activity. Challenge mode"
   },
   "32": {
-   "left": 7844.437255859385,
-   "top": 1538.718719482424,
+   "left": 9676.765950520834,
+   "top": 2513.9375813802085,
    "outPins": [
-    68
+    "68"
    ],
    "type": "animation",
    "title": "Mr.Franklin leaves the room",
@@ -488,10 +465,10 @@
    "action": "MrFranklinLeavesBlehRoom"
   },
   "33": {
-   "left": 10323.29711914064,
-   "top": 1657.749938964846,
+   "left": 10323.296712239584,
+   "top": 1657.7500406901042,
    "outPins": [
-    75
+    "75"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -504,16 +481,16 @@
    ]
   },
   "34": {
-   "left": 8106.515502929698,
-   "top": 1790.406188964846,
+   "left": 9938.921712239584,
+   "top": 2765.625,
    "outPins": [
     -1,
-    67,
-    40,
-    69,
-    24,
-    11,
-    38
+    "67",
+    "40",
+    "69",
+    "24",
+    "11",
+    "38"
    ],
    "type": "gameState",
    "eventList": [
@@ -527,11 +504,11 @@
    "title": "Mr.Franklin Leaves"
   },
   "35": {
-   "left": 9070.828247070325,
-   "top": 1870.0155639648463,
+   "left": 9916.547037760418,
+   "top": 2578.578084309896,
    "outPins": [
     -1,
-    70
+    "70"
    ],
    "type": "gameState",
    "eventList": [
@@ -540,16 +517,16 @@
    "title": "Need Hat Book"
   },
   "36": {
-   "left": 14823.187255859395,
-   "top": 2714.500122070316,
+   "left": 14823.172200520834,
+   "top": 2714.499918619792,
    "outPins": [],
    "type": "end"
   },
   "37": {
-   "left": 9810.625000000013,
-   "top": 1891.4999389648463,
+   "left": 9810.625,
+   "top": 1891.484375,
    "outPins": [
-    72
+    "72"
    ],
    "type": "animation",
    "title": "More steam comes out and covers up the Card Puncher and BLEH",
@@ -557,8 +534,8 @@
    "action": "SteamStage2"
   },
   "38": {
-   "left": 8461.156005859386,
-   "top": 2422.656250000003,
+   "left": 10293.656412760418,
+   "top": 3397.874959309896,
    "outPins": [
     -1
    ],
@@ -567,8 +544,8 @@
    "actionCode": "LaunchActivity(\"CardPuncher\", \"Challenge1\");"
   },
   "39": {
-   "left": 11862.796630859391,
-   "top": 1768.0468750000023,
+   "left": 11862.797037760418,
+   "top": 1768.046875,
    "outPins": [
     -1
    ],
@@ -591,11 +568,11 @@
    ]
   },
   "40": {
-   "left": 8493.437500000011,
-   "top": 1762.1093750000023,
+   "left": 10325.952962239584,
+   "top": 2737.328084309896,
    "outPins": [
     -1,
-    59
+    "59"
    ],
    "type": "gameState",
    "eventList": [
@@ -604,10 +581,10 @@
    "title": "Mr.Franklin Back to Foyer"
   },
   "41": {
-   "left": 11876.890869140641,
-   "top": 2524.3281555175813,
+   "left": 11876.890462239584,
+   "top": 2524.3282063802085,
    "outPins": [
-    80
+    "80"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -620,11 +597,11 @@
    ]
   },
   "42": {
-   "left": 12661.296386718766,
-   "top": 2417.500000000003,
+   "left": 12661.297200520834,
+   "top": 2417.5,
    "outPins": [
-    48,
-    50
+    "48",
+    "50"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -635,10 +612,10 @@
    "title": "Defined Compendium yet?"
   },
   "43": {
-   "left": 1622.2500610351585,
-   "top": 1588.437500000002,
+   "left": 2102.5313313802085,
+   "top": 1054.437459309896,
    "outPins": [
-    90
+    "81"
    ],
    "type": "dialog",
    "dialogType": "Conversation",
@@ -646,11 +623,11 @@
    "parts": [
     {
      "character": "Caroline",
-     "text": "Lady Ada, itâ€™s a delight to meet you. Iâ€™ve heard so much about your marvelous machine from Mr. Babbage."
+     "text": "Lady Ada, it's a delight to meet you. I've heard so much about your marvelous machine from Mr. Babbage."
     },
     {
      "character": "Ada",
-     "text": "Itâ€™s even faster now, Iâ€™ve added a steam engine. And punch cards!"
+     "text": "It's even faster now, I've added a steam engine. And punch cards!"
     },
     {
      "character": "Caroline",
@@ -662,7 +639,7 @@
     },
     {
      "character": "Caroline",
-     "text": "Oh, a bother, but I still have my best telescope. And Iâ€™m interested to see if this BLEH of yours could perform some calculations for my astronomy research."
+     "text": "Oh, a bother, but I still have my best telescope. And I'm interested to see if this BLEH of yours could perform some calculations for my astronomy research."
     },
     {
      "character": "Ada",
@@ -670,7 +647,7 @@
     },
     {
      "character": "Caroline",
-     "text": "Yes well, letâ€™s never mind that. May I please consult your machine for these calculations?"
+     "text": "Yes well, let's never mind that. May I please consult your machine for these calculations?"
     },
     {
      "character": "Ada",
@@ -682,7 +659,7 @@
     },
     {
      "character": "Ada",
-     "text": "The BLEHâ€™s in the closet."
+     "text": "The BLEH's in the closet."
     },
     {
      "character": "Caroline",
@@ -691,11 +668,11 @@
    ]
   },
   "44": {
-   "left": 11249.296875000015,
-   "top": 1825.7656860351588,
+   "left": 11249.296875,
+   "top": 1825.7499186197917,
    "outPins": [
     -1,
-    45
+    "45"
    ],
    "type": "gameState",
    "eventList": [
@@ -704,13 +681,13 @@
    "title": "Picked Hat Book"
   },
   "45": {
-   "left": 11417.297363281265,
-   "top": 2006.078186035159,
+   "left": 11417.296549479168,
+   "top": 2006.0624186197917,
    "outPins": [
-    39,
-    47,
-    46,
-    41
+    "39",
+    "47",
+    "46",
+    "41"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -723,10 +700,10 @@
    "title": "Have you seen the Navy Hat in the Hat Book?"
   },
   "46": {
-   "left": 11874.390869140641,
-   "top": 2315.6875610351594,
+   "left": 11874.390462239584,
+   "top": 2315.687459309896,
    "outPins": [
-    42
+    "42"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -739,8 +716,8 @@
    ]
   },
   "47": {
-   "left": 11866.296386718766,
-   "top": 2134.828186035159,
+   "left": 11866.297200520834,
+   "top": 2134.828084309896,
    "outPins": [
     -1
    ],
@@ -755,18 +732,18 @@
    ]
   },
   "48": {
-   "left": 12936.796875000016,
-   "top": 2272.656250000003,
+   "left": 12936.796875,
+   "top": 2272.65625,
    "outPins": [
-    50
+    "50"
    ],
    "type": "action",
    "title": "DICTIONARY: Compendium",
    "actionCode": ""
   },
   "49": {
-   "left": 6791.359252929697,
-   "top": 2120.968780517581,
+   "left": 8623.734537760418,
+   "top": 3096.1875406901045,
    "outPins": [
     -1
    ],
@@ -781,18 +758,18 @@
    ]
   },
   "50": {
-   "left": 12979.296875000018,
-   "top": 2663.5156250000036,
+   "left": 12979.296875,
+   "top": 2663.515625,
    "outPins": [
     -1,
-    76,
-    78,
-    79,
-    77,
-    83,
-    83,
-    83,
-    83
+    "76",
+    "78",
+    "79",
+    "77",
+    "83",
+    "83",
+    "83",
+    "83"
    ],
    "type": "gameState",
    "eventList": [
@@ -808,82 +785,64 @@
    "title": "Hat Search"
   },
   "51": {
-   "left": 2556.3594055175813,
-   "top": 1667.9374694824241,
+   "left": 3450.7344563802085,
+   "top": 2348.671875,
    "outPins": [
-    -1,
-    3,
-    3,
-    4,
-    58
+    "52",
+    "3",
+    "3",
+    "4",
+    "58"
    ],
    "type": "gameState",
    "eventList": [
-    "Ada:BlehRoom",
-    "BLEH:BlehRoom",
-    "Herschel:BlehRoom",
-    "CardPuncher:BlehRoom"
+    "Ada",
+    "BLEH",
+    "Herschel",
+    "CardPuncher"
    ],
    "title": "Setup - BlehRoom"
   },
   "52": {
-   "left": 2539.0469360351594,
-   "top": 2431.187438964847,
+   "left": 3945.6404622395835,
+   "top": 3293.515625,
    "outPins": [
     -1,
-    5,
-    54,
-    53,
-    55,
-    25,
-    25,
-    -1
+    "5",
+    "25",
+    "25"
    ],
    "type": "gameState",
    "eventList": [
-    "MrFranklin:Foyer",
-    "DoorToRoof:Foyer",
-    "DoorToPlayersRoom:Foyer",
-    "DoorToAdasRoom:Foyer",
-    "Anna:Foyer",
-    "DoorToParlour:Foyer",
-    "DoorToLibrary:Foyer "
+    "Mr Franklin",
+    "Anna",
+    "Exit ByronHouseFoyer to ByronHouseParlour"
    ],
    "title": "Setup - Foyer"
   },
   "53": {
-   "left": 3127.828063964848,
-   "top": 2605.187377929691,
+   "left": 4696.046956380209,
+   "top": 2427.234293619792,
    "outPins": [
-    -1
+    "62"
    ],
-   "type": "gameState",
-   "eventList": [],
-   "title": "Setup - PlayersRoom"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Hershel has her starchart on the display to see the results."
   },
   "54": {
-   "left": 3128.828125000004,
-   "top": 2526.609344482425,
+   "left": 4704.437662760417,
+   "top": 2270.5625406901045,
    "outPins": [
-    -1
+    "53"
    ],
-   "type": "gameState",
-   "eventList": [],
-   "title": "Setup - Roof"
-  },
-  "55": {
-   "left": 3122.0156860351603,
-   "top": 2680.76568603516,
-   "outPins": [
-    -1
-   ],
-   "type": "gameState",
-   "eventList": [],
-   "title": "Setup - Adas Room"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Punchcards are used to instruct the Bleh where to move the chess pieces on the display."
   },
   "56": {
-   "left": 4914.437561035163,
-   "top": 1768.4687805175804,
+   "left": 5481.343587239584,
+   "top": 2423.6875406901045,
    "outPins": [
     -1
    ],
@@ -898,8 +857,8 @@
    ]
   },
   "57": {
-   "left": 2545.124969482425,
-   "top": 1393.3749389648456,
+   "left": 3416.921793619792,
+   "top": 1738.4688313802085,
    "outPins": [
     -1
    ],
@@ -918,8 +877,8 @@
    ]
   },
   "58": {
-   "left": 3096.968688964848,
-   "top": 2132.718811035159,
+   "left": 4098.234456380209,
+   "top": 2710.15625,
    "outPins": [
     -1
    ],
@@ -942,8 +901,8 @@
    ]
   },
   "59": {
-   "left": 8757.874755859386,
-   "top": 1676.4688110351585,
+   "left": 10590.359700520834,
+   "top": 2651.687418619792,
    "outPins": [
     -1
    ],
@@ -952,16 +911,16 @@
    "title": "None Shall Pass",
    "parts": [
     {
-     "character": "",
+     "character": "Action",
      "text": "{...}"
     }
    ]
   },
   "60": {
-   "left": 4920.218811035163,
-   "top": 2700.4687500000036,
+   "left": 6752.593587239584,
+   "top": 3675.687662760417,
    "outPins": [
-    14
+    "14"
    ],
    "type": "dialog",
    "dialogType": "Cycle",
@@ -974,10 +933,10 @@
    ]
   },
   "61": {
-   "left": 4283.296813964849,
-   "top": 1406.625061035158,
+   "left": 6108.406168619792,
+   "top": 2449.124959309896,
    "outPins": [
-    26
+    "26"
    ],
    "type": "animation",
    "title": "Steam Clears",
@@ -985,13 +944,13 @@
    "action": "SteamCleared"
   },
   "62": {
-   "left": 4596.218872070319,
-   "top": 1646.6250610351585,
+   "left": 5126.781412760417,
+   "top": 2421.8282063802085,
    "outPins": [
     -1,
-    27,
-    27,
-    56
+    "27",
+    "27",
+    "56"
    ],
    "type": "gameState",
    "eventList": [
@@ -1002,13 +961,13 @@
    "title": "No Card Puncher"
   },
   "63": {
-   "left": 4596.26556396485,
-   "top": 2026.6561889648465,
+   "left": 6428.656412760417,
+   "top": 3001.875,
    "outPins": [
     -1,
-    64,
-    64,
-    12
+    "64",
+    "64",
+    "12"
    ],
    "type": "gameState",
    "eventList": [
@@ -1019,8 +978,8 @@
    "title": "Need More Cards"
   },
   "64": {
-   "left": 4973.578186035163,
-   "top": 1965.8280944824246,
+   "left": 6805.968831380209,
+   "top": 2941.0469563802085,
    "outPins": [
     -1
    ],
@@ -1035,13 +994,13 @@
    ]
   },
   "65": {
-   "left": 4598.109436035163,
-   "top": 2564.796752929691,
+   "left": 6430.484212239584,
+   "top": 3540,
    "outPins": [
     -1,
-    66,
-    66,
-    60
+    "66",
+    "66",
+    "60"
    ],
    "type": "gameState",
    "eventList": [
@@ -1052,10 +1011,10 @@
    "title": "Enough Cards Punched"
   },
   "66": {
-   "left": 4914.109497070319,
-   "top": 2517.546844482425,
+   "left": 6746.484375,
+   "top": 3492.7657063802085,
    "outPins": [
-    14
+    "14"
    ],
    "type": "dialog",
    "dialogType": "Cycle",
@@ -1068,8 +1027,8 @@
    ]
   },
   "67": {
-   "left": 8380.718994140636,
-   "top": 1688.3593750000023,
+   "left": 10213.265787760418,
+   "top": 2663.578084309896,
    "outPins": [
     -1
    ],
@@ -1077,10 +1036,10 @@
    "line": "BACK IN FOYER"
   },
   "68": {
-   "left": 8105.625000000011,
-   "top": 1601.0781860351583,
+   "left": 9938.031412760418,
+   "top": 2576.296793619792,
    "outPins": [
-    34
+    "34"
    ],
    "type": "animation",
    "title": "Mary runs in, having heard Ada",
@@ -1088,8 +1047,8 @@
    "action": "MaryWalksInToBlehRoom"
   },
   "69": {
-   "left": 8485.609130859386,
-   "top": 1894.4062805175806,
+   "left": 10318.062337239584,
+   "top": 2869.6250406901045,
    "outPins": [
     -1
    ],
@@ -1097,18 +1056,18 @@
    "line": "IN BLEH ROOM"
   },
   "70": {
-   "left": 9417.625122070325,
-   "top": 1846.4062500000025,
+   "left": 10263.312174479168,
+   "top": 2554.984334309896,
    "outPins": [
-    37
+    "37"
    ],
    "type": "action",
    "title": "ACTIVITY: Card Puncher",
    "actionCode": "LaunchActivity(\"CardPuncher\", \"Lesson2A\");"
   },
   "71": {
-   "left": 6792.125244140634,
-   "top": 2319.546813964847,
+   "left": 8624.515787760418,
+   "top": 3294.765625,
    "outPins": [
     -1
    ],
@@ -1123,14 +1082,14 @@
    ]
   },
   "72": {
-   "left": 9950.937500000013,
-   "top": 1659.7656250000023,
+   "left": 9950.9375,
+   "top": 1659.765625,
    "outPins": [
     -1,
-    73,
-    73,
-    33,
-    74
+    "73",
+    "73",
+    "33",
+    "74"
    ],
    "type": "gameState",
    "eventList": [
@@ -1142,8 +1101,8 @@
    "title": "Medium Steam"
   },
   "73": {
-   "left": 10290.99975585939,
-   "top": 1567.7499389648458,
+   "left": 10291.000162760418,
+   "top": 1567.7500406901042,
    "outPins": [
     -1
    ],
@@ -1151,8 +1110,8 @@
    "line": "COVERED WITH STEAM"
   },
   "74": {
-   "left": 10321.594238281265,
-   "top": 1835.7656860351588,
+   "left": 10321.593424479168,
+   "top": 1835.7499186197917,
    "outPins": [
     -1
    ],
@@ -1171,18 +1130,18 @@
    ]
   },
   "75": {
-   "left": 10898.29711914064,
-   "top": 1576.406250000002,
+   "left": 10898.296712239584,
+   "top": 1576.40625,
    "outPins": [
-    44
+    "44"
    ],
    "type": "action",
    "title": "JOURNAL - X Y Cards added",
    "actionCode": ""
   },
   "76": {
-   "left": 13349.593505859393,
-   "top": 2316.4688110351594,
+   "left": 13349.593912760418,
+   "top": 2316.468709309896,
    "outPins": [
     -1
    ],
@@ -1197,10 +1156,10 @@
    ]
   },
   "77": {
-   "left": 13396.999511718768,
-   "top": 2829.0780639648474,
+   "left": 13397.000325520834,
+   "top": 2829.0781656901045,
    "outPins": [
-    85,
+    "85",
     -1
    ],
    "type": "condition",
@@ -1212,8 +1171,8 @@
    "title": "Condition"
   },
   "78": {
-   "left": 13345.093994140643,
-   "top": 2488.296813964847,
+   "left": 13345.093587239584,
+   "top": 2488.2969156901045,
    "outPins": [
     -1
    ],
@@ -1228,8 +1187,8 @@
    ]
   },
   "79": {
-   "left": 13343.687744140643,
-   "top": 2645.359497070316,
+   "left": 13343.687337239584,
+   "top": 2645.359293619792,
    "outPins": [
     -1
    ],
@@ -1244,29 +1203,28 @@
    ]
   },
   "80": {
-   "left": 12423.687744140641,
-   "top": 2673.546752929691,
+   "left": 12423.687337239584,
+   "top": 2673.5469563802085,
    "outPins": [
-    42
+    "42"
    ],
    "type": "action",
    "title": "JOURNAL: Hat diagrams",
    "actionCode": ""
   },
   "81": {
-   "left": 1648.1875610351585,
-   "top": 1276.6249847412125,
+   "left": 2653.562418619792,
+   "top": 1327.296854654948,
    "outPins": [
-    43
+    "2"
    ],
-   "type": "animation",
-   "title": "Enter CAROLINE HERSCHEL, looking like a female Yoda in a cartridge-pleated mop cap that frames her whole face, like sheâ€™s emerging from a poppy. Sheâ€™s as tiny is as she is ancient, 90+ and barely four feet tall.",
-   "actor": "Caroline:Library",
-   "action": "HerschelEnters"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Ada shows Herschel to the Bleh room"
   },
   "82": {
-   "left": 14286.594238281268,
-   "top": 2870.437622070316,
+   "left": 14286.578776041668,
+   "top": 2870.437418619792,
    "outPins": [
     -1
    ],
@@ -1275,18 +1233,18 @@
    "actionCode": ""
   },
   "83": {
-   "left": 13355.500488281268,
-   "top": 2995.015563964848,
+   "left": 13355.499674479168,
+   "top": 2995.0156656901045,
    "outPins": [
-    87
+    "87"
    ],
    "type": "action",
    "title": "INVENTORY",
    "actionCode": ""
   },
   "84": {
-   "left": 14180.891113281268,
-   "top": 3176.187438964848,
+   "left": 14180.890299479168,
+   "top": 3176.1875406901045,
    "outPins": [
     -1
    ],
@@ -1301,11 +1259,11 @@
    ]
   },
   "85": {
-   "left": 13784.890136718768,
-   "top": 2902.515563964848,
+   "left": 13784.890950520834,
+   "top": 2902.5156656901045,
    "outPins": [
     -1,
-    89
+    "89"
    ],
    "type": "gameState",
    "eventList": [
@@ -1314,18 +1272,18 @@
    "title": "Bleh is FULL OF STEAM"
   },
   "86": {
-   "left": 1330.0000000000018,
-   "top": 1275.7968902587907,
+   "left": 1330,
+   "top": 1275.7969156901042,
    "outPins": [],
    "type": "comment",
    "comment": "Ada enters the Library from the BLEH room pleased  things are back in control. As she plomps down in her  chair Mr. Franklin brings in Hershel.  Herschel explains that her telescope was stolen. It uses  punch cards to automatically navigate to points in the  sky. She is using her backup telescope and needs to  punch more cards She brings a map and needs the  Player and girls create punch cards she can use to  move the telescope to certain co-ordinates.   Ada excitedly leads Herschel into the BLEH room."
   },
   "87": {
-   "left": 13785.093994140643,
-   "top": 3020.7656860351603,
+   "left": 13785.094401041668,
+   "top": 3020.765584309896,
    "outPins": [
-    82,
-    84
+    "82",
+    "84"
    ],
    "type": "condition",
    "conditionCode": "",
@@ -1336,10 +1294,10 @@
    "title": "Condition"
   },
   "88": {
-   "left": 1416.4999389648456,
-   "top": 978.8906097412122,
+   "left": 1074.0625,
+   "top": 871.671854654948,
    "outPins": [
-    81
+    "92"
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -1356,10 +1314,10 @@
    ]
   },
   "89": {
-   "left": 14123.499755859393,
-   "top": 2710.1562500000036,
+   "left": 14123.484700520834,
+   "top": 2710.15625,
    "outPins": [
-    36,
+    "36",
     -1
    ],
    "type": "condition",
@@ -1370,27 +1328,58 @@
    ],
    "title": "Drag To Ada"
   },
-  "90": {
-   "left": 2121.937561035159,
-   "top": 1407.5155639648456,
+  "92": {
+   "left": 1643.156229654948,
+   "top": 889.5781453450521,
    "outPins": [
-    91
+    "96"
    ],
-   "type": "animation",
-   "title": "Ada shows Herschel to the Bleh room",
-   "actor": "Ada:Library",
-   "action": "AdaLeavesLibraryToBleh"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Ada enters the Library from the BLEH room pleased things are back in control. As she plomps down in her chair Mr. Franklin brings in Hershel."
   },
-  "91": {
-   "left": 2164.796905517581,
-   "top": 1633.609313964846,
+  "93": {
+   "left": 788.75,
+   "top": 702.3906453450521,
    "outPins": [
-    2
+    "88"
    ],
-   "type": "animation",
-   "title": "Herschel follows Ada to the Bleh",
-   "actor": "Herschel:Library",
-   "action": "HerschelLeavesLibraryToBleh"
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Ada enters the Library from the Bleh Room"
+  },
+  "94": {
+   "left": 799.921875,
+   "top": 595.15625,
+   "outPins": [
+    "93",
+    -1
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Scene started"
+   ],
+   "title": "Events"
+  },
+  "95": {
+   "left": 811.171875,
+   "top": 465.546875,
+   "outPins": [
+    "94"
+   ],
+   "type": "action",
+   "title": "Enter library",
+   "actionCode": "ChangeScene(\"ByronHouseLibrary\")"
+  },
+  "96": {
+   "left": 1635.9843953450522,
+   "top": 1127.999979654948,
+   "outPins": [
+    "43"
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "Herschel is pleased with the diminutive chair and sits."
   }
  },
  "format": "goose2017-06-21-1720"
