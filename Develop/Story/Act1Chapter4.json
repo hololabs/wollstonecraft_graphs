@@ -9,7 +9,7 @@
    "type": "start"
   },
   "1": {
-   "left": 3463.6875849184808,
+   "left": 3463.6871603260893,
    "top": 1384.6249787703814,
    "outPins": [
     -1
@@ -29,7 +29,7 @@
    ]
   },
   "2": {
-   "left": 2959.8594599184803,
+   "left": 2959.859035326089,
    "top": 1703.3281674592401,
    "outPins": [
     "51",
@@ -46,7 +46,7 @@
    "title": "Setup - Library"
   },
   "3": {
-   "left": 4154.124915081525,
+   "left": 4154.125339673916,
    "top": 2070.6719174592404,
    "outPins": [
     "22"
@@ -62,7 +62,7 @@
    ]
   },
   "4": {
-   "left": 4123.843834918481,
+   "left": 4123.84341032609,
    "top": 2426.65633491848,
    "outPins": [
     -1
@@ -82,7 +82,7 @@
    ]
   },
   "5": {
-   "left": 4395.609290081525,
+   "left": 4395.609714673916,
    "top": 3508.5780400815243,
    "outPins": [
     -1
@@ -316,7 +316,7 @@
    "title": "Has Ada Vented Steam Before?"
   },
   "22": {
-   "left": 4707.750084918482,
+   "left": 4707.74966032609,
    "top": 2153.8750424592404,
    "outPins": [
     "54"
@@ -395,7 +395,7 @@
    "title": "# of times played Card Puncher?"
   },
   "27": {
-   "left": 5545.218665081526,
+   "left": 5545.219089673917,
    "top": 2314.1718325407624,
    "outPins": [
     "6"
@@ -471,7 +471,7 @@
    "left": 13282.34375000001,
    "top": 2569.07820991848,
    "outPins": [
-    "75"
+    67
    ],
    "type": "dialog",
    "dialogType": "Dialog",
@@ -511,15 +511,24 @@
    ],
    "type": "gameState",
    "eventList": [
-    "CardPuncher"
+    "Card puncher"
    ],
    "title": "Need Hat Book"
   },
   "36": {
-   "left": 18474.06250000001,
-   "top": 3422.4687924592413,
+   "left": 18911.390964673927,
+   "top": 3443.812415081524,
    "outPins": [],
    "type": "end"
+  },
+  "37": {
+   "left": 12662.50000000001,
+   "top": 2902.468792459241,
+   "outPins": [
+    "72"
+   ],
+   "type": "endline",
+   "line": "Card puncher"
   },
   "38": {
    "left": 10372.15608016305,
@@ -566,8 +575,8 @@
    "text": "Launch card puncher challange"
   },
   "41": {
-   "left": 14970.93750000001,
-   "top": 3408.2969599184803,
+   "left": 15184.84375000001,
+   "top": 3404.8125424592413,
    "outPins": [
     "80"
    ],
@@ -582,8 +591,8 @@
    ]
   },
   "42": {
-   "left": 15590.453464673923,
-   "top": 3141.468665081524,
+   "left": 16110.453464673923,
+   "top": 3155.374915081524,
    "outPins": [
     "48",
     "50"
@@ -657,32 +666,19 @@
    "top": 2737.04695991848,
    "outPins": [
     -1,
-    "45"
+    "39",
+    69,
+    69,
+    "47"
    ],
    "type": "gameState",
    "eventList": [
-    "Mary:BlehRoom"
+    "Mary",
+    "Hat book",
+    "Drop hat book on Mary",
+    "Drop book on Mary"
    ],
    "title": "Picked Hat Book"
-  },
-  "45": {
-   "left": 14543.67187500001,
-   "top": 2910.703125000002,
-   "outPins": [
-    "39",
-    "47",
-    "46",
-    "41"
-   ],
-   "type": "condition",
-   "conditionCode": "",
-   "eventList": [
-    "No, I don't even have a book",
-    "No, I have the wrong book",
-    "No, I have the Hat Book but not seen that page.",
-    "Yes! All over it!"
-   ],
-   "title": "Have you seen the Navy Hat in the Hat Book?"
   },
   "46": {
    "left": 14955.952785326097,
@@ -717,8 +713,8 @@
    ]
   },
   "48": {
-   "left": 15993.359375000011,
-   "top": 3015.296790081524,
+   "left": 16384.656929347835,
+   "top": 3006.593707540763,
    "outPins": [
     "50"
    ],
@@ -743,8 +739,8 @@
    ]
   },
   "50": {
-   "left": 16425.453464673923,
-   "top": 3199.5000424592413,
+   "left": 16841.45380434784,
+   "top": 3202.1562924592413,
    "outPins": [
     -1,
     "76",
@@ -758,19 +754,19 @@
    ],
    "type": "gameState",
    "eventList": [
-    "Mary:Library",
-    "Peebs:Roof",
-    "Anna:Foyer",
-    "VentSpinner:Roof",
-    "Hat1:Foyer",
-    "Hat2:Library",
-    "Hat3:Roof",
-    "Hat4:Foyer"
+    "Mary",
+    "Peebs",
+    "Anna",
+    "VentSpinner",
+    "Hat1",
+    "Hat2",
+    "Hat3",
+    "Hat4"
    ],
    "title": "Hat Search"
   },
   "51": {
-   "left": 3436.4219599184803,
+   "left": 3436.4215353260893,
    "top": 2651.515582540763,
    "outPins": [
     "52",
@@ -816,7 +812,7 @@
    "text": "Hershel has her starchart on the display to see the results."
   },
   "54": {
-   "left": 4704.437415081525,
+   "left": 4704.437839673916,
    "top": 2270.56258491848,
    "outPins": [
     "53"
@@ -834,7 +830,7 @@
    "type": "control"
   },
   "56": {
-   "left": 5595.609290081526,
+   "left": 5595.609714673917,
    "top": 2623.546832540763,
    "outPins": [
     -1
@@ -936,7 +932,7 @@
    "text": "Launch card puncher Lesson 2A"
   },
   "62": {
-   "left": 5126.781165081525,
+   "left": 5126.781589673917,
    "top": 2421.8280825407624,
    "outPins": [
     -1,
@@ -1018,15 +1014,53 @@
     }
    ]
   },
+  "67": {
+   "left": 13841.71875000001,
+   "top": 2328.6718750000014,
+   "outPins": [
+    "44"
+   ],
+   "type": "placecard",
+   "title": "Placecard",
+   "text": "X and Y Cards are added to the journal"
+  },
   "68": {
    "left": 12330.405910326095,
    "top": 3196.515582540763,
    "outPins": [
-    -1
+    "73"
    ],
    "type": "placecard",
    "title": "Placecard",
    "text": "More steam comes out and covers up the Card Puncher and BLEH"
+  },
+  "69": {
+   "left": 14485.186820652183,
+   "top": 2939.0782099184803,
+   "outPins": [
+    -1,
+    "46",
+    70
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Mary",
+    "Browse to navy hat in hat book"
+   ],
+   "title": "Events"
+  },
+  "70": {
+   "left": 14844.234035326097,
+   "top": 3358.2500424592413,
+   "outPins": [
+    "41",
+    -1
+   ],
+   "type": "gameState",
+   "eventList": [
+    "Mary"
+   ],
+   "title": "Events"
   },
   "71": {
    "left": 12288.609035326095,
@@ -1045,32 +1079,28 @@
    ]
   },
   "72": {
-   "left": 12910.140964673921,
-   "top": 2571.0780400815233,
+   "left": 12910.124830163051,
+   "top": 3038.890540081524,
    "outPins": [
     -1,
-    "73",
-    "73",
     "33",
     "74"
    ],
    "type": "gameState",
    "eventList": [
-    "BLEH:BlehRoom",
-    "CardPuncher:BlehRoom",
-    "Ada:BlehRoom",
-    "Mary:BlehRoom"
+    "Ada",
+    "Mary"
    ],
    "title": "Medium Steam"
   },
   "73": {
-   "left": 13250.140964673921,
-   "top": 2479.0467900815233,
+   "left": 12655.515455163051,
+   "top": 2800.765540081524,
    "outPins": [
-    -1
+    37
    ],
    "type": "endline",
-   "line": "COVERED WITH STEAM"
+   "line": "BLEH"
   },
   "74": {
    "left": 13280.749830163053,
@@ -1092,19 +1122,9 @@
     }
    ]
   },
-  "75": {
-   "left": 13857.453294836965,
-   "top": 2487.7186650815233,
-   "outPins": [
-    "44"
-   ],
-   "type": "action",
-   "title": "JOURNAL - X Y Cards added",
-   "actionCode": ""
-  },
   "76": {
-   "left": 16847.39130434784,
-   "top": 2843.093792459241,
+   "left": 17284.68750000001,
+   "top": 2864.421917459241,
    "outPins": [
     -1
    ],
@@ -1119,8 +1139,8 @@
    ]
   },
   "77": {
-   "left": 16872.562839673923,
-   "top": 3449.046790081524,
+   "left": 17309.89130434784,
+   "top": 3470.3906250000023,
    "outPins": [
     "85",
     -1
@@ -1134,8 +1154,8 @@
    "title": "Condition"
   },
   "78": {
-   "left": 16844.65692934784,
-   "top": 3100.265582540763,
+   "left": 17281.983695652187,
+   "top": 3121.593707540763,
    "outPins": [
     -1
    ],
@@ -1150,8 +1170,8 @@
    ]
   },
   "79": {
-   "left": 16840.5621603261,
-   "top": 3275.999915081524,
+   "left": 17277.89062500001,
+   "top": 3297.328040081524,
    "outPins": [
     -1
    ],
@@ -1166,8 +1186,8 @@
    ]
   },
   "80": {
-   "left": 15580.859375000011,
-   "top": 3414.8594599184803,
+   "left": 15793.828125000011,
+   "top": 3411.3750424592413,
    "outPins": [
     "42"
    ],
@@ -1186,8 +1206,8 @@
    "text": "Ada shows Herschel to the Bleh room"
   },
   "82": {
-   "left": 17748.7652853261,
-   "top": 3490.4063349184808,
+   "left": 18186.09375000001,
+   "top": 3511.7499575407633,
    "outPins": [
     -1
    ],
@@ -1196,8 +1216,8 @@
    "actionCode": ""
   },
   "83": {
-   "left": 16844.359714673923,
-   "top": 3615.0000000000023,
+   "left": 17281.68817934784,
+   "top": 3636.3281250000023,
    "outPins": [
     "87"
    ],
@@ -1206,8 +1226,8 @@
    "actionCode": ""
   },
   "84": {
-   "left": 17642.764945652187,
-   "top": 3796.1404551630458,
+   "left": 18080.0934103261,
+   "top": 3817.4842900815243,
    "outPins": [
     -1
    ],
@@ -1222,8 +1242,8 @@
    ]
   },
   "85": {
-   "left": 17247.061820652187,
-   "top": 3522.5000000000023,
+   "left": 17684.3902853261,
+   "top": 3543.8281250000023,
    "outPins": [
     -1,
     "89"
@@ -1242,8 +1262,8 @@
    "comment": "Ada enters the Library from the BLEH room pleased  things are back in control. As she plomps down in her  chair Mr. Franklin brings in Hershel.  Herschel explains that her telescope was stolen. It uses  punch cards to automatically navigate to points in the  sky. She is using her backup telescope and needs to  punch more cards She brings a map and needs the  Player and girls create punch cards she can use to  move the telescope to certain co-ordinates.   Ada excitedly leads Herschel into the BLEH room."
   },
   "87": {
-   "left": 17247.26562500001,
-   "top": 3640.7498301630458,
+   "left": 17684.594089673923,
+   "top": 3662.0779551630458,
    "outPins": [
     "82",
     "84"
@@ -1258,7 +1278,7 @@
   },
   "88": {
    "left": 1074.0625000000007,
-   "top": 871.6562287703811,
+   "top": 871.6563349184788,
    "outPins": [
     "92"
    ],
@@ -1277,8 +1297,8 @@
    ]
   },
   "89": {
-   "left": 17585.655570652187,
-   "top": 3330.1250424592413,
+   "left": 18022.999320652187,
+   "top": 3351.468665081524,
    "outPins": [
     "36",
     -1
@@ -1345,7 +1365,7 @@
    "actionCode": "ChangeScene(\"ByronHouseLibrary\")"
   },
   "96": {
-   "left": 1635.9689198369576,
+   "left": 1635.968070652175,
    "top": 1127.9999575407617,
    "outPins": [
     "43"
