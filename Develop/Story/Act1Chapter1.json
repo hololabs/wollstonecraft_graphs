@@ -406,8 +406,8 @@
    "actionCode": "SetDraggable(\"TeaSet\",false)\n"
   },
   "29": {
-   "left": 8128.671875000003,
-   "top": 2243.0625000000005,
+   "left": 8227.328125000002,
+   "top": 2235.0625000000005,
    "outPins": [
     "68"
    ],
@@ -421,7 +421,11 @@
     },
     {
      "character": "Mary",
-     "text": "I believe youve found the correct book.  I do so hope youll accept Lady Adas brevity as thanks. And as a compliment, I daresay."
+     "text": "I believe you've found the correct book.  "
+    },
+    {
+     "character": "Mary",
+     "text": "I do so hope youll accept Lady Adas brevity as thanks. And as a compliment, I daresay."
     }
    ]
   },
@@ -437,7 +441,7 @@
    "parts": [
     {
      "character": "Mary",
-     "text": "On Leviathans and Similar Enigmas of the Oceanic Depths'. A curious choice."
+     "text": "'On Leviathans and Similar Enigmas of the Oceanic Depths'. A curious choice."
     },
     {
      "character": "Ada",
