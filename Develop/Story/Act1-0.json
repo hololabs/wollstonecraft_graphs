@@ -16,7 +16,7 @@
    ],
    "type": "action",
    "title": "Enter Carriage",
-   "actionCode": "Trigger(\"Act1Intro\",\"EnterCarriage\")"
+   "actionCode": "Trigger(\"Act1-0\",\"EnterCarriage\")"
   },
   "2": {
    "left": 1625.4218750000025,
@@ -26,7 +26,7 @@
    ],
    "type": "action",
    "title": "Exit Carriage First Time",
-   "actionCode": "Trigger(\"Act1Intro\",\"ExteriorCameraSequence\")"
+   "actionCode": "Trigger(\"Act1-0\",\"ExteriorCameraSequence\")"
   },
   "3": {
    "left": 730.9218750000011,
@@ -36,7 +36,7 @@
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "RunChapter(\"Act1Intro\")\nChangeScene(\"ByronExterior\")"
+   "actionCode": "RunChapter(\"Act1-0\")\nChangeScene(\"ByronExterior\")"
   },
   "4": {
    "left": 1178.9062500000018,
@@ -94,7 +94,7 @@
    ],
    "type": "action",
    "title": "Foyer Intro Sequence",
-   "actionCode": "Trigger(\"Act1Intro\",\"FoyerCameraSequence\")"
+   "actionCode": "Trigger(\"Act1-0\",\"FoyerCameraSequence\")"
   },
   "8": {
    "left": 2521.1562500000036,
@@ -130,7 +130,7 @@
    ],
    "type": "action",
    "title": "Set carriage camera",
-   "actionCode": "SetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n\nSetLocation(\"Button\",\"ByronExterior\",\"Button marker\")\nSetLocation(\"Thimble\",\"ByronExterior\",\"Thimble marker\")\n\nTrigger(\"Act1Intro\",\"ExteriorCameraSetup\")"
+   "actionCode": "SetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n\nSetLocation(\"Button\",\"ByronExterior\",\"Button marker\")\nSetLocation(\"Thimble\",\"ByronExterior\",\"Thimble marker\")\n\nTrigger(\"Act1-0\",\"ExteriorCameraSetup\")"
   },
   "11": {
    "left": 2537.1562500000036,
@@ -140,7 +140,7 @@
    ],
    "type": "action",
    "title": "On foyer loaded",
-   "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nTrigger(\"Act1Intro\",\"FoyerCameraSetup\")\nDebug(\"Hello world\")\n"
+   "actionCode": "SetLocation(\"Franklin\",\"ByronHouseFoyer\",\"Front door service\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nTrigger(\"Act1-0\",\"FoyerCameraSetup\")\nDebug(\"Hello world\")\n"
   },
   "12": {
    "left": 3102.0000000000045,
@@ -193,7 +193,7 @@
    ],
    "type": "action",
    "title": "Exit carriage normally",
-   "actionCode": "Trigger(\"Act1Intro\",\"ExitCarriage\")"
+   "actionCode": "Trigger(\"Act1-0\",\"ExitCarriage\")"
   },
   "17": {
    "left": 1619.6406250000025,
@@ -269,7 +269,7 @@
    ],
    "type": "action",
    "title": "Setup",
-   "actionCode": "RunChapter(\"Act1Intro\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n"
+   "actionCode": "RunChapter(\"Act1-0\")\nSetLocation(\"Peebs\",\"ByronHouseFoyer\",\"On the stairs\")\nSetLocation(\"Franklin\",\"ByronExterior\",\"Front porch\")\nSetLocation(\"Charles\",\"ByronExterior\",\"Carraige seat 1\")\n"
   },
   "26": {
    "left": 314.00000000000045,
